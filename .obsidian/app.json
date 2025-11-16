@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 - 收集箱",
+  "attachmentFolderPath": "./附件",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true
+}

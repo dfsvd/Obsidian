@@ -1,0 +1,49 @@
+{
+    "manifest": {
+        "translationVersion": 1763276080775,
+        "pluginVersion": "2.0.3"
+    },
+    "description": {
+        "original": "Sync a relevant calendar event to your current note.",
+        "translation": "Sync a relevant calendar event to your current note."
+    },
+    "dict": {
+        "Notice(message, timeout)": "Notice(message, timeout)",
+        "Notice(\n        \"No active note found. Please open a note first.\",\n        5e3\n      )": "Notice(\n        \"No active note found. Please open a note first.\",\n        5e3\n      )",
+        "Notice(\"Event synced with note.\", 5e3)": "Notice(\"Event synced with note.\", 5e3)",
+        "Notice(\n          \"No relevant events found to sync with.\",\n          5e3\n        )": "Notice(\n          \"No relevant events found to sync with.\",\n          5e3\n        )",
+        "Notice(\n          \"No events found for the specified time range.\",\n          5e3\n        )": "Notice(\n          \"No events found for the specified time range.\",\n          5e3\n        )",
+        "Notice(\n        \"Couldn't sync with calendar events. Make sure your ICS URL is correct in the plugin settings.\",\n        0\n      )": "Notice(\n        \"Couldn't sync with calendar events. Make sure your ICS URL is correct in the plugin settings.\",\n        0\n      )",
+        "Notice(\n        `Couldn't sync with calendar event: ${error.message}`,\n        0\n      )": "Notice(\n        `Couldn't sync with calendar event: ${error.message}`,\n        0\n      )",
+        ".error(message)": ".error(message)",
+        ".error(\"Calendar Event Sync Error:\", error)": ".error(\"Calendar Event Sync Error:\", error)",
+        "name : \"/\"": "name : \"/\"",
+        "name: \"Anno Domini\"": "name: \"Anno Domini\"",
+        "name: \"Before Christ\"": "name: \"Before Christ\"",
+        "name: \"RRULE\"": "name: \"RRULE\"",
+        "name: \"Sync with closest event\"": "name: \"Sync with closest event\"",
+        "name: \"Select event to sync\"": "name: \"Select event to sync\"",
+        "text: \"Select an Event\"": "text: \"Select an Event\"",
+        "text: \"Select\"": "text: \"Select\"",
+        ".setName(\"Calendar ICS URL\")": ".setName(\"Calendar ICS URL\")",
+        ".setName(\"Optional\")": ".setName(\"Optional\")",
+        ".setName(\"Calendar owner email\")": ".setName(\"Calendar owner email\")",
+        ".setName(\"Ignored event titles\")": ".setName(\"Ignored event titles\")",
+        ".setName(\"Quick sync - Past limit (hours)\")": ".setName(\"Quick sync - Past limit (hours)\")",
+        ".setName(\"Quick sync - Future limit (hours)\")": ".setName(\"Quick sync - Future limit (hours)\")",
+        ".setName(\"Select modal - Past limit (days)\")": ".setName(\"Select modal - Past limit (days)\")",
+        ".setName(\"Select modal - Future limit (days)\")": ".setName(\"Select modal - Future limit (days)\")",
+        ".setDesc(\"The secret URL where we can find your calendar events.\")": ".setDesc(\"The secret URL where we can find your calendar events.\")",
+        ".setDesc(\n      \"The email address of the calendar owner. This is used to filter out events that you've declined.\"\n    )": ".setDesc(\n      \"The email address of the calendar owner. This is used to filter out events that you've declined.\"\n    )",
+        ".setDesc(\n      \"Events with these titles will be ignored when syncing with notes. Put each event name on a new line.\"\n    )": ".setDesc(\n      \"Events with these titles will be ignored when syncing with notes. Put each event name on a new line.\"\n    )",
+        ".setDesc(\n      \"The number of hours in the past to consider an event as 'recent'.\"\n    )": ".setDesc(\n      \"The number of hours in the past to consider an event as 'recent'.\"\n    )",
+        ".setDesc(\n      \"The number of hours in the future to consider an event as 'upcoming'.\"\n    )": ".setDesc(\n      \"The number of hours in the future to consider an event as 'upcoming'.\"\n    )",
+        ".setDesc(\n      \"How many days in the past to show events in the selection modal.\"\n    )": ".setDesc(\n      \"How many days in the past to show events in the selection modal.\"\n    )",
+        ".setDesc(\n      \"How many days in the future to show events in the selection modal.\"\n    )": ".setDesc(\n      \"How many days in the future to show events in the selection modal.\"\n    )",
+        ".setPlaceholder(\"Enter your ICS URL\")": ".setPlaceholder(\"Enter your ICS URL\")",
+        ".setPlaceholder(\"Enter your email address\")": ".setPlaceholder(\"Enter your email address\")",
+        ".setPlaceholder(\"Enter event titles to ignore\")": ".setPlaceholder(\"Enter event titles to ignore\")",
+        ".setPlaceholder(\"Enter your preferred hour limit\")": ".setPlaceholder(\"Enter your preferred hour limit\")",
+        ".setPlaceholder(\"Enter number of days\")": ".setPlaceholder(\"Enter number of days\")"
+    }
+}
