@@ -1,39 +1,37 @@
 ---
-date: {{date:YYYY-MM-DD}}
+created: <% tp.file.creation_date() %>
 tags:
   - daily-note
-aliases:
-  - {{date:YYYY-MM-DD, dddd}}
+  - journal
+week: [[<% tp.date.now("gggg-[W]ww") %>]]
 ---
+
+# 📅 <% tp.date.now("YYYY-MM-DD (dddd)") %>
+
+> [!NOTE] 时间流
+> ⬅️ **昨天**: [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | 🗓️ **本周**: [[<% tp.date.now("gggg-[W]ww") %>]] | ➡️ **明天**: [[<% tp.date.now("YYYY-MM-DD", 1) %>]]
+
+---
+
+## 🚀 今日专注 (Focus)
 > [!quote] 今日一句
-> (在这里写下一句激励的话、一个感悟，或一个简单的事实)
+> <% tp.web.daily_quote() %>
+
+- **🎯 最重要的一件事 (The One Thing):** - [ ]
 
 ---
 
-## 🚀 今日待办
+## 📥 任务控制台 (Task Dashboard)
 
-**🎯 必须完成:**
+### ⚡️ 收集箱 (Inbox - 随手记)
 - [ ] 
 
-**⏳ 其他任务:**
-- [ ] 
-
-**📥 新增任务:**
-- [ ] 
-
----
-
-## 💡 学习与思考
-
-### 🎓 今日所学 (Learning Log)
-
-
-### 🧠 灵感与随记 (Notes & Ideas)
-
-
----
-
-## 📈 自动追踪 (Dataview)
-*(这一部分需要你安装并启用 `Dataview` 插件才能正常显示)*
-
-### ➕ 今天创建的任务
+### ⏰ 今日到期 / 逾期 (来自其他项目笔记)
+*(这里会自动抓取你散落在 `20-项目` 或 `40-资源` 中，标记为今天做或已过期的任务)*
+```tasks
+not done
+(due before tomorrow) OR (scheduled before tomorrow)
+path does not include 10 - 每日记录
+group by filename
+hide backlink
+```

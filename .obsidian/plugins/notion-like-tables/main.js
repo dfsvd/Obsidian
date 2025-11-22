@@ -3799,7 +3799,7 @@ var require_react_dom_development = __commonJS({
             case HostRoot:
               return "Root";
             case HostText:
-              return "Text";
+              return "文本";
             case LazyComponent:
               return getComponentNameFromType(type);
             case Mode:
@@ -39141,7 +39141,7 @@ var require_papaparse_min = __commonJS({
             else
               for (S2 = W2, W2++; ; ) {
                 if (-1 === (S2 = i2.indexOf(z2, S2 + 1)))
-                  return r3 || h3.push({ type: "Quotes", code: "MissingQuotes", message: "Quoted field unterminated", row: u3.length, index: W2 }), T();
+                  return r3 || h3.push({ type: "Quotes", code: "MissingQuotes", message: "引号字段未终止", row: u3.length, index: W2 }), T();
                 if (S2 === n3 - 1)
                   return T(i2.substring(W2, S2).replace(C, z2));
                 if (z2 !== K || i2[S2 + 1] !== K) {
@@ -39160,7 +39160,7 @@ var require_papaparse_min = __commonJS({
                         return L2(true);
                       break;
                     }
-                    h3.push({ type: "Quotes", code: "InvalidQuotes", message: "Trailing quote on quoted field is malformed", row: u3.length, index: W2 }), S2++;
+                    h3.push({ type: "Quotes", code: "InvalidQuotes", message: "引号字段的结尾引号格式错误", row: u3.length, index: W2 }), S2++;
                   }
                 } else
                   S2++;
@@ -42843,14 +42843,14 @@ var WelcomeModal = class extends import_obsidian.Modal {
   onOpen() {
     const { containerEl } = this;
     containerEl.addClass("dataloom-welcome-modal");
-    setModalTitle(containerEl, "Welcome to DataLoom");
+    setModalTitle(containerEl, "欢迎使用 DataLoom");
     const { contentEl } = this;
     contentEl.createDiv({
-      text: "Weave together data from diverse sources into a cohesive table view."
+      text: "将来自不同来源的数据编织成一个连贯的表格视图。"
     });
     renderDivider(contentEl);
     contentEl.createEl("h5", {
-      text: "Learn how to use",
+      text: "学习如何使用",
       cls: "dataloom-welcome-modal__title"
     });
     const cardContainerEl = contentEl.createDiv({
@@ -42858,29 +42858,29 @@ var WelcomeModal = class extends import_obsidian.Modal {
     });
     this.renderCard(
       cardContainerEl,
-      "Quick start",
-      "Learn the basics of creating a loom",
+      "快速开始",
+      "学习创建 loom 的基础知识",
       "https://dataloom.xyz/quick-start",
       "table"
     );
     this.renderCard(
       cardContainerEl,
-      "Import markdown tables and CSV data",
-      "Learn how to import data from markdown tables and CSV files",
+      "导入 markdown 表格和 CSV 数据",
+      "学习如何从 markdown 表格和 CSV 文件中导入数据",
       "https://dataloom.xyz/basics/import",
       "import"
     );
     this.renderCard(
       cardContainerEl,
-      "Embedded looms",
-      "Learn how to embed a loom into a markdown note",
+      "嵌入式 loom",
+      "学习如何将 loom 嵌入到 markdown 笔记中",
       "https://dataloom.xyz/basics/embed-looms",
       "sticky-note"
     );
     this.renderCard(
       cardContainerEl,
-      "Keyboard navigation",
-      "Learn how to navigate looms with your keyboard",
+      "键盘导航",
+      "学习如何使用键盘导航 loom",
       "https://dataloom.xyz/basics/keyboard-navigation",
       "list-plus"
     );
@@ -42903,7 +42903,7 @@ var WelcomeModal = class extends import_obsidian.Modal {
       text: description,
       cls: "dataloom-welcome-modal__card-description"
     });
-    cardContainerEl.createEl("a", { text: "Get started", href: link });
+    cardContainerEl.createEl("a", { text: "开始", href: link });
   }
   onClose() {
     const { contentEl } = this;
@@ -42976,23 +42976,23 @@ var DataLoomSettingsTab = class extends import_obsidian2.PluginSettingTab {
     this.renderDebugSettings(containerEl);
   }
   renderFileSettings(containerEl) {
-    new import_obsidian3.Setting(containerEl).setName("File").setHeading();
+    new import_obsidian3.Setting(containerEl).setName("文件").setHeading();
     const attachmentsFolderDesc = new DocumentFragment();
     attachmentsFolderDesc.createDiv({
-      text: "Create looms in the attachments folder defined in the Obsidian settings."
+      text: "在 Obsidian 设置中定义的附件文件夹中创建 loom文件。"
     });
     attachmentsFolderDesc.createSpan({
-      text: "This can be changed in"
+      text: "这可以在"
     });
     attachmentsFolderDesc.createSpan({
-      text: " Files & Links -> Default location for new attachments",
+      text: " 文件与链接 - >附件默认存放路径 设置",
       cls: "dataloom-modal-text--emphasize"
     });
     attachmentsFolderDesc.createEl("br");
     attachmentsFolderDesc.createDiv({
-      text: "Otherwise, the folder location below will be used"
+      text: "否则，将使用下面的文件夹位置"
     });
-    new import_obsidian3.Setting(containerEl).setName("Create looms in the attachments folder").setDesc(attachmentsFolderDesc).addToggle((cb) => {
+    new import_obsidian3.Setting(containerEl).setName("在附件文件夹中创建 loom文件 ").setDesc(attachmentsFolderDesc).addToggle((cb) => {
       cb.setValue(
         this.plugin.settings.createAtObsidianAttachmentFolder
       ).onChange(async (value) => {
@@ -43003,10 +43003,10 @@ var DataLoomSettingsTab = class extends import_obsidian2.PluginSettingTab {
     });
     const defaultLocationDesc = new DocumentFragment();
     defaultLocationDesc.createSpan({
-      text: "Where newly created looms are placed. Default location is the vault root folder, if not specified."
+      text: "放置新 loom文件 的位置。默认位置是vault的根目录（如果未指定）。"
     });
     if (this.plugin.settings.createAtObsidianAttachmentFolder === false) {
-      new import_obsidian3.Setting(containerEl).setName("Default location for new looms").setDesc(defaultLocationDesc).addText((cb) => {
+      new import_obsidian3.Setting(containerEl).setName("新建 loom文件 的默认位置").setDesc(defaultLocationDesc).addText((cb) => {
         cb.setValue(
           this.plugin.settings.customFolderForNewFiles
         ).onChange(async (value) => {
@@ -43019,10 +43019,10 @@ var DataLoomSettingsTab = class extends import_obsidian2.PluginSettingTab {
   renderTableSettings(containerEl) {
     const freezeColumnsDesc = new DocumentFragment();
     freezeColumnsDesc.createSpan({
-      text: "The number of columns to stay in place when the table scrolls horizontally."
+      text: "表格水平滚动时要保留的列数。"
     });
-    new import_obsidian3.Setting(containerEl).setName("Table").setHeading();
-    new import_obsidian3.Setting(containerEl).setName("Frozen columns").setDesc(freezeColumnsDesc).addDropdown((cb) => {
+    new import_obsidian3.Setting(containerEl).setName("表格").setHeading();
+    new import_obsidian3.Setting(containerEl).setName("冻结列").setDesc(freezeColumnsDesc).addDropdown((cb) => {
       cb.addOptions({
         "0": "0",
         "1": "1",
@@ -43039,10 +43039,10 @@ var DataLoomSettingsTab = class extends import_obsidian2.PluginSettingTab {
   renderExportSettings(containerEl) {
     const removeMarkdownOnExportDesc = new DocumentFragment();
     removeMarkdownOnExportDesc.createSpan({
-      text: "If enabled, content will be exported as plain text instead of markdown. For example, if enabled, a checkbox cell's content will be exported true or false instead of [ ] or [x]."
+      text: "如果启用，内容将以纯文本形式导出，而不是标记。例如，如果启用，复选框单元格的内容将导出为true或false，而不是[]或[x]。"
     });
-    new import_obsidian3.Setting(containerEl).setName("Export").setHeading();
-    new import_obsidian3.Setting(containerEl).setName("Remove markdown").setDesc(removeMarkdownOnExportDesc).addToggle((cb) => {
+    new import_obsidian3.Setting(containerEl).setName("出口").setHeading();
+    new import_obsidian3.Setting(containerEl).setName("删除markdown").setDesc(removeMarkdownOnExportDesc).addToggle((cb) => {
       cb.setValue(
         this.plugin.settings.removeMarkdownOnExport
       ).onChange(async (value) => {
@@ -43052,16 +43052,16 @@ var DataLoomSettingsTab = class extends import_obsidian2.PluginSettingTab {
     });
   }
   renderEmbeddedLoomSettings(containerEl) {
-    new import_obsidian3.Setting(containerEl).setName("Embedded looms").setHeading();
+    new import_obsidian3.Setting(containerEl).setName("嵌入式 loom文件").setHeading();
     const defaultEmbedWidthDesc = new DocumentFragment();
     defaultEmbedWidthDesc.createSpan({
-      text: "The default embedded loom width. Accepts valid HTML width values. Like 100px, 50%, etc."
+      text: "默认的嵌入式 loom 宽度。接受有效的HTML宽度值。比如100px、50%等。"
     });
     defaultEmbedWidthDesc.createDiv({
-      text: "Please close and reopen your embedded looms for this setting to take effect",
+      text: "请关闭并重新打开嵌入式 loom文件，以使此设置生效",
       cls: "dataloom-modal-text--emphasize"
     });
-    new import_obsidian3.Setting(containerEl).setName("Default embedded loom width").setDesc(defaultEmbedWidthDesc).addText((cb) => {
+    new import_obsidian3.Setting(containerEl).setName("默认嵌入 loom 宽度").setDesc(defaultEmbedWidthDesc).addText((cb) => {
       cb.setValue(this.plugin.settings.defaultEmbedWidth).onChange(
         async (value) => {
           this.plugin.settings.defaultEmbedWidth = value;
@@ -43071,13 +43071,13 @@ var DataLoomSettingsTab = class extends import_obsidian2.PluginSettingTab {
     });
     const defaultEmbedHeightDesc = new DocumentFragment();
     defaultEmbedHeightDesc.createSpan({
-      text: "The default embedded loom height. Accepts valid HTML width values. Like 100px, 50%, etc."
+      text: "默认的嵌入式 loom 高度。接受有效的HTML宽度值。比如100px、50%等。"
     });
     defaultEmbedHeightDesc.createDiv({
-      text: "Please close and reopen your embedded looms for this setting to take effect",
+      text: "请关闭并重新打开嵌入式 loom文件，以使此设置生效",
       cls: "dataloom-modal-text--emphasize"
     });
-    new import_obsidian3.Setting(containerEl).setName("Default embedded loom height").setDesc(defaultEmbedHeightDesc).addText((cb) => {
+    new import_obsidian3.Setting(containerEl).setName("默认嵌入式 loom 高度").setDesc(defaultEmbedHeightDesc).addText((cb) => {
       cb.setValue(this.plugin.settings.defaultEmbedHeight).onChange(
         async (value) => {
           this.plugin.settings.defaultEmbedHeight = value;
@@ -43087,9 +43087,9 @@ var DataLoomSettingsTab = class extends import_obsidian2.PluginSettingTab {
     });
   }
   renderDebugSettings(containerEl) {
-    new import_obsidian3.Setting(containerEl).setName("Debugging").setHeading();
-    new import_obsidian3.Setting(containerEl).setName("Log level").setDesc(
-      "Sets the log level. Please use trace to see all log messages."
+    new import_obsidian3.Setting(containerEl).setName("调试").setHeading();
+    new import_obsidian3.Setting(containerEl).setName("日志级别").setDesc(
+      "设置日志级别。请使用跟踪查看所有日志消息。"
     ).addDropdown((cb) => {
       cb.addOptions({
         [LOG_LEVEL_OFF]: "Off",
@@ -45152,7 +45152,7 @@ var createAsyncThunk = function() {
                   if (conditionResult === false || abortController.signal.aborted) {
                     throw {
                       name: "ConditionError",
-                      message: "Aborted due to condition callback returning false."
+                      message: "由于条件回调返回 false，操作已中止。"
                     };
                   }
                   started = true;
@@ -51962,7 +51962,7 @@ var {
     required: {},
     optional: {
       restoreStateFrom: "restoreStateFrom",
-      context: "context",
+      context: "上下文",
       followOutput: "followOutput",
       itemContent: "itemContent",
       groupContent: "groupContent",
@@ -52556,7 +52556,7 @@ var {
   combinedSystem$1,
   {
     optional: {
-      context: "context",
+      context: "上下文",
       totalCount: "totalCount",
       overscan: "overscan",
       itemContent: "itemContent",
@@ -52803,7 +52803,7 @@ var {
     required: {},
     optional: {
       restoreStateFrom: "restoreStateFrom",
-      context: "context",
+      context: "上下文",
       followOutput: "followOutput",
       firstItemIndex: "firstItemIndex",
       itemContent: "itemContent",
@@ -53626,7 +53626,7 @@ function ErrorDisplay({
 }) {
   function handleCopyClick() {
     navigator.clipboard.writeText(copyErrorMessage);
-    new import_obsidian4.Notice("Copied error to clipboard");
+    new import_obsidian4.Notice("将错误复制到剪贴板");
   }
   let className = "dataloom-error";
   if (isEmbeddedApp)
@@ -53659,7 +53659,7 @@ function ErrorDisplay({
       {
         className: "dataloom-copy-button",
         onClick: () => handleCopyClick(),
-        children: "Copy to clipboard"
+        children: "复制到剪贴板"
       }
     ) })
   ] }) }) });
@@ -53676,26 +53676,26 @@ Error message: ${message}`;
   return /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
     ErrorDisplay,
     {
-      title: "DataLoom cannot render file",
+      title: "DataLoom 不能呈现文件",
       errorMessage: message,
       copyErrorMessage,
       isEmbeddedApp,
-      helpMessage: "For help fixing this error please visit:",
+      helpMessage: "如需帮助解决此错误，请访问：",
       helpURL: "https://dataloom.xyz/other/loom-file",
       infoSection: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(import_jsx_runtime10.Fragment, { children: [
         /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(Stack, { isHorizontal: true, spacing: "xl", children: [
           /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(Stack, { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { variant: "semibold", value: "Plugin version" }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { variant: "semibold", value: "插件版本" }),
             /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { value: pluginVersion })
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Divider, { isVertical: true, height: "60px" }),
           /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(Stack, { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { variant: "semibold", value: "File version" }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { variant: "semibold", value: "文件版本" }),
             /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { value: fileVersion })
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Divider, { isVertical: true, height: "60px" }),
           /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)(Stack, { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { variant: "semibold", value: "Failed migration" }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { variant: "semibold", value: "迁移失败" }),
             /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Text, { value: failedMigration != null ? failedMigration : "None" })
           ] })
         ] }),
@@ -54431,7 +54431,7 @@ var getShortDisplayNameForCalculation = (value) => {
     case "count-unique" /* COUNT_UNIQUE */:
       return "Unique";
     case "none" /* NONE */:
-      return "None";
+      return "无";
     case "percent-empty" /* PERCENT_EMPTY */:
       return "Empty";
     case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
@@ -54486,21 +54486,21 @@ var getAriaLabelForNumberCalculation = (value) => {
 var getDisplayNameForCalculation = (value) => {
   switch (value) {
     case "count-all" /* COUNT_ALL */:
-      return "Count all";
+      return "计算所有";
     case "count-not-empty" /* COUNT_NOT_EMPTY */:
-      return "Count not empty";
+      return "计算非空值";
     case "count-values" /* COUNT_VALUES */:
-      return "Count values";
+      return "计算值";
     case "count-empty" /* COUNT_EMPTY */:
-      return "Count empty";
+      return "计算空值";
     case "count-unique" /* COUNT_UNIQUE */:
-      return "Count unique";
+      return "计算唯一";
     case "none" /* NONE */:
-      return "None";
+      return "无";
     case "percent-empty" /* PERCENT_EMPTY */:
-      return "Percent empty";
+      return "空值百分比";
     case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
-      return "Percent not empty";
+      return "非空值百分比";
     default:
       return "";
   }
@@ -54508,17 +54508,17 @@ var getDisplayNameForCalculation = (value) => {
 var getDisplayNameForNumberCalculation = (value) => {
   switch (value) {
     case "sum" /* SUM */:
-      return "Sum";
+      return "总和";
     case "avg" /* AVG */:
-      return "Average";
+      return "平均值";
     case "min" /* MIN */:
-      return "Min";
+      return "最小值";
     case "max" /* MAX */:
-      return "Max";
+      return "最大值";
     case "median" /* MEDIAN */:
-      return "Median";
+      return "中位数";
     case "range" /* RANGE */:
-      return "Range";
+      return "范围";
     default:
       return "";
   }
@@ -54526,9 +54526,9 @@ var getDisplayNameForNumberCalculation = (value) => {
 var getDisplayNameForSource = (type) => {
   switch (type) {
     case "folder" /* FOLDER */:
-      return "Folder";
+      return "文件夹";
     case "frontmatter" /* FRONTMATTER */:
-      return "Frontmatter";
+      return "Frontmatter前言";
     default:
       return "";
   }
@@ -54622,25 +54622,25 @@ var getDisplayNameForCurrencyType = (type) => {
 var getDisplayNameForCellType = (type) => {
   switch (type) {
     case "text" /* TEXT */:
-      return "Text";
+      return "文本";
     case "embed" /* EMBED */:
-      return "Embed";
+      return "嵌入";
     case "file" /* FILE */:
-      return "File";
+      return "文件";
     case "number" /* NUMBER */:
-      return "Number";
+      return "数字";
     case "checkbox" /* CHECKBOX */:
-      return "Checkbox";
+      return "复选框";
     case "date" /* DATE */:
-      return "Date";
+      return "日期";
     case "last-edited-time" /* LAST_EDITED_TIME */:
-      return "Last edited";
+      return "最后编辑";
     case "creation-time" /* CREATION_TIME */:
-      return "Creation";
+      return "创建";
     case "tag" /* TAG */:
-      return "Tag";
+      return "标签";
     case "multi-tag" /* MULTI_TAG */:
-      return "Multi-tag";
+      return "多标签";
     default:
       return "";
   }
@@ -54649,17 +54649,17 @@ var getDisplayNameForFilterCondition = (type) => {
   switch (type) {
     case "is" /* IS */:
     case "is" /* IS */:
-      return "Is";
+      return "是";
     case "is-not" /* IS_NOT */:
-      return "Is not";
+      return "不是";
     case "contains" /* CONTAINS */:
-      return "Contains";
+      return "包含";
     case "does-not-contain" /* DOES_NOT_CONTAIN */:
-      return "Does not contain";
+      return "不包含";
     case "starts-with" /* STARTS_WITH */:
-      return "Starts with";
+      return "以...开头";
     case "ends-with" /* ENDS_WITH */:
-      return "Ends with";
+      return "以...结束";
     case "is-equal" /* IS_EQUAL */:
       return "=";
     case "is-not-equal" /* IS_NOT_EQUAL */:
@@ -54673,17 +54673,17 @@ var getDisplayNameForFilterCondition = (type) => {
     case "is-less-or-equal" /* IS_LESS_OR_EQUAL */:
       return "<=";
     case "is-after" /* IS_AFTER */:
-      return "Is after";
+      return "在...之后";
     case "is-before" /* IS_BEFORE */:
-      return "Is before";
+      return "在...之前";
     case "is-empty" /* IS_EMPTY */:
     case "is-empty" /* IS_EMPTY */:
     case "is-empty" /* IS_EMPTY */:
-      return "Is empty";
+      return "为空";
     case "is-not-empty" /* IS_NOT_EMPTY */:
     case "is-not-empty" /* IS_NOT_EMPTY */:
     case "is-not-empty" /* IS_NOT_EMPTY */:
-      return "Is not empty";
+      return "非空";
     default:
       return "";
   }
@@ -54691,21 +54691,21 @@ var getDisplayNameForFilterCondition = (type) => {
 var getDisplayNameForDateFilterOption = (value) => {
   switch (value) {
     case "unselected" /* UNSELECTED */:
-      return "Select an option";
+      return "选择一个选项";
     case "today" /* TODAY */:
-      return "Today";
+      return "今天";
     case "tomorrow" /* TOMORROW */:
-      return "Tomorrow";
+      return "明天";
     case "yesterday" /* YESTERDAY */:
-      return "Yesterday";
+      return "昨天";
     case "one-week-ago" /* ONE_WEEK_AGO */:
-      return "One week ago";
+      return "一周前";
     case "one-week-from-now" /* ONE_WEEK_FROM_NOW */:
-      return "One week from now";
+      return "一周后";
     case "one-month-ago" /* ONE_MONTH_AGO */:
-      return "One month ago";
+      return "一个月前";
     case "one-month-from-now" /* ONE_MONTH_FROM_NOW */:
-      return "One month from now";
+      return "一个月后";
     default:
       return "";
   }
@@ -55393,7 +55393,7 @@ function FooterCellContainer({
               width
             },
             children: [
-              calculationType === "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Text, { value: "Calculate", variant: "faint" }),
+              calculationType === "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(Text, { value: "计算", variant: "faint" }),
               calculationType !== "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
                 /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
                   Text,
@@ -56168,7 +56168,7 @@ function BaseSubmenu({
         MenuItem,
         {
           lucideId: "list",
-          name: "Type",
+          name: "类型",
           value: getDisplayNameForCellType(columnType),
           onClick: () => {
             onSubmenuChange(0 /* TYPE */);
@@ -56190,7 +56190,7 @@ function BaseSubmenu({
         MenuItem,
         {
           lucideId: "settings",
-          name: "Options",
+          name: "选项",
           onClick: () => {
             onSubmenuChange(1 /* OPTIONS */);
           }
@@ -56202,7 +56202,7 @@ function BaseSubmenu({
       MenuItem,
       {
         lucideId: "arrow-up",
-        name: "Ascending",
+        name: "升序",
         onClick: () => onSortClick("asc" /* ASC */),
         isSelected: columnSortDir === "asc" /* ASC */
       }
@@ -56211,7 +56211,7 @@ function BaseSubmenu({
       MenuItem,
       {
         lucideId: "arrow-down",
-        name: "Descending",
+        name: "降序",
         onClick: () => onSortClick("desc" /* DESC */),
         isSelected: columnSortDir === "desc" /* DESC */
       }
@@ -56221,7 +56221,7 @@ function BaseSubmenu({
       MenuItem,
       {
         lucideId: "eye-off",
-        name: "Hide",
+        name: "隐藏",
         onClick: () => onHideClick()
       }
     ),
@@ -56229,7 +56229,7 @@ function BaseSubmenu({
       MenuItem,
       {
         lucideId: "pin",
-        name: "Freeze up to column",
+        name: "冻结到列",
         onClick: () => onFrozenColumnsChange(index + 1)
       }
     ),
@@ -56237,7 +56237,7 @@ function BaseSubmenu({
       MenuItem,
       {
         lucideId: "pin-off",
-        name: "Unfreeze columns",
+        name: "解冻列",
         onClick: () => onFrozenColumnsChange(1)
       }
     ),
@@ -56245,14 +56245,14 @@ function BaseSubmenu({
       MenuItem,
       {
         lucideId: "trash",
-        name: "Delete",
+        name: "删除",
         onClick: () => onDeleteClick()
       }
     ),
     columnType !== "embed" /* EMBED */ && columnType !== "number" /* NUMBER */ && columnType !== "source" /* SOURCE */ && /* @__PURE__ */ (0, import_jsx_runtime32.jsxs)(import_jsx_runtime32.Fragment, { children: [
       /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(Divider, {}),
       /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime32.jsxs)(Flex, { justify: "space-between", align: "center", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(Text, { value: "Wrap content" }),
+        /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(Text, { value: "自动换行" }),
         /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(
           Switch,
           {
@@ -56296,7 +56296,7 @@ function TimeFormatSubmenu({
     /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
       MenuItem,
       {
-        name: "12 hour",
+        name: "12小时",
         onClick: () => onValueClick(true),
         isSelected: value === true
       }
@@ -56304,7 +56304,7 @@ function TimeFormatSubmenu({
     /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
       MenuItem,
       {
-        name: "24 hour",
+        name: "24小时",
         onClick: () => onValueClick(false),
         isSelected: value === false
       }
@@ -56324,7 +56324,7 @@ function MultiTagSortDirSubmenu({
     /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(
       MenuItem,
       {
-        name: "Ascending",
+        name: "升序",
         onClick: () => onValueClick("asc" /* ASC */),
         isSelected: value === "asc" /* ASC */
       },
@@ -56333,7 +56333,7 @@ function MultiTagSortDirSubmenu({
     /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(
       MenuItem,
       {
-        name: "Descending",
+        name: "降序",
         onClick: () => onValueClick("desc" /* DESC */),
         isSelected: value === "desc" /* DESC */
       },
@@ -56342,7 +56342,7 @@ function MultiTagSortDirSubmenu({
     /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(
       MenuItem,
       {
-        name: "Default",
+        name: "默认",
         onClick: () => onValueClick("default" /* NONE */),
         isSelected: value === "default" /* NONE */
       },
@@ -56546,7 +56546,7 @@ function HeaderMenu({
     submenu === 1 /* OPTIONS */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       OptionSubmenu,
       {
-        title: "Options",
+        title: "选项",
         type,
         hour12,
         horizontalPadding,
@@ -56567,7 +56567,7 @@ function HeaderMenu({
     submenu === 8 /* ASPECT_RATIO */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       AspectRatioSubmenu,
       {
-        title: "Aspect ratio",
+        title: "纵横比",
         value: aspectRatio,
         onValueClick: handleAspectRatioClick,
         onBackClick: () => setSubmenu(null)
@@ -56576,7 +56576,7 @@ function HeaderMenu({
     submenu === 5 /* HORIZONTAL_PADDING */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       PaddingSubmenu,
       {
-        title: "Horizontal padding",
+        title: "水平填充",
         value: horizontalPadding,
         onValueClick: handleHorizontalPaddingClick,
         onBackClick: () => setSubmenu(null)
@@ -56585,7 +56585,7 @@ function HeaderMenu({
     submenu === 7 /* VERTICAL_PADDING */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       PaddingSubmenu,
       {
-        title: "Vertical padding",
+        title: "垂直填充",
         value: verticalPadding,
         onValueClick: handleVerticalPaddingClick,
         onBackClick: () => setSubmenu(null)
@@ -56594,7 +56594,7 @@ function HeaderMenu({
     submenu === 0 /* TYPE */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       TypeSubmenu,
       {
-        title: "Type",
+        title: "类型",
         value: type,
         onValueClick: handleTypeClick,
         onBackClick: () => setSubmenu(null)
@@ -56603,7 +56603,7 @@ function HeaderMenu({
     submenu === 3 /* DATE_FORMAT */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       DateFormatSubmenu,
       {
-        title: "Date format",
+        title: "日期格式",
         value: dateFormat,
         onValueClick: handleDateFormatClick,
         onBackClick: () => setSubmenu(1 /* OPTIONS */)
@@ -56612,7 +56612,7 @@ function HeaderMenu({
     submenu === 4 /* DATE_FORMAT_SEPARATOR */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       DateFormatSeparatorSubmenu,
       {
-        title: "Date separator",
+        title: "日期分隔符",
         value: dateFormatSeparator,
         onValueClick: handleDateFormatSeparatorClick,
         onBackClick: () => setSubmenu(1 /* OPTIONS */)
@@ -56621,7 +56621,7 @@ function HeaderMenu({
     submenu === 6 /* TIME_FORMAT */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       TimeFormatSubmenu,
       {
-        title: "Time format",
+        title: "时间格式",
         value: hour12,
         onValueClick: handleTimeFormatClick,
         onBackClick: () => setSubmenu(1 /* OPTIONS */)
@@ -56630,7 +56630,7 @@ function HeaderMenu({
     submenu === 2 /* CURRENCY */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       NumberFormatSubmenu,
       {
-        title: "Number format",
+        title: "数字格式",
         format: numberFormat,
         currency: currencyType,
         onNumberFormatChange: handleNumberFormatChange,
@@ -56640,7 +56640,7 @@ function HeaderMenu({
     submenu === 9 /* TEXT_INPUT_NUMBER_PREFIX */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       TextInputSubmenu,
       {
-        title: "Prefix",
+        title: "前缀",
         value: numberPrefix,
         closeRequest,
         onValueChange: handleNumberOptionChange,
@@ -56651,7 +56651,7 @@ function HeaderMenu({
     submenu === 10 /* TEXT_INPUT_NUMBER_SUFFIX */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       TextInputSubmenu,
       {
-        title: "Suffix",
+        title: "后缀",
         closeRequest,
         value: numberSuffix,
         onClose,
@@ -56662,7 +56662,7 @@ function HeaderMenu({
     submenu === 11 /* TEXT_INPUT_NUMBER_SEPARATOR */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       TextInputSubmenu,
       {
-        title: "Separator",
+        title: "分隔符",
         closeRequest,
         value: numberSeparator,
         onClose,
@@ -56683,7 +56683,7 @@ function HeaderMenu({
     submenu === 13 /* CONTENTS_SORT_DIR */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
       MultiTagSortDirSubmenu,
       {
-        title: "Sort",
+        title: "排序",
         value: multiTagSortDir,
         onValueClick: handleMultiTagSortDirClick,
         onBackClick: () => setSubmenu(null)
@@ -57125,7 +57125,7 @@ function NewColumnButton({ onClick }) {
     Button,
     {
       icon: /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(Icon, { lucideId: "plus" }),
-      ariaLabel: "New column",
+      ariaLabel: "新建列",
       onClick: () => onClick()
     }
   ) });
@@ -57199,7 +57199,7 @@ function RowOptions({
           MenuItem,
           {
             lucideId: "trash-2",
-            name: "Delete",
+            name: "删除",
             onClick: () => onDeleteClick()
           }
         ),
@@ -57207,7 +57207,7 @@ function RowOptions({
           MenuItem,
           {
             lucideId: "chevrons-up",
-            name: "Insert above",
+            name: "在上面插入",
             onClick: () => onInsertAboveClick()
           }
         ),
@@ -57215,7 +57215,7 @@ function RowOptions({
           MenuItem,
           {
             lucideId: "chevrons-down",
-            name: "Insert below",
+            name: "在下面插入",
             onClick: () => onInsertBelowClick()
           }
         )
@@ -57359,7 +57359,7 @@ function RowOptions2({
             ref: menu.triggerRef,
             level: 1 /* ONE */,
             icon: /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(Icon, { lucideId: "grip-vertical" }),
-            ariaLabel: "Drag to move or click to open",
+            ariaLabel: "拖动以移动或点击打开",
             onMouseDown: handleMouseDown,
             onOpen: () => menu.onOpen(1 /* ONE */)
           }
@@ -57655,7 +57655,7 @@ function CreateButton({ value, onClick }) {
     /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(
       MenuItem,
       {
-        name: `Create ${value}`,
+        name: `创建${value}`,
         onClick: () => onClick == null ? void 0 : onClick(value)
       }
     ),
@@ -57762,7 +57762,7 @@ function SuggestList({
         file.path
       )) })
     ] }),
-    files.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(Padding, { px: "md", pb: "md", children: /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(Text, { value: "No image files found" }) }),
+    files.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(Padding, { px: "md", pb: "md", children: /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(Text, { value: "未找到图像文件" }) }),
     showClear && /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(ClearButton, { onClick: onClearClick })
   ] });
 }
@@ -58090,7 +58090,7 @@ function CreateTag({ content, color, onTagAdd }) {
       isFullWidth: true,
       onClick: () => onTagAdd(content, color),
       children: /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(Padding, { px: "md", children: /* @__PURE__ */ (0, import_jsx_runtime63.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime63.jsx)("div", { children: "Create" }),
+        /* @__PURE__ */ (0, import_jsx_runtime63.jsx)("div", { children: "创建" }),
         /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(Tag5, { content, color, maxWidth: "120px" })
       ] }) })
     }
@@ -58182,12 +58182,12 @@ function TagColorMenu({
           MenuItem,
           {
             lucideId: "trash-2",
-            name: "Delete",
+            name: "删除",
             onClick: onDeleteClick
           }
         ),
         /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(Divider, {}),
-        /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(Text, { value: "Colors" }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(Text, { value: "颜色" }) }),
         /* @__PURE__ */ (0, import_jsx_runtime65.jsx)("div", { className: "dataloom-tag-color-menu__color-container", children: Object.values(Color).map((color) => /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(
           ColorItem,
           {
@@ -58302,7 +58302,7 @@ function MenuBody({
     (tag) => tag.content.toLowerCase().includes(inputValue.toLowerCase())
   );
   return /* @__PURE__ */ (0, import_jsx_runtime67.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-body", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(Text, { value: "Select a tag or create one" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(Text, { value: "选择或创建一个标签" }) }),
     /* @__PURE__ */ (0, import_jsx_runtime67.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-body-container", children: [
       !hasTagWithSameCase && inputValue !== "" && /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(
         CreateTag,
@@ -58522,7 +58522,7 @@ function TimeFormatMenu({
         /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
           MenuItem,
           {
-            name: "12 hour",
+            name: "12小时",
             isSelected: value,
             onClick: () => {
               onChange(true);
@@ -58532,7 +58532,7 @@ function TimeFormatMenu({
         /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
           MenuItem,
           {
-            name: "24 hour",
+            name: "24小时",
             isSelected: !value,
             onClick: () => {
               onChange(false);
@@ -58579,12 +58579,12 @@ function DateCellEdit({
   onTimeFormatChange
 }) {
   const COMPONENT_ID = `date-format-menu-${cellId}`;
-  const dateFormatMenu = useMenu(COMPONENT_ID, { name: "date-format" });
+  const dateFormatMenu = useMenu(COMPONENT_ID, { name: "日期格式" });
   const dateFormatSeparatorMenu = useMenu(COMPONENT_ID, {
-    name: "date-separator"
+    name: "日期分隔符"
   });
   const timeFormatMenu = useMenu(COMPONENT_ID, {
-    name: "time-format"
+    name: "时间格式"
   });
   const includeTimeToggleId = import_react35.default.useId();
   let initialDateString = "";
@@ -58810,7 +58810,7 @@ function DateCellEdit({
         }
       ),
       /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(Padding, { px: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime72.jsxs)(Stack, { spacing: "sm", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime72.jsx)("label", { htmlFor: includeTimeToggleId, children: "Include time" }),
+        /* @__PURE__ */ (0, import_jsx_runtime72.jsx)("label", { htmlFor: includeTimeToggleId, children: "包含时间" }),
         /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(
           Switch,
           {
@@ -58839,7 +58839,7 @@ function DateCellEdit({
           )
         }
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(MenuItem, { name: "Today", onClick: handleTodayClick }),
+      /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(MenuItem, { name: "今天", onClick: handleTodayClick }),
       /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(MenuItem, { name: "Clear", onClick: handleClearClick })
     ] }) }),
     /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(
@@ -59076,7 +59076,7 @@ function EmbedCellEdit({
   }
   return /* @__PURE__ */ (0, import_jsx_runtime80.jsxs)("div", { className: "dataloom-embed-cell-edit", children: [
     /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(Padding, { width: "100%", p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime80.jsxs)(Stack, { spacing: "sm", width: "100%", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime80.jsx)("label", { htmlFor: "external-switch", children: "External Link" }),
+      /* @__PURE__ */ (0, import_jsx_runtime80.jsx)("label", { htmlFor: "external-switch", children: "外部链接" }),
       /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(
         Switch,
         {
@@ -59153,7 +59153,7 @@ function Bubble({
         size: "sm",
         invertFocusColor: true,
         icon: /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(Icon, { lucideId: "x", color: "var(--text-on-accent)" }),
-        ariaLabel: "Remove sort",
+        ariaLabel: "取消排序",
         onClick: onRemoveClick
       }
     )
@@ -59235,9 +59235,9 @@ function DisabledCell({
 }) {
   let ariaLabel = "";
   if (!doesColumnHaveFrontmatterKey) {
-    ariaLabel = "This cell is disabled until you choose a frontmatter key for this column";
+    ariaLabel = "在您为此列选择 frontmatter key之前，此单元格将被禁用";
   } else if (!hasValidFrontmatter) {
-    ariaLabel = "This cell has an invalid property value. Please correct it in the source file.";
+    ariaLabel = "此单元格具有无效的属性值。请在源文件中进行更正。";
   }
   return /* @__PURE__ */ (0, import_jsx_runtime86.jsx)("div", { className: "dataloom-disabled-cell", "aria-label": ariaLabel, children: /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(Text, { value: hasValidFrontmatter ? "" : "Invalid property value" }) });
 }
@@ -59284,7 +59284,7 @@ function BodyCellContainer(props) {
   async function copyTextToClipboard(value) {
     try {
       await navigator.clipboard.writeText(value);
-      new import_obsidian11.Notice("Copied cell content to clipboard");
+      new import_obsidian11.Notice("将单元格内容复制到剪贴板");
     } catch (err) {
       console.error(err);
     }
@@ -60366,7 +60366,7 @@ function SearchBar() {
       Button,
       {
         icon: /* @__PURE__ */ (0, import_jsx_runtime89.jsx)(Icon, { lucideId: "search" }),
-        ariaLabel: "Search",
+        ariaLabel: "搜索",
         onClick: () => toggleSearchBar()
       }
     )
@@ -60378,7 +60378,7 @@ var import_jsx_runtime90 = __toESM(require_jsx_runtime());
 function ActiveFilterBubble({ numActive }) {
   if (numActive === 0)
     return /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(import_jsx_runtime90.Fragment, {});
-  const value = `${numActive} active filter${numActive > 1 ? "s" : ""}`;
+  const value = `${numActive} 筛选条件${numActive > 1 ? "s" : ""}`;
   return /* @__PURE__ */ (0, import_jsx_runtime90.jsx)("div", { className: "dataloom-active-filter-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime90.jsx)(Bubble, { value }) });
 }
 
@@ -60394,7 +60394,7 @@ var import_react40 = __toESM(require_react());
 
 // src/shared/export/types.ts
 var ExportType = /* @__PURE__ */ ((ExportType2) => {
-  ExportType2["UNSELECTED"] = "Select an option";
+  ExportType2["UNSELECTED"] = "选择一个选项";
   ExportType2["CSV"] = "CSV";
   ExportType2["MARKDOWN"] = "Markdown";
   return ExportType2;
@@ -60404,7 +60404,7 @@ var ExportType = /* @__PURE__ */ ((ExportType2) => {
 var import_jsx_runtime91 = __toESM(require_jsx_runtime());
 function ExportTypeSelect({ value, onChange }) {
   return /* @__PURE__ */ (0, import_jsx_runtime91.jsxs)(Stack, { spacing: "xl", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime91.jsx)("label", { htmlFor: "type-select", children: "File Type" }),
+    /* @__PURE__ */ (0, import_jsx_runtime91.jsx)("label", { htmlFor: "type-select", children: "文件类型" }),
     /* @__PURE__ */ (0, import_jsx_runtime91.jsx)(
       "select",
       {
@@ -63319,7 +63319,7 @@ var exportToCSV = (app, loomState, shouldRemoveMarkdown) => {
 var import_jsx_runtime93 = __toESM(require_jsx_runtime());
 function ExportApp({ app, loomState, loomFilePath }) {
   const [exportType, setExportType] = import_react40.default.useState(
-    "Select an option" /* UNSELECTED */
+    "选择一个选项" /* UNSELECTED */
   );
   const { removeMarkdownOnExport } = useAppSelector(
     (state) => state.global.settings
@@ -63329,7 +63329,7 @@ function ExportApp({ app, loomState, loomFilePath }) {
   );
   async function handleCopyClick(value) {
     await navigator.clipboard.writeText(value);
-    new import_obsidian13.Notice("Copied to clipboard");
+    new import_obsidian13.Notice("复制到剪贴板");
   }
   function handleDownloadClick() {
     const fileName = getExportFileName(loomFilePath);
@@ -63344,9 +63344,9 @@ function ExportApp({ app, loomState, loomFilePath }) {
   }
   return /* @__PURE__ */ (0, import_jsx_runtime93.jsx)("div", { className: "dataloom-export-app", children: /* @__PURE__ */ (0, import_jsx_runtime93.jsxs)(Stack, { spacing: "xl", width: "100%", children: [
     /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(ExportTypeSelect, { value: exportType, onChange: setExportType }),
-    exportType !== "Select an option" /* UNSELECTED */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsxs)(import_jsx_runtime93.Fragment, { children: [
+    exportType !== "选择一个选项" /* UNSELECTED */ && /* @__PURE__ */ (0, import_jsx_runtime93.jsxs)(import_jsx_runtime93.Fragment, { children: [
       /* @__PURE__ */ (0, import_jsx_runtime93.jsxs)(Stack, { spacing: "sm", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime93.jsx)("label", { htmlFor: "remove-markdown", children: "Remove markdown" }),
+        /* @__PURE__ */ (0, import_jsx_runtime93.jsx)("label", { htmlFor: "remove-markdown", children: "移除Markdown" }),
         /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(
           Switch,
           {
@@ -63363,7 +63363,7 @@ function ExportApp({ app, loomState, loomFilePath }) {
           {
             className: "mod-cta",
             onClick: handleDownloadClick,
-            children: "Download"
+            children: "下载"
           }
         ),
         /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(
@@ -63371,7 +63371,7 @@ function ExportApp({ app, loomState, loomFilePath }) {
           {
             className: "dataloom-copy-button",
             onClick: () => handleCopyClick(content),
-            children: "Copy to clipboard"
+            children: "复制到剪贴板"
           }
         )
       ] })
@@ -63390,7 +63390,7 @@ var ExportModal = class extends import_obsidian14.Modal {
   }
   onOpen() {
     const { containerEl } = this;
-    setModalTitle(containerEl, "DataLoom Export");
+    setModalTitle(containerEl, "DataLoom 导出");
     const { contentEl } = this;
     renderDivider(contentEl);
     const appContainerEl = contentEl.createDiv();
@@ -63425,15 +63425,15 @@ var import_papaparse2 = __toESM(require_papaparse_min());
 
 // src/react/import-app/types.ts
 var DataType = /* @__PURE__ */ ((DataType3) => {
-  DataType3["UNSELECTED"] = "Select an option";
+  DataType3["UNSELECTED"] = "选择一个选项";
   DataType3["CSV"] = "CSV";
   DataType3["MARKDOWN"] = "Markdown";
   return DataType3;
 })(DataType || {});
 var DataSource = /* @__PURE__ */ ((DataSource2) => {
-  DataSource2["UNSELECTED"] = "Select an option";
-  DataSource2["FILE"] = "File";
-  DataSource2["PASTE"] = "Paste from clipboard";
+  DataSource2["UNSELECTED"] = "选择一个选项";
+  DataSource2["FILE"] = "文件";
+  DataSource2["PASTE"] = "从剪贴板粘贴";
   return DataSource2;
 })(DataSource || {});
 
@@ -63486,10 +63486,10 @@ function StepButtons({
         isDisabled: isNextDisabled,
         variant: "default",
         onClick: onNextClick,
-        children: isLastStep ? finishButtonLabel : "Next"
+        children: isLastStep ? finishButtonLabel : "下一步"
       }
     ),
-    !isFirstStep && /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(Button, { onClick: onBackClick, children: "Back" })
+    !isFirstStep && /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(Button, { onClick: onBackClick, children: "返回" })
   ] }) });
 }
 
@@ -63580,7 +63580,7 @@ function StepSeparator({ hideBorder }) {
 var import_jsx_runtime103 = __toESM(require_jsx_runtime());
 function Stepper({
   steps,
-  finishButtonLabel = "Finish",
+  finishButtonLabel = "完成",
   onFinishClick
 }) {
   const [activeIndex, setActiveIndex] = import_react41.default.useState(0);
@@ -63708,7 +63708,7 @@ function FileInput({
   const accept = getAcceptForDataType(dataType);
   return /* @__PURE__ */ (0, import_jsx_runtime105.jsx)("div", { className: "dataloom-file-input", children: /* @__PURE__ */ (0, import_jsx_runtime105.jsxs)(Stack, { spacing: "2xl", children: [
     /* @__PURE__ */ (0, import_jsx_runtime105.jsxs)(Stack, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(Text, { value: fileName != null ? fileName : "No file chosen" }),
+      /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(Text, { value: fileName != null ? fileName : "未选择任何文件" }),
       /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(
         "input",
         {
@@ -63719,7 +63719,7 @@ function FileInput({
       )
     ] }),
     accept === ".csv" && /* @__PURE__ */ (0, import_jsx_runtime105.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime105.jsx)("label", { htmlFor: "has-headers", children: "First row contains headers" }),
+      /* @__PURE__ */ (0, import_jsx_runtime105.jsx)("label", { htmlFor: "has-headers", children: "首行包含标题" }),
       /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(
         Switch,
         {
@@ -63751,8 +63751,8 @@ function UploadData({
   onHeadersRowToggle
 }) {
   return /* @__PURE__ */ (0, import_jsx_runtime107.jsxs)("div", { className: "dataloom-upload-data", children: [
-    source === "Paste from clipboard" /* PASTE */ && /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(UploadTextarea, { value: rawData, onChange: onRawDataChange }),
-    source === "File" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
+    source === "从剪贴板粘贴" /* PASTE */ && /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(UploadTextarea, { value: rawData, onChange: onRawDataChange }),
+    source === "文件" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
       FileInput,
       {
         fileName,
@@ -63886,7 +63886,7 @@ function MatchColumnMenu({
         /* @__PURE__ */ (0, import_jsx_runtime111.jsx)(
           MenuItem,
           {
-            name: "Match as new",
+            name: "作为新匹配",
             onClick: () => onColumnClick(NEW_COLUMN_ID),
             isSelected: selectedColumnId === NEW_COLUMN_ID
           }
@@ -63896,7 +63896,7 @@ function MatchColumnMenu({
           /* @__PURE__ */ (0, import_jsx_runtime111.jsx)(
             MenuItem,
             {
-              name: "Unmatch",
+              name: "不匹配",
               onClick: () => onColumnClick(null)
             }
           )
@@ -63966,7 +63966,7 @@ function HeaderCell2({
                 isFocused: menu.isTriggerFocused,
                 menuId: menu.id,
                 level: 1 /* ONE */,
-                ariaLabel: "Match column",
+                ariaLabel: "匹配列",
                 icon: /* @__PURE__ */ (0, import_jsx_runtime112.jsx)(Icon, { lucideId: "columns", size: "lg" }),
                 onOpen: () => menu.onOpen(1 /* ONE */, {
                   shouldFocusTriggerOnClose: false
@@ -64012,28 +64012,28 @@ function BulkOptionsMenu({
         /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(
           MenuItem,
           {
-            name: "Match all as new",
+            name: "全部作为新匹配",
             onClick: () => onAllColumnsMatch(NEW_COLUMN_ID)
           }
         ),
         /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(
           MenuItem,
           {
-            name: "Disable all",
+            name: "全部禁用",
             onClick: () => onAllColumnsEnabledToggle(false)
           }
         ),
         /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(
           MenuItem,
           {
-            name: "Enable all",
+            name: "全部启用",
             onClick: () => onAllColumnsEnabledToggle(true)
           }
         ),
         /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(
           MenuItem,
           {
-            name: "Unmatch all",
+            name: "全部不匹配",
             onClick: () => onAllColumnsMatch(null)
           }
         )
@@ -64090,13 +64090,13 @@ function MatchColumns({
     numUnmatched = 0;
   let infoMessage = "";
   if (enabledColumnIndices.length === 0) {
-    infoMessage = "You must enable at least one column";
+    infoMessage = "您必须至少启用一列";
   } else if (numUnmatched === 0) {
-    infoMessage = "All columns matched";
+    infoMessage = "所有列已匹配";
   } else if (numUnmatched === 1) {
-    infoMessage = `There is 1 unmatched column. Please match it to continue`;
+    infoMessage = `有 1 列未匹配。请进行匹配以继续`;
   } else {
-    infoMessage = `There are ${numUnmatched} unmatched columns. Please match them to continue`;
+    infoMessage = `有 ${numUnmatched} 列未匹配。请进行匹配以继续`;
   }
   return /* @__PURE__ */ (0, import_jsx_runtime114.jsxs)(import_jsx_runtime114.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime114.jsxs)("div", { className: "dataloom-match-columns", children: [
@@ -64111,7 +64111,7 @@ function MatchColumns({
           onOpen: () => menu.onOpen(1 /* ONE */, {
             shouldFocusTriggerOnClose: false
           }),
-          children: "Bulk operations"
+          children: "批量操作"
         }
       ) }) }),
       /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
@@ -64161,7 +64161,7 @@ function MatchColumns({
           {
             size: "sm",
             variant: "semibold",
-            value: `Importing ${enabledColumnIndices.length} of ${data[0].length} columns`
+            value: `正在导入 ${data[0].length} 列中的 ${enabledColumnIndices.length} 列`
           }
         ),
         /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(Text, { size: "sm", variant: "muted", value: infoMessage })
@@ -64258,7 +64258,7 @@ var createFrontmatterSource = (propertyType, propertyKey, options) => {
 var createColumn = (options) => {
   const {
     type = "text" /* TEXT */,
-    content = "New Column",
+    content = "新建列",
     includeTime = false,
     frontmatterKey = null,
     tags = []
@@ -64944,7 +64944,7 @@ function FinalizeImport({
   const dateFormatSeparatorId = import_react45.default.useId();
   const includeTimeId = import_react45.default.useId();
   if (!hasDateColumnMatch)
-    return /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(Text, { value: "Everything looks good!" });
+    return /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(Text, { value: "一切看起来都很好！" });
   let expectedDateFormat = "Unknown";
   if (dateFormat && dateFormatSeparator) {
     const EXAMPLE_DATE_TIME = "2020-12-31T23:00:00";
@@ -64964,19 +64964,19 @@ function FinalizeImport({
         {
           size: "md",
           variant: "semibold",
-          value: "Date format"
+          value: "日期格式"
         }
       ),
       /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(Padding, { pr: "md", children: /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(
         Text,
         {
           shouldWrap: true,
-          value: "You have matched one of your import columns to an existing date column. Please specify the date format of the import column."
+          value: "您已将导入的某一列匹配到现有的日期列。请指定导入列的日期格式。"
         }
       ) })
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime116.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("label", { htmlFor: dateFormatId, children: "Date format" }),
+      /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("label", { htmlFor: dateFormatId, children: "日期格式" }),
       /* @__PURE__ */ (0, import_jsx_runtime116.jsxs)(
         Select,
         {
@@ -64986,14 +64986,14 @@ function FinalizeImport({
             value || null
           ),
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("option", { value: "", children: "Select an option" }),
+            /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("option", { value: "", children: "选择一个选项" }),
             Object.values(DateFormat2).map((format) => /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("option", { value: format, children: getDisplayNameForDateFormat(format) }, format))
           ]
         }
       )
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime116.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("label", { htmlFor: dateFormatSeparatorId, children: "Date format separator" }),
+      /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("label", { htmlFor: dateFormatSeparatorId, children: "日期格式分隔符" }),
       /* @__PURE__ */ (0, import_jsx_runtime116.jsxs)(
         Select,
         {
@@ -65003,7 +65003,7 @@ function FinalizeImport({
             value || null
           ),
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("option", { value: "", children: "Select an option" }),
+            /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("option", { value: "", children: "选择一个选项" }),
             Object.values(DateFormatSeparator).map(
               (format) => /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("option", { value: format, children: format }, format)
             )
@@ -65012,7 +65012,7 @@ function FinalizeImport({
       )
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime116.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("label", { htmlFor: includeTimeId, children: "Includes time" }),
+      /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("label", { htmlFor: includeTimeId, children: "包含时间" }),
       /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(
         Switch,
         {
@@ -65023,7 +65023,7 @@ function FinalizeImport({
       )
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime116.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("label", { children: "Expected date format" }),
+      /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("label", { children: "预期的日期格式" }),
       /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(
         Text,
         {
@@ -65037,7 +65037,7 @@ function FinalizeImport({
       Text,
       {
         shouldWrap: true,
-        value: "If a value in your column does not match this format, its table cell after import will be empty."
+        value: "如果列中的值不符合此格式，导入后对应的表格单元格将为空。"
       }
     ) })
   ] }) }) });
@@ -65047,8 +65047,8 @@ function FinalizeImport({
 var import_jsx_runtime117 = __toESM(require_jsx_runtime());
 function ImportApp({ state, onStateChange }) {
   const menuOperations = useMenuOperations();
-  const [dataSource, setDataSource] = import_react46.default.useState("Select an option" /* UNSELECTED */);
-  const [dataType, setDataType] = import_react46.default.useState("Select an option" /* UNSELECTED */);
+  const [dataSource, setDataSource] = import_react46.default.useState("选择一个选项" /* UNSELECTED */);
+  const [dataType, setDataType] = import_react46.default.useState("选择一个选项" /* UNSELECTED */);
   const [fileName, setFileName] = import_react46.default.useState(null);
   const [rawData, setRawData] = import_react46.default.useState("");
   const [data, setData] = import_react46.default.useState([]);
@@ -65113,7 +65113,7 @@ function ImportApp({ state, onStateChange }) {
   }
   function resetSubsequentSteps(currentType) {
     if (currentType !== 1 /* DATA_SOURCE */) {
-      setDataSource("Select an option" /* UNSELECTED */);
+      setDataSource("选择一个选项" /* UNSELECTED */);
     }
     if (currentType !== 2 /* UPLOAD_DATA */) {
       setRawData("");
@@ -65136,7 +65136,7 @@ function ImportApp({ state, onStateChange }) {
   });
   const steps = [
     {
-      title: "Select data type",
+      title: "选择数据类型",
       content: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
         DataTypeSelect,
         {
@@ -65144,10 +65144,10 @@ function ImportApp({ state, onStateChange }) {
           onChange: handleDataTypeChange
         }
       ),
-      canContinue: dataType !== "Select an option" /* UNSELECTED */
+      canContinue: dataType !== "选择一个选项" /* UNSELECTED */
     },
     {
-      title: "Select data source",
+      title: "选择数据源",
       content: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
         DataSourceSelect,
         {
@@ -65155,10 +65155,10 @@ function ImportApp({ state, onStateChange }) {
           onChange: handleDataSourceChange
         }
       ),
-      canContinue: dataSource !== "Select an option" /* UNSELECTED */
+      canContinue: dataSource !== "选择一个选项" /* UNSELECTED */
     },
     {
-      title: "Upload data",
+      title: "上传数据",
       content: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
         UploadData,
         {
@@ -65206,7 +65206,7 @@ function ImportApp({ state, onStateChange }) {
       }
     },
     {
-      title: "Match columns",
+      title: "匹配列",
       content: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
         MatchColumns,
         {
@@ -65235,7 +65235,7 @@ function ImportApp({ state, onStateChange }) {
       }
     },
     {
-      title: "Finalize import",
+      title: "完成导入",
       content: /* @__PURE__ */ (0, import_jsx_runtime117.jsx)(
         FinalizeImport,
         {
@@ -65290,7 +65290,7 @@ var ImportModal = class extends import_obsidian15.Modal {
         //No app id. Target all views of this file
         state
       );
-      new import_obsidian15.Notice("Success! DataLoom import completed.");
+      new import_obsidian15.Notice("成功！DataLoom导入已完成。");
       this.close();
     };
     this.loomFile = loomFile;
@@ -65298,7 +65298,7 @@ var ImportModal = class extends import_obsidian15.Modal {
   }
   onOpen() {
     const { containerEl } = this;
-    setModalTitle(containerEl, "DataLoom Import");
+    setModalTitle(containerEl, "DataLoom 导入");
     const { contentEl } = this;
     renderDivider(contentEl);
     const appContainerEl = contentEl.createDiv();
@@ -65342,7 +65342,7 @@ function BaseContent({
       MenuItem,
       {
         lucideId: "filter",
-        name: "Sources",
+        name: "数据源",
         onClick: onSourcesClick
       }
     ),
@@ -65350,7 +65350,7 @@ function BaseContent({
       MenuItem,
       {
         lucideId: "filter",
-        name: "Filter",
+        name: "筛选",
         onClick: onFilterClick
       }
     ),
@@ -65358,7 +65358,7 @@ function BaseContent({
       MenuItem,
       {
         lucideId: "eye-off",
-        name: "Toggle",
+        name: "隐藏/显示列",
         onClick: onToggleColumnClick
       }
     ),
@@ -65366,7 +65366,7 @@ function BaseContent({
       MenuItem,
       {
         lucideId: "import",
-        name: "Import",
+        name: "导入",
         onClick: () => {
           onClose();
           new ImportModal(app, loomFile, loomState).open();
@@ -65377,7 +65377,7 @@ function BaseContent({
       MenuItem,
       {
         lucideId: "download",
-        name: "Export",
+        name: "导出",
         onClick: () => {
           onClose();
           new ExportModal(app, loomFile, loomState).open();
@@ -65388,7 +65388,7 @@ function BaseContent({
       MenuItem,
       {
         lucideId: "wrench",
-        name: "Settings",
+        name: "设置",
         onClick: onSettingsClick
       }
     )
@@ -65402,8 +65402,8 @@ function SettingsSubmenu({
   onCalculationRowToggle,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Submenu, { title: "Settings", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime120.jsxs)(Stack, { isHorizontal: true, spacing: "lg", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Text, { value: "Calculation row" }),
+  return /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Submenu, { title: "设置", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime120.jsxs)(Stack, { isHorizontal: true, spacing: "lg", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Text, { value: "计算行" }),
     /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(
       Switch,
       {
@@ -65421,7 +65421,7 @@ function ToggleColumnSubmenu({
   onColumnToggle,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Submenu, { title: "Toggle", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Padding, { py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Stack, { spacing: "md", children: columns.map((column) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Submenu, { title: "切换", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Padding, { py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Stack, { spacing: "md", children: columns.map((column) => {
     const { id: id2, content, isVisible } = column;
     return /* @__PURE__ */ (0, import_jsx_runtime121.jsxs)(
       Wrap,
@@ -65564,8 +65564,8 @@ function FilterOperator({ id: id2, value, onChange }) {
       value,
       onChange: (newValue) => onChange(id2, newValue),
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime125.jsx)("option", { value: "or", children: "Or" }),
-        /* @__PURE__ */ (0, import_jsx_runtime125.jsx)("option", { value: "and", children: "And" })
+        /* @__PURE__ */ (0, import_jsx_runtime125.jsx)("option", { value: "or", children: "或" }),
+        /* @__PURE__ */ (0, import_jsx_runtime125.jsx)("option", { value: "and", children: "和" })
       ]
     }
   );
@@ -65632,7 +65632,7 @@ function FilterRow({
             Button,
             {
               icon: /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(Icon, { lucideId: "trash-2" }),
-              ariaLabel: "Delete filter",
+              ariaLabel: "删除筛选",
               onClick: () => onDeleteClick(id2)
             }
           ),
@@ -65743,7 +65743,7 @@ function MultiSelectMenu({
           id3
         );
       }),
-      options.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Padding, { px: "md", pb: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Text, { value: "No options to select" }) })
+      options.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Padding, { px: "md", pb: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(Text, { value: "没有可选择的选项" }) })
     ] })
   ] }) }) });
 }
@@ -65825,8 +65825,8 @@ function CheckboxFilterSelect({ value, onChange }) {
     onChange(false);
   }
   return /* @__PURE__ */ (0, import_jsx_runtime131.jsxs)(Select, { value: value ? "true" : "false", onChange: handleChange, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime131.jsx)("option", { value: "false", children: "Unchecked" }),
-    /* @__PURE__ */ (0, import_jsx_runtime131.jsx)("option", { value: "true", children: "Checked" })
+    /* @__PURE__ */ (0, import_jsx_runtime131.jsx)("option", { value: "false", children: "未选中" }),
+    /* @__PURE__ */ (0, import_jsx_runtime131.jsx)("option", { value: "true", children: "已选中" })
   ] });
 }
 
@@ -66125,7 +66125,7 @@ function FilterMenu({
                       value: tagId,
                       onChange: (newValue) => onTagChange(id3, newValue),
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_runtime132.jsx)("option", { value: "", children: "Select an option" }),
+                        /* @__PURE__ */ (0, import_jsx_runtime132.jsx)("option", { value: "", children: "选择一个选项" }),
                         tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(
                           "option",
                           {
@@ -66292,7 +66292,7 @@ function FilterMenu({
               Button,
               {
                 icon: /* @__PURE__ */ (0, import_jsx_runtime132.jsx)(Icon, { lucideId: "plus" }),
-                ariaLabel: "Add filter",
+                ariaLabel: "添加筛选",
                 onClick: () => onAddClick()
               }
             )
@@ -66360,7 +66360,7 @@ function FolderSourceOptions({
 }) {
   return /* @__PURE__ */ (0, import_jsx_runtime135.jsxs)(import_jsx_runtime135.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime135.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime135.jsx)("label", { htmlFor: pathInputId, children: "Path" }),
+      /* @__PURE__ */ (0, import_jsx_runtime135.jsx)("label", { htmlFor: pathInputId, children: "路径" }),
       /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
         input_default,
         {
@@ -66373,7 +66373,7 @@ function FolderSourceOptions({
       )
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime135.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime135.jsx)("label", { htmlFor: includeSubfoldersInputId, children: "Include subfolders" }),
+      /* @__PURE__ */ (0, import_jsx_runtime135.jsx)("label", { htmlFor: includeSubfoldersInputId, children: "包含子文件夹" }),
       /* @__PURE__ */ (0, import_jsx_runtime135.jsx)(
         Switch,
         {
@@ -66406,7 +66406,7 @@ function FrontmatterSourceOptions({
   }
   return /* @__PURE__ */ (0, import_jsx_runtime136.jsxs)(import_jsx_runtime136.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_runtime136.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("label", { htmlFor: propertyTypeSelectId, children: "Property Type" }),
+      /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("label", { htmlFor: propertyTypeSelectId, children: "属性类型" }),
       /* @__PURE__ */ (0, import_jsx_runtime136.jsxs)(
         Select,
         {
@@ -66415,7 +66415,7 @@ function FrontmatterSourceOptions({
             value || null
           ),
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("option", { value: "", children: "Select an option" }),
+            /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("option", { value: "", children: "选择一个选项" }),
             Object.values(ObsidianPropertyType).map((type) => {
               return /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("option", { value: type, children: type }, type);
             })
@@ -66424,7 +66424,7 @@ function FrontmatterSourceOptions({
       )
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime136.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("label", { htmlFor: propertyKeySelectId, children: "Property Key" }),
+      /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("label", { htmlFor: propertyKeySelectId, children: "属性键" }),
       /* @__PURE__ */ (0, import_jsx_runtime136.jsxs)(
         Select,
         {
@@ -66432,7 +66432,7 @@ function FrontmatterSourceOptions({
           value: selectedPropertyKey != null ? selectedPropertyKey : "",
           onChange: (value) => onPropertyKeyChange(value || null),
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("option", { value: "", children: "Select an option" }),
+            /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("option", { value: "", children: "选择一个选项" }),
             Object.values(propertyTypes).map((type) => {
               return /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("option", { value: type, children: type }, type);
             })
@@ -66465,20 +66465,20 @@ function AddSourceSubmenu({
     const formattedPath = (0, import_obsidian16.normalizePath)(path);
     if (type === null) {
       setError({
-        message: "Please select a type",
+        message: "请选择一种类型",
         inputId: typeSelectId
       });
       return;
     } else if (type === "folder" /* FOLDER */) {
       if (path === "") {
         setError({
-          message: "Please enter a path",
+          message: "请输入路径",
           inputId: pathInputId
         });
         return;
       } else if (alreadyHasSource(sources, type, { path: formattedPath })) {
         setError({
-          message: "A source with this path already exists",
+          message: "具有此路径的数据源已存在",
           inputId: pathInputId
         });
         return;
@@ -66486,19 +66486,19 @@ function AddSourceSubmenu({
     } else if (type === "frontmatter" /* FRONTMATTER */) {
       if (propertyType === null) {
         setError({
-          message: "Please select a property type",
+          message: "请选择属性类型",
           inputId: propertyTypeSelectId
         });
         return;
       } else if (propertyKey === null) {
         setError({
-          message: "Please select a property key",
+          message: "请选择属性键",
           inputId: propertyKeySelectId
         });
         return;
       } else if (alreadyHasSource(sources, type, { key: propertyKey })) {
         setError({
-          message: "A source with this key already exists",
+          message: "具有此键的数据源已存在",
           inputId: propertyKeySelectId
         });
         return;
@@ -66533,12 +66533,12 @@ function AddSourceSubmenu({
   return /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(
     Submenu,
     {
-      title: "Add source",
+      title: "添加源",
       showBackButton: sources.length > 0,
       onBackClick,
       children: /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(Padding, { py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime137.jsxs)(Stack, { spacing: "lg", children: [
         /* @__PURE__ */ (0, import_jsx_runtime137.jsxs)(Stack, { spacing: "sm", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime137.jsx)("label", { htmlFor: "type", children: "Type" }),
+          /* @__PURE__ */ (0, import_jsx_runtime137.jsx)("label", { htmlFor: "type", children: "类型" }),
           /* @__PURE__ */ (0, import_jsx_runtime137.jsxs)(
             Select,
             {
@@ -66547,7 +66547,7 @@ function AddSourceSubmenu({
               hasError: (error == null ? void 0 : error.inputId) === typeSelectId,
               onChange: (value) => setType(value || null),
               children: [
-                /* @__PURE__ */ (0, import_jsx_runtime137.jsx)("option", { value: "", children: "Select an option" }),
+                /* @__PURE__ */ (0, import_jsx_runtime137.jsx)("option", { value: "", children: "选择一个选项" }),
                 Object.values(SourceType).map((type2) => {
                   return /* @__PURE__ */ (0, import_jsx_runtime137.jsx)("option", { value: type2, children: getDisplayNameForSource(type2) }, type2);
                 })
@@ -66580,7 +66580,7 @@ function AddSourceSubmenu({
           }
         ),
         (error == null ? void 0 : error.message) && /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(Text, { value: error.message, variant: "error" }),
-        /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(Button, { variant: "default", onClick: () => handleAddClick(), children: "Add" })
+        /* @__PURE__ */ (0, import_jsx_runtime137.jsx)(Button, { variant: "default", onClick: () => handleAddClick(), children: "添加" })
       ] }) })
     }
   );
@@ -66613,7 +66613,7 @@ function FolderSourceItem({
       Button,
       {
         icon: /* @__PURE__ */ (0, import_jsx_runtime139.jsx)(Icon, { lucideId: "trash" }),
-        ariaLabel: "Delete source",
+        ariaLabel: "删除数据源",
         onClick: () => onDelete(id2)
       }
     )
@@ -66732,7 +66732,7 @@ function FrontmatterSourceItem({
       Button,
       {
         icon: /* @__PURE__ */ (0, import_jsx_runtime141.jsx)(Icon, { lucideId: "trash" }),
-        ariaLabel: "Delete source",
+        ariaLabel: "删除数据源",
         onClick: () => onDelete(id2)
       }
     ) })
@@ -66796,7 +66796,7 @@ function BaseContent2({
       {
         icon: /* @__PURE__ */ (0, import_jsx_runtime142.jsx)(Icon, { lucideId: "plus" }),
         onClick: () => onSourceAdd(),
-        ariaLabel: "Add source"
+        ariaLabel: "添加数据源"
       }
     )
   ] });
@@ -66975,7 +66975,7 @@ function OptionBar({
                     ref: sourcesMenu.triggerRef,
                     level: 1 /* ONE */,
                     onOpen: handleSourceMenuOpen,
-                    children: "Sources"
+                    children: "数据源"
                   }
                 ),
                 isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(
@@ -66986,7 +66986,7 @@ function OptionBar({
                     ref: filterMenu.triggerRef,
                     level: 1 /* ONE */,
                     onOpen: handleFilterMenuOpen,
-                    children: "Filter"
+                    children: "筛选"
                   }
                 ),
                 /* @__PURE__ */ (0, import_jsx_runtime144.jsx)(SearchBar, {}),
@@ -67064,9 +67064,9 @@ function NewRowButton({ onClick }) {
     Button,
     {
       icon: /* @__PURE__ */ (0, import_jsx_runtime145.jsx)(Icon, { lucideId: "plus" }),
-      ariaLabel: "New row",
+      ariaLabel: "新建行",
       onClick: () => onClick(),
-      children: "New"
+      children: "增加行"
     }
   );
 }
@@ -67136,7 +67136,7 @@ function BottomBar({
             /* @__PURE__ */ (0, import_jsx_runtime146.jsx)(
               Button,
               {
-                ariaLabel: "Scroll to top",
+                ariaLabel: "滚动到顶部",
                 icon: /* @__PURE__ */ (0, import_jsx_runtime146.jsx)(Icon, { lucideId: "chevron-up" }),
                 onClick: onScrollToTopClick
               }
@@ -67144,7 +67144,7 @@ function BottomBar({
             /* @__PURE__ */ (0, import_jsx_runtime146.jsx)(
               Button,
               {
-                ariaLabel: "Scroll to bottom",
+                ariaLabel: "滚动到底部",
                 onClick: onScrollToBottomClick,
                 icon: /* @__PURE__ */ (0, import_jsx_runtime146.jsx)(Icon, { lucideId: "chevron-down" })
               }
@@ -67155,7 +67155,7 @@ function BottomBar({
           /* @__PURE__ */ (0, import_jsx_runtime146.jsx)(
             Button,
             {
-              ariaLabel: "Undo",
+              ariaLabel: "撤销",
               size: "lg",
               icon: /* @__PURE__ */ (0, import_jsx_runtime146.jsx)(Icon, { lucideId: "undo" }),
               onClick: onUndoClick
@@ -67164,7 +67164,7 @@ function BottomBar({
           /* @__PURE__ */ (0, import_jsx_runtime146.jsx)(
             Button,
             {
-              ariaLabel: "Redo",
+              ariaLabel: "重做",
               size: "lg",
               icon: /* @__PURE__ */ (0, import_jsx_runtime146.jsx)(Icon, { lucideId: "redo" }),
               onClick: onRedoClick
@@ -69676,7 +69676,7 @@ var SourceAddCommand = class extends loom_state_command_default {
     if (!sourceFileColumn) {
       const result = columnAddExecute(nextColumns, nextRows, {
         type: "source-file" /* SOURCE_FILE */,
-        content: "Source File",
+        content: "源文件",
         insertIndex: 0
       });
       const { columns: columns2, rows: rows2 } = result;
@@ -69689,7 +69689,7 @@ var SourceAddCommand = class extends loom_state_command_default {
     if (!sourceColumn) {
       const result = columnAddExecute(nextColumns, nextRows, {
         type: "source" /* SOURCE */,
-        content: "Source",
+        content: "数据源",
         insertIndex: 0
       });
       const { columns: columns2, rows: rows2 } = result;
@@ -70628,10 +70628,10 @@ Error info: ${(_a2 = this.state.errorInfo) == null ? void 0 : _a2.componentStack
       return /* @__PURE__ */ (0, import_jsx_runtime148.jsx)(
         ErrorDisplay,
         {
-          title: "DataLoom experienced an error",
+          title: "DataLoom 遇到错误",
           errorMessage: (_b = this.state.errorMessage) != null ? _b : "",
           copyErrorMessage,
-          helpMessage: "For help fixing this error please make a bug issue in the GitHub repository",
+          helpMessage: "如需帮助解决此错误，请在 GitHub 仓库中提交问题",
           helpURL: "https://github.com/decaf-dev/obsidian-dataloom/issues/new?assignees=&labels=bug&projects=&template=BUG.yml"
         }
       );
@@ -70897,7 +70897,7 @@ var createLoomFile = async (app, pluginVersion, defaultFrozenColumnCount, folder
     const file = await createFile(app, formattedPath, serializedState);
     return file;
   } catch (err) {
-    new import_obsidian18.Notice("Could not create loom file");
+    new import_obsidian18.Notice("无法创建 loom 文件");
     throw err;
   }
 };
@@ -70962,7 +70962,7 @@ var handleFileRename = async (app, file, oldPath, currentAppVersion) => {
   }
   if (totalLinksUpdated > 0) {
     new import_obsidian19.Notice(
-      `Updated ${totalLinksUpdated} link${totalLinksUpdated > 1 ? "s" : ""} in ${numFilesUpdated} loom file${numFilesUpdated > 1 ? "s" : ""}.`
+      `更新了 ${totalLinksUpdated} link${totalLinksUpdated > 1 ? "s" : ""} in ${numFilesUpdated} loom file${numFilesUpdated > 1 ? "s" : ""}.`
     );
   }
 };
@@ -71200,9 +71200,9 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
           await this.app.vault.rename(file, newFilePath);
         } catch (err) {
           new import_obsidian20.Notice(
-            `Failed renaming ${file.path} to ${newFilePath}`
+            `将${file.path}重命名为${newFilePath}失败`
           );
-          new import_obsidian20.Notice("Please rename this file manually");
+          new import_obsidian20.Notice("请手动重命名此文件");
         }
       }
       this.settings.hasMigratedTo800 = true;
@@ -71262,7 +71262,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
         import_js_logger24.default.trace(FILE_NAME, "registerEvent", "file-menu event called");
         if (file instanceof import_obsidian20.TFolder) {
           menu.addItem((item) => {
-            item.setTitle("New loom").setIcon("document").onClick(async () => {
+            item.setTitle("新 loom").setIcon("document").onClick(async () => {
               await this.newLoomFile(file.path);
             });
           });
@@ -71392,7 +71392,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
   registerCommands() {
     this.addCommand({
       id: "create",
-      name: "Create loom",
+      name: "创建 loom",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "=" }],
       callback: async () => {
         await this.newLoomFile(null);
@@ -71400,7 +71400,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
     });
     this.addCommand({
       id: "create-and-embed",
-      name: "Create loom and embed it into current file",
+      name: "创建 loom 并将其嵌入到当前文件中",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "+" }],
       editorCallback: async (editor) => {
         const filePath = await this.newLoomFile(null, true);
@@ -71419,7 +71419,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
     });
     this.addCommand({
       id: "add-column",
-      name: "Add column",
+      name: "添加列",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "\\" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
@@ -71435,7 +71435,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
     });
     this.addCommand({
       id: "delete-column",
-      name: "Delete column",
+      name: "删除列",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
@@ -71451,7 +71451,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
     });
     this.addCommand({
       id: "add-row",
-      name: "Add row",
+      name: "添加行",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Enter" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
@@ -71466,7 +71466,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
     });
     this.addCommand({
       id: "delete-row",
-      name: "Delete row",
+      name: "删除行",
       hotkeys: [{ modifiers: ["Alt", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
@@ -71482,7 +71482,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
     });
     this.addCommand({
       id: "export-markdown",
-      name: "Export as markdown",
+      name: "导出为markdown",
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
         const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
@@ -71497,7 +71497,7 @@ var DataLoomPlugin = class extends import_obsidian20.Plugin {
     });
     this.addCommand({
       id: "export-csv",
-      name: "Export as CSV",
+      name: "导出为CSV",
       checkCallback: (checking) => {
         const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
         const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);

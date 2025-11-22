@@ -7,5 +7,7 @@
   "newLinkFormat": "relative",
   "trashOption": "local",
   "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "showIndentGuide": false,
+  "rightToLeft": false
 }

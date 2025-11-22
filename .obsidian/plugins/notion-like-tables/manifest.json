@@ -1,1 +1,11 @@
-{"id":"notion-like-tables","name":"DataLoom","minAppVersion":"1.4.0","description":"Weave together data from diverse sources into different views. Inspired by Excel Spreadsheets and Notion.so.","author":"DecafDev","authorUrl":"https://github.com/decaf-dev","isDesktopOnly":false,"fundingUrl":"https://ko-fi.com/decaf_dev","version":"8.16.1"}
+{
+    "id": "notion-like-tables",
+    "name": "DataLoom",
+    "minAppVersion": "1.4.0",
+    "description": "将来自不同来源的数据编织成不同的视图。灵感来自Excel电子表格和概念。",
+    "author": "DecafDev",
+    "authorUrl": "https://github.com/decaf-dev",
+    "isDesktopOnly": false,
+    "fundingUrl": "https://ko-fi.com/decaf_dev",
+    "version": "8.16.1"
+}

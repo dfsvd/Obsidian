@@ -6,9 +6,13 @@
   "obsidian-git",
   "easy-typing-obsidian",
   "typewriter-mode",
-  "pkmer",
   "i18n",
   "mysnippets-plugin",
   "calendar-event-sync",
-  "obsidian-hover-editor"
+  "obsidian-hover-editor",
+  "table-editor-obsidian",
+  "obsidian-linter",
+  "dataview",
+  "templater-obsidian",
+  "obsidian-tasks-plugin"
 ]

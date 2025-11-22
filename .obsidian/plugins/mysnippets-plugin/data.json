@@ -2,6 +2,6 @@
   "aestheticStyle": false,
   "snippetViewPosition": "left",
   "openSnippetFile": true,
-  "stylingTemplate": "/*编辑视图的标题背景色和文字色*/\n.HyperMD-header.HyperMD-header-1.cm-line{\n    background-color:#A41F1F ;\n    color:white;\n}\n\n.HyperMD-header.HyperMD-header-2.cm-line{\n    background-color:#A41F1F ;\n    color:white;\n}\n\n.HyperMD-header.HyperMD-header-3.cm-line{\n    background-color:#A41F1F ;\n    color:white;\n}\n\n/*阅读视图的标题背景色和文字色*/\nh1 {\n    background-color:#A41F1F ;\n    color:white;   \n}\n\nh2 {\n    background-color:#A41F1F ;\n    color:white;   \n}\n\nh3 {\n    background-color:#A41F1F ;\n    color:white;   \n}\n",
+  "stylingTemplate": "",
   "snippetEnabledStatus": false
 }
