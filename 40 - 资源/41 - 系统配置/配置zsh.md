@@ -1,4 +1,4 @@
-# 摘要
+y# 摘要
 *   **安装必备依赖**：更新系统并安装 Zsh、Git、Neovim 等核心工具。
 *   **配置中文环境**：编辑 `/etc/locale.gen` 文件以启用 `en_US.UTF-8` 和 `zh_CN.UTF-8`，生成 locale，并设置 `LANG=zh_CN.UTF-8` 全局变量。
 *   **安装 Oh My Zsh**：使用 curl 脚本自动安装 Oh My Zsh，并将其设置为默认 Shell。
