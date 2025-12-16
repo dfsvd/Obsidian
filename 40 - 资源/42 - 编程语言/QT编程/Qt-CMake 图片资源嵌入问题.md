@@ -18,9 +18,14 @@ UI 设计器 (Designer) 中图片显示正常，但在编译运行后的程序�
 这是解决图片丢失问题的核心步骤。使用 Qt 提供的 CMake 函数将 `.qrc` 文件编译成 C++ 代码，并将其加入到您的可执行程序中
 ```cmake
 qt_add_resources(RCC_SOURCES res.qrc)
-target_sources(demo9_2 PRIVATE ${RCC_SOURCES})
+target_sources(demo PRIVATE ${RCC_SOURCES})
 ```
 
+>  注意
+>  1. res.qrc 要换为项目实际要添加的 qrc 文件
+>  2. demo 要换为项目的实际的名称
+
+解释
 1. **编译资源文件：**
 将生成的 C++ 源文件添加到您的目标程序（例如：your_target_app）的编译列表
 ```CMake

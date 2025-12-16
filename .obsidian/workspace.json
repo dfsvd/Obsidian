@@ -67,12 +67,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - 资源/41 - 系统配置/开发板.md",
+                "file": "40 - 资源/42 - 编程语言/QT编程/添加QtNetware模块.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "开发板"
+              "title": "添加QtNetware模块"
             }
           }
         ],
@@ -293,10 +293,11 @@
   },
   "active": "45a4c4085258cb6f",
   "lastOpenFiles": [
-    "40 - 资源/41 - 系统配置/解决niri中的x11应用光标问题.md",
-    "40 - 资源/41 - 系统配置/开发板.md",
-    "40 - 资源/41 - 系统配置/Fcitx5配置中文输入法.md",
     "40 - 资源/42 - 编程语言/QT编程/Qt-CMake 图片资源嵌入问题.md",
+    "40 - 资源/42 - 编程语言/QT编程/添加QtNetware模块.md",
+    "40 - 资源/41 - 系统配置/开发板.md",
+    "40 - 资源/41 - 系统配置/解决niri中的x11应用光标问题.md",
+    "40 - 资源/41 - 系统配置/Fcitx5配置中文输入法.md",
     "00 - 收件箱/线程通信.assets/167996.png",
     "00 - 收件箱/线程通信.assets/image-20251114195908138.png",
     "00 - 收件箱/线程通信.assets/image-20251114195912388.png",
