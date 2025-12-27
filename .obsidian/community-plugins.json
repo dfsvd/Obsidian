@@ -14,5 +14,6 @@
   "obsidian-linter",
   "dataview",
   "templater-obsidian",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-excalidraw-plugin"
 ]
