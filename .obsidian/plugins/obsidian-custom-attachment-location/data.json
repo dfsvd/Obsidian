@@ -2,6 +2,8 @@
   "attachmentFolderPath": "./images/${noteFileName}",
   "attachmentRenameMode": "Only pasted images",
   "collectAttachmentUsedByMultipleNotesMode": "Skip",
+  "collectedAttachmentFileName": "",
+  "convertImagesToJpegMode": "Only pasted clipboard PNG images",
   "customTokensStr": "",
   "defaultImageSize": "",
   "defaultImageSizeDimension": "width",
@@ -13,8 +15,10 @@
   "includePaths": [],
   "jpegQuality": 0.8,
   "markdownUrlFormat": "",
-  "shouldConvertPastedImagesToJpeg": true,
+  "moveAttachmentToProperFolderUsedByMultipleNotesMode": "CopyAll",
+  "renamedAttachmentFileName": "",
   "shouldDeleteOrphanAttachments": false,
+  "shouldHandleRenames": true,
   "shouldRenameAttachmentFiles": true,
   "shouldRenameAttachmentFolder": true,
   "shouldRenameCollectedAttachments": false,
@@ -24,5 +28,5 @@
   "treatAsAttachmentExtensions": [
     ".excalidraw.md"
   ],
-  "version": "9.17.12"
+  "version": "9.26.4"
 }

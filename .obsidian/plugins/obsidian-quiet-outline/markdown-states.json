@@ -1,0 +1,170 @@
+{
+  "C语言易忘关键词.md": {
+    "scroll": 0.19505789865839077,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "VSCode开发STM32.md": {
+    "scroll": 0.15770497249727647,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "寄存器开发、位带操作与底层优化.md": {
+    "scroll": 218.45489119828807,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 7
+      },
+      "to": {
+        "line": 23,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "寄存器与位带操作.md": {
+    "scroll": 0.19505789865839077,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "时钟体系学习笔记.md": {
+    "scroll": 0.19505789865839077,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "未命名.md": {
+    "scroll": 0.15952533498271057,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 40
+      },
+      "to": {
+        "line": 0,
+        "ch": 40
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/STM32/CubeMx创建项目.md": {
+    "scroll": 0.19505789865839077,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/STM32/时钟体系学习笔记.md": {
+    "scroll": 0.18531281682980402,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/STM32/寄存器与位带操作.md": {
+    "scroll": 51.67266288481154,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/STM32/VSCode开发STM32.md": {
+    "scroll": 0.15770497249727647,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "STM32F407 标准库工程.md": {
+    "scroll": 0.28422212702758876,
+    "cursor": {
+      "from": {
+        "line": 36,
+        "ch": 0
+      },
+      "to": {
+        "line": 36,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "STM32F407 标准库模板.md": {
+    "scroll": 104.964274895885,
+    "cursor": {
+      "from": {
+        "line": 118,
+        "ch": 7
+      },
+      "to": {
+        "line": 118,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
+  }
+}
