@@ -15,5 +15,7 @@
   "dataview",
   "templater-obsidian",
   "obsidian-tasks-plugin",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-image-toolkit",
+  "mousewheel-image-zoom"
 ]

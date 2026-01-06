@@ -3,7 +3,7 @@
   "theme": "obsidian",
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono,Maple Mono NF CN",
   "textFontFamily": "Maple Mono NF CN",
-  "baseFontSize": 18,
+  "baseFontSize": 20,
   "baseFontSizeAction": true,
   "nativeMenus": false,
   "enabledCssSnippets": [

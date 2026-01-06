@@ -1,4 +1,4 @@
-# 创建基础 STM32 HAL 库项目指南
+## 创建基础 STM32 HAL 库项目指南
 ### 1. 新建工程
 打开 STM32CubeMX，点击主界面的 **"Access to MCU Selector"** 或 **"File -> New Project"**。
 ### 2. 芯片选型

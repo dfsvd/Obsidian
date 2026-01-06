@@ -9,5 +9,6 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
   "showIndentGuide": false,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "readableLineLength": false
 }

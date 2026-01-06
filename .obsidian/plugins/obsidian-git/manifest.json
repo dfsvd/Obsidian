@@ -3,8 +3,8 @@
     "authorUrl": "https://github.com/Vinzent03",
     "id": "obsidian-git",
     "name": "Git",
-    "description": "添加了在新版本中没有的部分翻译，优化了部分机翻语句",
+    "description": "Integrate Git version control with automatic backup and other advanced features.",
     "isDesktopOnly": false,
     "fundingUrl": "https://ko-fi.com/vinzent",
-    "version": "2.35.2"
+    "version": "2.36.0"
 }

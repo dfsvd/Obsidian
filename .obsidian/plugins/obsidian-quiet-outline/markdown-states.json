@@ -70,20 +70,187 @@
     "expandedKeys": []
   },
   "未命名.md": {
-    "scroll": 0.15952533498271057,
+    "scroll": 0.12980358667805295,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 40
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 40
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/CubeMx创建项目.md": {
+    "scroll": 0.16196875818134218,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/时钟体系学习笔记.md": {
+    "scroll": 0.16468166446110866,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-1-5",
+      "item-1-8",
+      "item-2-10",
+      "item-2-13"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/寄存器与位带操作.md": {
+    "scroll": 0.16468166446110866,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-2-4",
+      "item-1-7",
+      "item-1-10"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/VSCode开发STM32.md": {
+    "scroll": 0.17421007685738685,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "STM32F407 标准库工程.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 36,
+        "ch": 0
+      },
+      "to": {
+        "line": 36,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-7",
+      "item-2-11"
+    ]
+  },
+  "STM32F407 标准库模板.md": {
+    "scroll": 0.32140829940873883,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 26
+      },
+      "to": {
+        "line": 2,
+        "ch": 26
+      }
+    },
+    "expandedKeys": [
+      "item-2-7",
+      "item-2-11"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/STM32F407 标准库模板.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 102,
+        "ch": 47
+      },
+      "to": {
+        "line": 102,
+        "ch": 47
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-5",
+      "item-2-12"
+    ]
+  },
+  "Markdown 语法速查手册.md": {
+    "scroll": 67.67492445764462,
+    "cursor": {
+      "from": {
+        "line": 81,
+        "ch": 0
+      },
+      "to": {
+        "line": 81,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-2",
+      "item-1-6",
+      "item-1-9",
+      "item-1-12",
+      "item-1-16",
+      "item-2-17"
+    ]
+  },
+  "90 - 系统文件/Markdown 语法速查手册.md": {
+    "scroll": 87.1146446800157,
+    "cursor": {
+      "from": {
+        "line": 95,
+        "ch": 2
+      },
+      "to": {
+        "line": 96,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-1-2",
+      "item-1-6",
+      "item-1-9",
+      "item-1-12",
+      "item-1-16",
+      "item-2-17"
+    ]
+  },
+  "40 - 资源/41 - 系统配置/解决niri中的x11应用光标问题.md": {
     "scroll": 0.19505789865839077,
     "cursor": {
       "from": {
@@ -97,35 +264,7 @@
     },
     "expandedKeys": []
   },
-  "40 - 资源/42 - 编程语言/STM32/时钟体系学习笔记.md": {
-    "scroll": 0.18531281682980402,
-    "cursor": {
-      "from": {
-        "line": 0,
-        "ch": 0
-      },
-      "to": {
-        "line": 0,
-        "ch": 0
-      }
-    },
-    "expandedKeys": []
-  },
-  "40 - 资源/42 - 编程语言/STM32/寄存器与位带操作.md": {
-    "scroll": 51.67266288481154,
-    "cursor": {
-      "from": {
-        "line": 0,
-        "ch": 0
-      },
-      "to": {
-        "line": 0,
-        "ch": 0
-      }
-    },
-    "expandedKeys": []
-  },
-  "40 - 资源/42 - 编程语言/STM32/VSCode开发STM32.md": {
+  "40 - 资源/41 - 系统配置/开发板.md": {
     "scroll": 0.15770497249727647,
     "cursor": {
       "from": {
@@ -139,30 +278,803 @@
     },
     "expandedKeys": []
   },
-  "STM32F407 标准库工程.md": {
-    "scroll": 0.28422212702758876,
+  "40 - 资源/41 - 系统配置/配置中文输入法.md": {
+    "scroll": 0.15770497249727647,
     "cursor": {
       "from": {
-        "line": 36,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 36,
+        "line": 0,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
-  "STM32F407 标准库模板.md": {
-    "scroll": 104.964274895885,
+  "40 - 资源/41 - 系统配置/Fcitx5配置中文输入法.md": {
+    "scroll": 0.19505789865839077,
     "cursor": {
       "from": {
-        "line": 118,
-        "ch": 7
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 118,
-        "ch": 7
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-3",
+      "item-2-7"
+    ]
+  },
+  "40 - 资源/41 - 系统配置/双系统蓝牙共用指南.md": {
+    "scroll": 0.19505789865839077,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4"
+    ]
+  },
+  "40 - 资源/41 - 系统配置/配置zsh.md": {
+    "scroll": 0.15770497249727647,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/41 - 系统配置/配置ghostty.md": {
+    "scroll": 0.19505789865839077,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "小狼毫.md": {
+    "scroll": 0.28808552539035026,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 10
+      },
+      "to": {
+        "line": 1,
+        "ch": 15
+      }
+    },
+    "expandedKeys": [
+      "item-1-1",
+      "item-1-4",
+      "item-1-8",
+      "item-1-11",
+      "item-1-17",
+      "item-1-20"
+    ]
+  },
+  "小鹤双拼.md": {
+    "scroll": 0.9465686533749361,
+    "cursor": {
+      "from": {
+        "line": 16,
+        "ch": 10
+      },
+      "to": {
+        "line": 16,
+        "ch": 10
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/41 - 系统配置/小狼毫.md": {
+    "scroll": 0.28808552539035026,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 10
+      },
+      "to": {
+        "line": 1,
+        "ch": 15
+      }
+    },
+    "expandedKeys": [
+      "item-1-1",
+      "item-1-4",
+      "item-1-8",
+      "item-1-11",
+      "item-1-17",
+      "item-1-20"
+    ]
+  },
+  "40 - 资源/41 - 系统配置/windows下rime配置.md": {
+    "scroll": 0.8993184303203822,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 93
+      },
+      "to": {
+        "line": 0,
+        "ch": 93
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-4",
+      "item-1-7",
+      "item-1-13",
+      "item-1-16"
+    ]
+  },
+  "异常与中断.md": {
+    "scroll": 181.12422787656638,
+    "cursor": {
+      "from": {
+        "line": 199,
+        "ch": 0
+      },
+      "to": {
+        "line": 199,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-2",
+      "item-2-9",
+      "item-2-16",
+      "item-2-18",
+      "item-2-24",
+      "item-2-27"
+    ]
+  },
+  "提示词.md": {
+    "scroll": 0.6928213689482471,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 2
+      },
+      "to": {
+        "line": 6,
+        "ch": 55
+      }
+    },
+    "expandedKeys": []
+  },
+  "VSCode插件配置.md": {
+    "scroll": 0.2244778657596854,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 4
+      },
+      "to": {
+        "line": 2,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "30 - 领域/未命名.md": {
+    "scroll": 0.13068993104818225,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "30 - 领域/STM32.md": {
+    "scroll": 0.356542431485738,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 52
+      },
+      "to": {
+        "line": 4,
+        "ch": 52
+      }
+    },
+    "expandedKeys": []
+  },
+  "30 - 领域/并发编程.md": {
+    "scroll": 0.1634559241852863,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/STM32/异常与中断.md": {
+    "scroll": 0.12980358667805295,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "系统定时器.md": {
+    "scroll": 0.1725233464908058,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 26
+      },
+      "to": {
+        "line": 0,
+        "ch": 26
+      }
+    },
+    "expandedKeys": []
+  },
+  "系统定时器（精准延时）.md": {
+    "scroll": 161.55,
+    "cursor": {
+      "from": {
+        "line": 179,
+        "ch": 26
+      },
+      "to": {
+        "line": 179,
+        "ch": 26
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-5",
+      "item-2-9",
+      "item-2-12",
+      "item-3-14"
+    ]
+  },
+  "外设定时器.md": {
+    "scroll": 0.17737003058103976,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 9
+      },
+      "to": {
+        "line": 0,
+        "ch": 9
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-1-11",
+      "item-1-17",
+      "item-1-22"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/外设定时器.md": {
+    "scroll": 0.16468166446110866,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 9
+      },
+      "to": {
+        "line": 0,
+        "ch": 9
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-1-11",
+      "item-1-17",
+      "item-1-22"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/系统定时器（精准延时）.md": {
+    "scroll": 0.16468166446110866,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-5",
+      "item-2-9",
+      "item-2-12"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/007_寄存器与位带操作.md": {
+    "scroll": 0.16468166446110866,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-2-4",
+      "item-1-7",
+      "item-1-10"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/007_系统定时器（精准延时）.md": {
+    "scroll": 0.16468166446110866,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-5",
+      "item-2-9",
+      "item-2-12"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/005_异常与中断.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 2
+      },
+      "to": {
+        "line": 1,
+        "ch": 2
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-2",
+      "item-2-9",
+      "item-2-16",
+      "item-2-18",
+      "item-2-24",
+      "item-2-27"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/008_外设定时器.md": {
+    "scroll": 0.16468166446110866,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-1-11",
+      "item-1-17",
+      "item-1-22"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/006_1STM32F407 标准库模板.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 54,
+        "ch": 0
+      },
+      "to": {
+        "line": 54,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-5",
+      "item-2-12"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/006_异常与中断.md": {
+    "scroll": 0.6085379601039063,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 6
+      },
+      "to": {
+        "line": 5,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-2",
+      "item-2-9",
+      "item-2-16",
+      "item-2-18",
+      "item-2-24",
+      "item-2-27"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/006_1 STM32F407 标准库模板.md": {
+    "scroll": 41.80326911850555,
+    "cursor": {
+      "from": {
+        "line": 54,
+        "ch": 0
+      },
+      "to": {
+        "line": 54,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-5",
+      "item-2-12"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/004_时钟体系学习笔记.md": {
+    "scroll": 0.16468166446110866,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-1-5",
+      "item-1-8",
+      "item-2-10",
+      "item-2-13"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/005_寄存器与位带操作.md": {
+    "scroll": 0.16468166446110866,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-2-4",
+      "item-1-7",
+      "item-1-10"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/008_ 外设定时器.md": {
+    "scroll": 217.6238095238095,
+    "cursor": {
+      "from": {
+        "line": 231,
+        "ch": 13
+      },
+      "to": {
+        "line": 231,
+        "ch": 13
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-1-11",
+      "item-1-17",
+      "item-1-22",
+      "item-3-7"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/007_ 系统定时器（精准延时）.md": {
+    "scroll": 13.614842554562294,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 110
+      },
+      "to": {
+        "line": 19,
+        "ch": 110
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-5",
+      "item-2-9",
+      "item-2-12"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/006_ 异常与中断.md": {
+    "scroll": 210.69747725392887,
+    "cursor": {
+      "from": {
+        "line": 223,
+        "ch": 12
+      },
+      "to": {
+        "line": 223,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-2",
+      "item-2-9",
+      "item-2-16",
+      "item-2-18",
+      "item-2-24",
+      "item-2-27"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/004_ 时钟体系学习笔记.md": {
+    "scroll": 157.6964643095397,
+    "cursor": {
+      "from": {
+        "line": 179,
+        "ch": 52
+      },
+      "to": {
+        "line": 179,
+        "ch": 52
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-1-5",
+      "item-1-8",
+      "item-2-10",
+      "item-2-13"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/004_ 时钟体系.md": {
+    "scroll": 42.99893050170929,
+    "cursor": {
+      "from": {
+        "line": 42,
+        "ch": 52
+      },
+      "to": {
+        "line": 42,
+        "ch": 2
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-1-5",
+      "item-1-8",
+      "item-2-10",
+      "item-2-13"
+    ]
+  },
+  "串口.md": {
+    "scroll": 0.16468166446110866,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 6
+      },
+      "to": {
+        "line": 0,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-15"
+    ]
+  },
+  "009_ 串口通信.md": {
+    "scroll": 0.16468166446110866,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 6
+      },
+      "to": {
+        "line": 0,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-15"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/009_ 串口通信.md": {
+    "scroll": 201.38463541666667,
+    "cursor": {
+      "from": {
+        "line": 219,
+        "ch": 1
+      },
+      "to": {
+        "line": 219,
+        "ch": 1
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-15",
+      "item-4-19",
+      "item-3-17"
+    ]
+  },
+  "启动文件.md": {
+    "scroll": 24.597395833333334,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 10
+      },
+      "to": {
+        "line": 35,
+        "ch": 95
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-3-6"
+    ]
+  },
+  "ST-Like.md": {
+    "scroll": 25.24489019868809,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 40
+      },
+      "to": {
+        "line": 29,
+        "ch": 40
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/STM32/ST-Like.md": {
+    "scroll": 25.243590962385525,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 40
+      },
+      "to": {
+        "line": 29,
+        "ch": 40
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/STM32/005_ 寄存器与位带操作.md": {
+    "scroll": 0.1652120467117394,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "时序图编程.md": {
+    "scroll": 203.0441121495327,
+    "cursor": {
+      "from": {
+        "line": 212,
+        "ch": 0
+      },
+      "to": {
+        "line": 212,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4",
+      "item-2-7",
+      "item-2-11"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/时序图编程.md": {
+    "scroll": 0.12917933130699089,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/STM32/010_ 时序图编程.md": {
+    "scroll": 214.04375,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
