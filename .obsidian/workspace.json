@@ -346,8 +346,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3dca10f8e73152aa",
+  "active": "87cede46b05355c3",
   "lastOpenFiles": [
+    "images/蓝牙模块/file-20260113001136757.jpg",
+    "images/蓝牙模块/file-20260113001120500.jpg",
     "images/蓝牙模块",
     "images/蓝牙模块/file-20260112202451843.jpg",
     "images/蓝牙模块/file-20260112202451849.jpg",
@@ -380,7 +382,6 @@
     "40 - 资源/42 - 编程语言/STM32/006_1 STM32F407 标准库模板.md",
     "40 - 资源/42 - 编程语言/STM32/VSCode开发STM32.md",
     "images/RTC时钟/file-20260112110043296.jpg",
-    "images/RTC时钟/file-20260112103811787.jpg",
     "images/RTC时钟",
     "images/图片取模",
     "40 - 资源/49 - 代码片段/u8g2_fonts_mini.h",
@@ -391,7 +392,6 @@
     "40 - 资源/43 - 工具配置/系统工具/images/Thermal Control Center",
     "40 - 资源/43 - 工具配置/系统工具/images",
     "40 - 资源/43 - 工具配置/系统工具",
-    "40 - 资源/43 - 工具配置/nivm",
     "40 - 资源/43 - 工具配置/nvim配置.md",
     "40 - 资源/42 - 编程语言/并发编程/4. 管道.md",
     "未命名.canvas"
