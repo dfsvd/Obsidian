@@ -8,21 +8,115 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0f3593d9bddc8920",
+            "id": "e7591488466df3aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - 资源/42 - 编程语言/STM32/009_ 串口通信.md",
+                "file": "40 - 资源/42 - 编程语言/STM32/移植FreeRTOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "009_ 串口通信"
+              "title": "移植FreeRTOS"
             }
           },
           {
-            "id": "e7591488466df3aa",
+            "id": "3128dcf3690eab3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-10 20.08.59.excalidraw.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Drawing 2026-01-10 20.08.59.excalidraw"
+            }
+          },
+          {
+            "id": "c3d7979e0e1088e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40 - 资源/43 - 工具配置/系统工具/Thermal Control Center.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Thermal Control Center"
+            }
+          },
+          {
+            "id": "eb6f614835b2794b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/images/Drawing 2026-01-10 20.08.59.excalidraw/IMG_20260110_200657.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "IMG_20260110_200657"
+            }
+          },
+          {
+            "id": "3a5d52ced07003d4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/images/Drawing 2026-01-10 20.08.59.excalidraw/Pasted Image 20260110201644_728.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted Image 20260110201644_728"
+            }
+          },
+          {
+            "id": "263ff1f50a0c4615",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "90 - 系统文件/Markdown 语法速查手册.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Markdown 语法速查手册"
+            }
+          },
+          {
+            "id": "9c7722a7ded43f4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VSCode插件配置.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VSCode插件配置"
+            }
+          },
+          {
+            "id": "87cede46b05355c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "蓝牙模块.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "蓝牙模块"
+            }
+          },
+          {
+            "id": "a4de13b1f3fb83a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,7 +129,8 @@
               "title": "提示词"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -92,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
+    "width": 339.5,
     "collapsed": true
   },
   "right": {
@@ -251,53 +346,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f3593d9bddc8920",
+  "active": "3dca10f8e73152aa",
   "lastOpenFiles": [
-    "40 - 资源/42 - 编程语言/STM32/005_ 寄存器与位带操作.md",
-    "40 - 资源/42 - 编程语言/STM32/009_ 串口通信.md",
-    "40 - 资源/42 - 编程语言/STM32/010_ 时序图编程.md",
-    "40 - 资源/42 - 编程语言/STM32/CubeMx创建项目.md",
-    "提示词.md",
-    "40 - 资源/42 - 编程语言/STM32/images/010_ 时序图编程",
-    "40 - 资源/42 - 编程语言/STM32/images/010_时序图编程",
-    "40 - 资源/42 - 编程语言/STM32/008_ 外设定时器.md",
-    "40 - 资源/42 - 编程语言/STM32/启动文件.md",
-    "40 - 资源/42 - 编程语言/STM32/images/时序图编程",
-    "40 - 资源/42 - 编程语言/STM32/images/010_ 时序图编程/file-20260106105923718.jpg",
-    "40 - 资源/42 - 编程语言/STM32/images/010_ 时序图编程/file-20260106105923720.jpg",
-    "90 - 系统文件/Markdown 语法速查手册.md",
-    "40 - 资源/42 - 编程语言/STM32/images/010_ 时序图编程/file-20260106105923726.jpg",
-    "40 - 资源/42 - 编程语言/STM32/images/010_ 时序图编程/file-20260106105923727.jpg",
-    "images/时序图编程",
-    "小鹤双拼.md",
-    "Excalidraw/Drawing 2026-01-05 09.13.59.excalidraw.md",
-    "40 - 资源/42 - 编程语言/STM32/004_ 时钟体系.md",
-    "40 - 资源/42 - 编程语言/STM32/006_ 异常与中断.md",
-    "40 - 资源/42 - 编程语言/STM32/006_1 STM32F407 标准库模板.md",
-    "40 - 资源/42 - 编程语言/STM32/007_ 系统定时器（精准延时）.md",
-    "40 - 资源/42 - 编程语言/STM32/ST-Like.md",
-    "VSCode插件配置.md",
-    "40 - 资源/42 - 编程语言/STM32/VSCode开发STM32.md",
-    "40 - 资源/42 - 编程语言/STM32/images/ST-Like",
-    "40 - 资源/42 - 编程语言/STM32/images/ST-Like/file-20260105135525029.jpg",
-    "40 - 资源/42 - 编程语言/STM32/images/ST-Like/file-20260105135525040.jpg",
-    "images/ST-Like",
-    "40 - 资源/42 - 编程语言/STM32/images/009_ 串口通信",
-    "images/009_ 串口通信",
-    "images/串口",
-    "40 - 资源/42 - 编程语言/STM32/images/009_ 串口通信/file-20260105010848594.jpg",
-    "40 - 资源/42 - 编程语言/STM32/images/009_ 串口通信/file-20260105010848614.jpg",
-    "40 - 资源/42 - 编程语言/STM32/images/009_ 串口通信/file-20260105010848615.jpg",
-    "40 - 资源/42 - 编程语言/STM32/images/009_ 串口通信/file-20260105010848616.jpg",
+    "images/蓝牙模块",
+    "images/蓝牙模块/file-20260112202451843.jpg",
+    "images/蓝牙模块/file-20260112202451849.jpg",
+    "images/蓝牙模块/file-20260112202451853.jpg",
+    "images/蓝牙模块/file-20260112202451859.jpg",
+    "images/蓝牙模块/file-20260112202451861.jpg",
+    "images/蓝牙模块/file-20260112202451862.jpg",
+    "images/蓝牙模块/file-20260112202451863.jpg",
     "images/未命名",
-    "Excalidraw/Drawing 2026-01-04 10.53.47.excalidraw.md",
-    "Excalidraw/Drawing 2026-01-04 10.53.48.excalidraw.md",
+    "VSCode插件配置.md",
+    "蓝牙模块.md",
+    "40 - 资源/43 - 工具配置/nivm/nvim配置.md",
+    "40 - 资源/43 - 工具配置/nivm/nvim自动切换输入法.md",
+    "40 - 资源/43 - 工具配置/系统工具/Thermal Control Center.md",
+    "提示词.md",
+    "图片取模.md",
+    "小鹤双拼.md",
+    "专业英语.md",
+    "ESP基础.md",
+    "IIC协议.md",
+    "RTC时钟.md",
+    "SPI 协议.md",
+    "40 - 资源/42 - 编程语言/STM32/移植FreeRTOS.md",
+    "40 - 资源/42 - 编程语言/STM32/images/移植FreeRTOS/file-20260112171614126.jpg",
+    "40 - 资源/42 - 编程语言/STM32/images/移植FreeRTOS",
+    "40 - 资源/42 - 编程语言/STM32/移植 u8g2.md",
+    "40 - 资源/42 - 编程语言/STM32/CubeMx创建项目.md",
+    "40 - 资源/42 - 编程语言/STM32/启动文件.md",
+    "40 - 资源/42 - 编程语言/STM32/ST-Like.md",
+    "40 - 资源/42 - 编程语言/STM32/006_1 STM32F407 标准库模板.md",
+    "40 - 资源/42 - 编程语言/STM32/VSCode开发STM32.md",
+    "images/RTC时钟/file-20260112110043296.jpg",
+    "images/RTC时钟/file-20260112103811787.jpg",
+    "images/RTC时钟",
+    "images/图片取模",
+    "40 - 资源/49 - 代码片段/u8g2_fonts_mini.h",
+    "40 - 资源/49 - 代码片段/u8g2_fonts_mini.c",
+    "90 - 系统文件/Markdown 语法速查手册.md",
+    "Excalidraw/Drawing 2026-01-10 20.08.59.excalidraw.md",
     "30 - 领域/STM32.md",
-    "30 - 领域/并发编程.md",
-    "40 - 资源/41 - 系统配置/windows下rime配置.md",
-    "40 - 资源/41 - 系统配置/配置ghostty.md",
-    "40 - 资源/41 - 系统配置/配置中文输入法.md",
-    "40 - 资源/41 - 系统配置/解决niri中的x11应用光标问题.md",
+    "40 - 资源/43 - 工具配置/系统工具/images/Thermal Control Center",
+    "40 - 资源/43 - 工具配置/系统工具/images",
+    "40 - 资源/43 - 工具配置/系统工具",
+    "40 - 资源/43 - 工具配置/nivm",
+    "40 - 资源/43 - 工具配置/nvim配置.md",
+    "40 - 资源/42 - 编程语言/并发编程/4. 管道.md",
     "未命名.canvas"
   ]
 }
