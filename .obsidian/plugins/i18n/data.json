@@ -1,7 +1,7 @@
 {
   "I18N_AGREEMENT": true,
   "I18N_WIZARD": false,
-  "I18N_UUID": "6d2edf97-246e-47b1-a43d-2d6339286f08",
+  "I18N_UUID": "b318a630-bf15-47ca-ada8-307017ea808c",
   "I18N_LANGUAGE": "zh-cn",
   "I18N_COLOR": "#409EFF",
   "I18N_AUTHOR": "",
@@ -13,9 +13,13 @@
   "I18N_TYPE": "0",
   "I18N_MODE": 0,
   "I18N_NOTICE": true,
+  "I18N_START_TIME": true,
   "I18N_MODE_LDT": true,
   "I18N_AUTOMATIC_UPDATE": false,
   "I18N_INCREMENTAL_EXTRACTION": false,
+  "I18N_NAME_TRANSLATION": false,
+  "I18N_NAME_TRANSLATION_PREFIX": "[",
+  "I18N_NAME_TRANSLATION_SUFFIX": "]",
   "I18N_STYLE_SETTINGS": "obsidian-style-settings",
   "I18N_MODE_NDT": true,
   "I18N_IGNORE": false,
@@ -36,11 +40,21 @@
   "I18N_NIT_OPENAI_MODEL": "gpt-3.5-turbo",
   "I18N_NIT_OPENAI_TIPS": "你是一个翻译工作者，你将进行obsidian笔记软件的插件翻译，本次翻译的插件名称为: ${plugin}，请结合插件名称以及软件翻译的标准进行后续工作，因为大多数文本长度较短，请以符合中文习惯的方式翻译。接下来我会提交给你很多英文文本，请将其翻译为简体中文，并且只返回给我翻译后的内容",
   "I18N_MODE_IMT": false,
-  "I18N_IMT_PAGERULE": {
+  "I18N_IMT_CONFIG": {
     "selectors": [
       "*"
     ],
-    "excludeSelectors": []
+    "excludeSelectors": [
+      ".modal .i18n__container"
+    ],
+    "excludeTags": [],
+    "additionalSelectors": [],
+    "additionalExcludeSelectors": [],
+    "additionalExcludeTags": [],
+    "stayOriginalSelectors": [],
+    "stayOriginalTags": [],
+    "atomicBlockSelectors": [],
+    "atomicBlockTags": []
   },
   "I18N_SHARE_MODE": true,
   "I18N_SHARE_TOKEN": "",
@@ -91,25 +105,5 @@
   "I18N_TAG_TYPE": "light",
   "I18N_TAG_SHAPE": "square",
   "I18N_BUTTON_TYPE": "default",
-  "I18N_BUTTON_SHAPE": "square",
-  "I18N_START_TIME": true,
-  "I18N_NAME_TRANSLATION": false,
-  "I18N_NAME_TRANSLATION_PREFIX": "[",
-  "I18N_NAME_TRANSLATION_SUFFIX": "]",
-  "I18N_IMT_CONFIG": {
-    "selectors": [
-      "*"
-    ],
-    "excludeSelectors": [
-      ".modal .i18n__container"
-    ],
-    "excludeTags": [],
-    "additionalSelectors": [],
-    "additionalExcludeSelectors": [],
-    "additionalExcludeTags": [],
-    "stayOriginalSelectors": [],
-    "stayOriginalTags": [],
-    "atomicBlockSelectors": [],
-    "atomicBlockTags": []
-  }
+  "I18N_BUTTON_SHAPE": "square"
 }

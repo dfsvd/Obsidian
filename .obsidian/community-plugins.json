@@ -6,16 +6,18 @@
   "obsidian-git",
   "easy-typing-obsidian",
   "typewriter-mode",
-  "i18n",
   "mysnippets-plugin",
   "calendar-event-sync",
   "obsidian-hover-editor",
   "table-editor-obsidian",
   "obsidian-linter",
   "dataview",
-  "templater-obsidian",
   "obsidian-tasks-plugin",
   "obsidian-excalidraw-plugin",
   "obsidian-image-toolkit",
-  "mousewheel-image-zoom"
+  "mousewheel-image-zoom",
+  "copilot",
+  "pdf-plus",
+  "pkmer",
+  "i18n"
 ]

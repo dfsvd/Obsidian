@@ -1,4 +1,4 @@
-# niri 配置文件统一主题
+## niri 配置文件统一主题
 1. Nvim 打开 niri 配置文件
 ```sh
 nvim ./.config/niri/config.kdl

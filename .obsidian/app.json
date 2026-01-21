@@ -10,5 +10,9 @@
   "showUnsupportedFiles": true,
   "showIndentGuide": false,
   "rightToLeft": false,
-  "readableLineLength": false
+  "readableLineLength": true,
+  "autoPairBrackets": true,
+  "openBehavior": "",
+  "foldIndent": true,
+  "foldHeading": true
 }

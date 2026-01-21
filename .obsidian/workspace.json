@@ -4,133 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "93bd6ad6579ed79e",
+        "id": "9df3b5a8a7d9c0fb",
         "type": "tabs",
         "children": [
           {
-            "id": "e7591488466df3aa",
+            "id": "9778b5f3f5369558",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - 资源/42 - 编程语言/STM32/移植FreeRTOS.md",
+                "file": "40 - 资源/44 - 提示词/技术博客.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "移植FreeRTOS"
+              "title": "技术博客"
             }
           },
           {
-            "id": "3128dcf3690eab3e",
+            "id": "7c29227bfbb0dd72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-01-10 20.08.59.excalidraw.md",
+                "file": "40 - 资源/42 - 编程语言/freeRTOS/未命名.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Drawing 2026-01-10 20.08.59.excalidraw"
+              "title": "未命名"
             }
           },
           {
-            "id": "c3d7979e0e1088e2",
+            "id": "e0ee3f80d2b69f61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - 资源/43 - 工具配置/系统工具/Thermal Control Center.md",
+                "file": "信号量.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Thermal Control Center"
-            }
-          },
-          {
-            "id": "eb6f614835b2794b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Excalidraw/images/Drawing 2026-01-10 20.08.59.excalidraw/IMG_20260110_200657.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "IMG_20260110_200657"
-            }
-          },
-          {
-            "id": "3a5d52ced07003d4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Excalidraw/images/Drawing 2026-01-10 20.08.59.excalidraw/Pasted Image 20260110201644_728.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted Image 20260110201644_728"
-            }
-          },
-          {
-            "id": "263ff1f50a0c4615",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "90 - 系统文件/Markdown 语法速查手册.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Markdown 语法速查手册"
-            }
-          },
-          {
-            "id": "9c7722a7ded43f4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VSCode插件配置.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VSCode插件配置"
-            }
-          },
-          {
-            "id": "87cede46b05355c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "蓝牙模块.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "蓝牙模块"
-            }
-          },
-          {
-            "id": "a4de13b1f3fb83a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "提示词.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "提示词"
+              "title": "信号量"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 321.5
   },
   "right": {
     "id": "34967fd00587cf4a",
@@ -197,7 +146,7 @@
       {
         "id": "2b69a50ff19d1be4",
         "type": "tabs",
-        "dimension": 32.38095238095238,
+        "dimension": 30.438931297709924,
         "children": [
           {
             "id": "0c16fa3d5e5c6903",
@@ -205,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "测试.md",
+                "file": "50 - 图书/野火 FreeRTOS 内核实现与应用开发实战.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "测试 的反向链接列表"
+              "title": "野火 FreeRTOS 内核实现与应用开发实战 的反向链接列表"
             }
           },
           {
@@ -224,12 +173,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "测试.md",
+                "file": "50 - 图书/野火 FreeRTOS 内核实现与应用开发实战.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "测试 的出链列表"
+              "title": "野火 FreeRTOS 内核实现与应用开发实战 的出链列表"
             }
           },
           {
@@ -238,22 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "50 - 图书/野火 FreeRTOS 内核实现与应用开发实战.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "5c43ab56bcbc7c9c",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "野火 FreeRTOS 内核实现与应用开发实战 的大纲"
             }
           },
           {
@@ -265,14 +205,24 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "e74bcae4db01ddf9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "caff4757aaa5083e",
         "type": "tabs",
-        "dimension": 67.61904761904762,
+        "dimension": 69.56106870229007,
         "children": [
           {
             "id": "69d449d780081768",
@@ -322,78 +272,91 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "a3da8f0522588649",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 363.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
       "i18n:I18N": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "copilot:Open Copilot Chat": false,
+      "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "87cede46b05355c3",
+  "active": "3dca10f8e73152aa",
   "lastOpenFiles": [
-    "images/蓝牙模块/file-20260113001136757.jpg",
-    "images/蓝牙模块/file-20260113001120500.jpg",
-    "images/蓝牙模块",
-    "images/蓝牙模块/file-20260112202451843.jpg",
-    "images/蓝牙模块/file-20260112202451849.jpg",
-    "images/蓝牙模块/file-20260112202451853.jpg",
-    "images/蓝牙模块/file-20260112202451859.jpg",
-    "images/蓝牙模块/file-20260112202451861.jpg",
-    "images/蓝牙模块/file-20260112202451862.jpg",
-    "images/蓝牙模块/file-20260112202451863.jpg",
+    "40 - 资源/44 - 提示词/技术博客.md",
+    "40 - 资源/42 - 编程语言/freeRTOS/未命名.md",
+    "信号量.md",
+    "images/信号量",
+    "images/信号量/file-20260121194954525.jpg",
+    "images/信号量/file-20260121194954529.jpg",
+    "images/信号量/file-20260121194954531.jpg",
     "images/未命名",
-    "VSCode插件配置.md",
-    "蓝牙模块.md",
-    "40 - 资源/43 - 工具配置/nivm/nvim配置.md",
-    "40 - 资源/43 - 工具配置/nivm/nvim自动切换输入法.md",
-    "40 - 资源/43 - 工具配置/系统工具/Thermal Control Center.md",
-    "提示词.md",
-    "图片取模.md",
-    "小鹤双拼.md",
-    "专业英语.md",
-    "ESP基础.md",
-    "IIC协议.md",
-    "RTC时钟.md",
-    "SPI 协议.md",
-    "40 - 资源/42 - 编程语言/STM32/移植FreeRTOS.md",
-    "40 - 资源/42 - 编程语言/STM32/images/移植FreeRTOS/file-20260112171614126.jpg",
-    "40 - 资源/42 - 编程语言/STM32/images/移植FreeRTOS",
+    "40 - 资源/42 - 编程语言/freeRTOS/任务管理.md",
+    "40 - 资源/42 - 编程语言/freeRTOS/001_1 freeRTOS简介.md",
+    "40 - 资源/43 - 工具配置/VSCode插件配置.md",
+    "40 - 资源/专业英语.md",
+    "40 - 资源/42 - 编程语言/网络通信/1. 基础概念.md",
+    "40 - 资源/42 - 编程语言/网络通信/2. UDP通信协议.md",
+    "40 - 资源/42 - 编程语言/网络通信/3. TCP 通信协议.md",
+    "40 - 资源/42 - 编程语言/网络通信/9. cJSON.md",
+    "40 - 资源/42 - 编程语言/网络通信/4. 服务器io模型.md",
+    "20 - 项目/qt项目.md",
+    "20 - 项目/stm32.md",
+    "20 - 项目/QT.md",
+    "40 - 资源/42 - 编程语言/STM32/图片取模.md",
+    "40 - 资源/42 - 编程语言/STM32/无线通信.md",
     "40 - 资源/42 - 编程语言/STM32/移植 u8g2.md",
     "40 - 资源/42 - 编程语言/STM32/CubeMx创建项目.md",
-    "40 - 资源/42 - 编程语言/STM32/启动文件.md",
+    "40 - 资源/42 - 编程语言/STM32/Linux STM32 串口通讯与调试.md",
+    "40 - 资源/42 - 编程语言/STM32/Linux下的STM32 现代化开发环境配置.md",
     "40 - 资源/42 - 编程语言/STM32/ST-Like.md",
-    "40 - 资源/42 - 编程语言/STM32/006_1 STM32F407 标准库模板.md",
     "40 - 资源/42 - 编程语言/STM32/VSCode开发STM32.md",
-    "images/RTC时钟/file-20260112110043296.jpg",
-    "images/RTC时钟",
-    "images/图片取模",
-    "40 - 资源/49 - 代码片段/u8g2_fonts_mini.h",
-    "40 - 资源/49 - 代码片段/u8g2_fonts_mini.c",
-    "90 - 系统文件/Markdown 语法速查手册.md",
-    "Excalidraw/Drawing 2026-01-10 20.08.59.excalidraw.md",
-    "30 - 领域/STM32.md",
-    "40 - 资源/43 - 工具配置/系统工具/images/Thermal Control Center",
-    "40 - 资源/43 - 工具配置/系统工具/images",
-    "40 - 资源/43 - 工具配置/系统工具",
-    "40 - 资源/43 - 工具配置/nvim配置.md",
-    "40 - 资源/42 - 编程语言/并发编程/4. 管道.md",
-    "未命名.canvas"
+    "草稿纸.md",
+    "C 语言字符串切割方法全攻略.md",
+    "未命名.canvas",
+    "50 - 图书/野火 FreeRTOS 内核实现与应用开发实战.pdf",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "50 - 图书",
+    "40 - 资源/42 - 编程语言/freeRTOS/images/000_1 移植FreeRTOS",
+    "40 - 资源/42 - 编程语言/freeRTOS/images/001_1 freeRTOS简介",
+    "40 - 资源/42 - 编程语言/STM32/images/Linux STM32 串口通讯与调试",
+    "40 - 资源/42 - 编程语言/STM32/images/Linux STM32 串口通讯与调试/file-20260119150242472.jpg",
+    "40 - 资源/42 - 编程语言/freeRTOS/images/001_1 freeRTOS简介/file-20260119150636196.jpg",
+    "40 - 资源/42 - 编程语言/freeRTOS/images/001_1 freeRTOS简介/file-20260119150636192.jpg",
+    "40 - 资源/42 - 编程语言/freeRTOS/images/001_1 freeRTOS简介/file-20260119150636198.jpg",
+    "40 - 资源/42 - 编程语言/freeRTOS/images/001_1 freeRTOS简介/file-20260119150636194.jpg",
+    "40 - 资源/42 - 编程语言/freeRTOS/images/001_1 freeRTOS简介/file-20260119150636168.jpg",
+    "40 - 资源/42 - 编程语言/freeRTOS/images/001_1 freeRTOS简介/file-20260119150636165.jpg"
   ]
 }

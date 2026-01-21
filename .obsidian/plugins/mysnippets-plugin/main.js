@@ -52,13 +52,13 @@ class CreateSnippetModal extends obsidian.Modal {
             contentEl.empty();
             contentEl.setAttribute("style", "margin-top: 0px");
             const title = document.createElement("h1");
-            title.setText("创建一个 CSS 片段");
+            title.setText("Create a CSS Snippet");
             contentEl.appendChild(title);
             const fileTitleSetting = new obsidian.Setting(contentEl);
             const fileTitleValue = new obsidian.TextComponent(fileTitleSetting.controlEl);
             fileTitleSetting
-                .setName("CSS 片段标题")
-                .setDesc("为此 CSS 片段文件写入标题。");
+                .setName("CSS Snippet Title")
+                .setDesc("Write the title for this CSS snippet file.");
             const cssStylesSetting = new obsidian.Setting(contentEl);
             // avoiding having to reference this specific modal - add style in code
             cssStylesSetting.settingEl.setAttribute("style", "display: grid; grid-template-columns: 1fr;");
@@ -68,8 +68,8 @@ class CreateSnippetModal extends obsidian.Modal {
                 class: "ms-css-editor",
             });
             cssStylesSetting
-                .setName("CSS 片段样式")
-                .setDesc("为此 CSS 片段文件添加样式。");
+                .setName("CSS Snippet Styles")
+                .setDesc("Add in styling for this CSS snippet file.");
             cssStylesValue.setValue(this.plugin.settings.stylingTemplate);
             const doAdd = () => __awaiter(this, void 0, void 0, function* () {
                 let fileName = fileTitleValue.getValue();
@@ -78,7 +78,7 @@ class CreateSnippetModal extends obsidian.Modal {
                 if (fileName) {
                     if (!customCss.snippets.includes(fileName)) {
                         yield app.vault.create(`${customCss.getSnippetsFolder()}/${fileName}.css`, fileContents);
-                        console.log(`%c"${fileName}.css" 已创建!`, "color: Violet");
+                        console.log(`%c"${fileName}.css" has been created!`, "color: Violet");
                         if (this.plugin.settings.snippetEnabledStatus)
                             customCss.setCssEnabledStatus(fileName, true);
                         if (this.plugin.settings.openSnippetFile)
@@ -87,13 +87,13 @@ class CreateSnippetModal extends obsidian.Modal {
                         this.close();
                     }
                     else
-                        new obsidian.Notice(`"${fileName}.css" 已存在.`);
+                        new obsidian.Notice(`"${fileName}.css" already exists.`);
                 }
                 else
-                    new obsidian.Notice("缺少文件名");
+                    new obsidian.Notice("Missing name for file");
             });
             const saveButton = new obsidian.ButtonComponent(contentEl)
-                .setButtonText("创建片段")
+                .setButtonText("Create Snippet")
                 .onClick(doAdd);
             saveButton.buttonEl.addClass("wg-button");
             fileTitleValue.inputEl.focus();
@@ -137,7 +137,7 @@ function snippetsMenu(app, plugin, settings) {
                 buttonComponent
                     .setIcon("ms-snippet")
                     .setClass("MS-OpenSnippet")
-                    .setTooltip(`打开片段`)
+                    .setTooltip(`Open snippet`)
                     .onClick((e) => {
                     app.openWithDefaultApp(snippetPath);
                 });
@@ -150,7 +150,7 @@ function snippetsMenu(app, plugin, settings) {
         menu.addSeparator();
         menu.addItem((actions) => {
             actions.setIcon(null);
-            actions.setTitle("操作");
+            actions.setTitle("Actions");
             const actionsDom = actions.dom;
             setAttributes(actions.titleEl, { style: "font-weight: 700" });
             const reloadButton = new obsidian.ButtonComponent(actionsDom);
@@ -162,16 +162,16 @@ function snippetsMenu(app, plugin, settings) {
                 .setIcon("ms-reload")
                 .setClass("MySnippetsButton")
                 .setClass("MS-Reload")
-                .setTooltip("重新加载片段")
+                .setTooltip("Reload snippets")
                 .onClick((e) => {
                 customCss.requestLoadSnippets();
-                new obsidian.Notice("片段已重新加载");
+                new obsidian.Notice("Snippets reloaded");
             });
             folderButton
                 .setIcon("ms-folder")
                 .setClass("MySnippetsButton")
                 .setClass("MS-Folder")
-                .setTooltip("打开片段文件夹")
+                .setTooltip("Open snippets folder")
                 .onClick((e) => {
                 app.openWithDefaultApp(snippetsFolder);
             });
@@ -179,7 +179,7 @@ function snippetsMenu(app, plugin, settings) {
                 .setIcon("ms-add")
                 .setClass("MySnippetsButton")
                 .setClass("MS-Folder")
-                .setTooltip("创建新片段")
+                .setTooltip("Create new snippet")
                 .onClick((e) => {
                 new CreateSnippetModal(app, plugin).open();
             });
@@ -219,15 +219,15 @@ class MySnippetsSettingTab extends obsidian.PluginSettingTab {
     display() {
         const { containerEl } = this;
         containerEl.empty();
-        containerEl.createEl("h1", { text: "我的片段" });
-        containerEl.createEl("p", { text: "由 " }).createEl("a", {
+        containerEl.createEl("h1", { text: "MySnippets" });
+        containerEl.createEl("p", { text: "Created by " }).createEl("a", {
             text: "Chetachi 👩🏽‍💻",
             href: "https://github.com/chetachiezikeuzor",
         });
-        containerEl.createEl("h2", { text: "插件设置" });
+        containerEl.createEl("h2", { text: "Plugin Settings" });
         new obsidian.Setting(containerEl)
-            .setName("玻璃菜单效果")
-            .setDesc("选择将背景从主题的辅助背景颜色更改为玻璃背景。")
+            .setName("Glass menu effect")
+            .setDesc("Choose to change the background from the secondary background color of your theme to a glass background.")
             .addToggle((toggle) => {
             toggle
                 .setValue(this.plugin.settings.aestheticStyle)
@@ -237,8 +237,8 @@ class MySnippetsSettingTab extends obsidian.PluginSettingTab {
             }));
         });
         new obsidian.Setting(containerEl)
-            .setName("自动打开新片段")
-            .setDesc("选择是否在创建 CSS 片段文件后立即打开它们。它将在您的默认应用程序中打开。")
+            .setName("Auto open new snippet")
+            .setDesc("Choose whether or not to open CSS snippet files immeditaley after creating them. It will open in your default app.")
             .addToggle((toggle) => {
             toggle
                 .setValue(this.plugin.settings.openSnippetFile)
@@ -248,8 +248,8 @@ class MySnippetsSettingTab extends obsidian.PluginSettingTab {
             }));
         });
         new obsidian.Setting(containerEl)
-            .setName("设置新片段状态")
-            .setDesc("选择是否在创建新的 CSS 片段文件时自动切换为启用。")
+            .setName("Set new snippet status")
+            .setDesc("Choose whether or not to have newly created CSS snippet files toggled on automatically upon creation.")
             .addToggle((toggle) => {
             toggle
                 .setValue(this.plugin.settings.snippetEnabledStatus)
@@ -261,8 +261,8 @@ class MySnippetsSettingTab extends obsidian.PluginSettingTab {
         const stylingTemplateSetting = new obsidian.Setting(containerEl);
         stylingTemplateSetting.settingEl.setAttribute("style", "display: grid; grid-template-columns: 1fr;");
         stylingTemplateSetting
-            .setName("CSS 片段模板")
-            .setDesc("设置默认的 CSS 样式作为创建新 CSS 文件的模板。");
+            .setName("CSS snippet template")
+            .setDesc("Set default CSS styling as a template for new CSS files you choose to create.");
         const stylingTemplateContent = new obsidian.TextAreaComponent(stylingTemplateSetting.controlEl);
         setAttributes(stylingTemplateContent.inputEl, {
             style: "margin-top: 12px; width: 100%;  height: 32vh;",
@@ -278,7 +278,7 @@ class MySnippetsSettingTab extends obsidian.PluginSettingTab {
             cls: "msDonationSection",
         });
         const donateText = createEl("p");
-        donateText.appendText("如果您喜欢这个插件并考虑捐赠以支持持续开发，请使用下方的按钮！");
+        donateText.appendText("If you like this Plugin and are considering donating to support continued development, use the buttons below!");
         msDonationDiv.appendChild(donateText);
         msDonationDiv.appendChild(paypalButton("https://paypal.me/chelseaezikeuzor"));
         msDonationDiv.appendChild(buyMeACoffeeButton("https://www.buymeacoffee.com/chetachi"));
@@ -325,7 +325,7 @@ const DEFAULT_SETTINGS = {
 class MySnippetsPlugin extends obsidian.Plugin {
     onload() {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log(`MySnippets v${this.manifest.version}已加载`);
+            console.log(`MySnippets v${this.manifest.version} loaded`);
             addIcons();
             yield this.loadSettings();
             this.addSettingTab(new MySnippetsSettingTab(this.app, this));
@@ -341,7 +341,7 @@ class MySnippetsPlugin extends obsidian.Plugin {
         this.statusBarIcon.addClass("MiniSettings-statusbar-button");
         this.statusBarIcon.addClass("mod-clickable");
         setAttributes(this.statusBarIcon, {
-            "aria-label": "配置代码段",
+            "aria-label": "Configure Snippets",
             "aria-label-position": "top",
         });
         obsidian.setIcon(this.statusBarIcon, "pantone-line");
@@ -350,7 +350,7 @@ class MySnippetsPlugin extends obsidian.Plugin {
         });
         this.addCommand({
             id: `open-snippets-menu`,
-            name: `在状态栏中打开片段`,
+            name: `Open snippets in status bar`,
             icon: `pantone-line`,
             callback: () => __awaiter(this, void 0, void 0, function* () {
                 snippetsMenu(this.app, this, this.settings);
@@ -358,7 +358,7 @@ class MySnippetsPlugin extends obsidian.Plugin {
         });
         this.addCommand({
             id: `open-snippets-create`,
-            name: `创建新的 CSS 片段`,
+            name: `Create new CSS snippet`,
             icon: `ms-css-file`,
             callback: () => __awaiter(this, void 0, void 0, function* () {
                 new CreateSnippetModal(this.app, this).open();
@@ -366,7 +366,7 @@ class MySnippetsPlugin extends obsidian.Plugin {
         });
     }
     onunload() {
-        console.log("MySnippets已卸载");
+        console.log("MySnippets unloaded");
     }
     loadSettings() {
         return __awaiter(this, void 0, void 0, function* () {

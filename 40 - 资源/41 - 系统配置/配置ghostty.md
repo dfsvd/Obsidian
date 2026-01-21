@@ -1,10 +1,10 @@
-# 安装
+## 安装
 
 ```sh
 paru -S ghostty
 ```
 
-# 配置
+## 配置
 
 ```c
 # This is the configuration file for Ghostty.

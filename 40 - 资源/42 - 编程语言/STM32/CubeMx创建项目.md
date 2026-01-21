@@ -3,7 +3,8 @@
 打开 STM32CubeMX，点击主界面的 **"Access to MCU Selector"** 或 **"File -> New Project"**。
 ### 2. 芯片选型
 在搜索框输入型号（例如 `STM32F103C8`），在右下角列表中选中芯片并点击 **Start Project**。
-> 💡 **提示**：点击芯片型号前的“五角星”图标收藏，下次可从主界面 "My Favorite MCUs" 快速创建。
+> [!tip] 提示
+>  点击芯片型号前的“五角星”图标收藏，下次可从主界面 "My Favorite MCUs" 快速创建。
 ### 3. Pinout & Configuration (引脚与配置)
 - **SYS (系统调试脚)**：
     - 点击 `System Core` -> `SYS`。
