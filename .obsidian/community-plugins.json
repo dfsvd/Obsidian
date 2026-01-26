@@ -10,14 +10,12 @@
   "calendar-event-sync",
   "obsidian-hover-editor",
   "table-editor-obsidian",
-  "obsidian-linter",
   "dataview",
   "obsidian-tasks-plugin",
-  "obsidian-excalidraw-plugin",
   "obsidian-image-toolkit",
   "mousewheel-image-zoom",
   "copilot",
   "pdf-plus",
-  "pkmer",
-  "i18n"
+  "i18n",
+  "obsidian-excalidraw-plugin"
 ]

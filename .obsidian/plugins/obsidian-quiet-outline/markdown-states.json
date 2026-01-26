@@ -70,24 +70,18 @@
     "expandedKeys": []
   },
   "未命名.md": {
-    "scroll": 16.90248015873016,
+    "scroll": 37.32728794642857,
     "cursor": {
       "from": {
-        "line": 198,
-        "ch": 188
+        "line": 41,
+        "ch": 0
       },
       "to": {
-        "line": 198,
-        "ch": 188
+        "line": 41,
+        "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-0",
-      "item-2-3",
-      "item-2-6",
-      "item-2-12",
-      "item-2-15"
-    ]
+    "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/CubeMx创建项目.md": {
     "scroll": 14.973271446862997,
@@ -488,7 +482,7 @@
     "expandedKeys": []
   },
   "30 - 领域/未命名.md": {
-    "scroll": 0.13068993104818225,
+    "scroll": 0.14630091438071488,
     "cursor": {
       "from": {
         "line": 0,
@@ -1222,12 +1216,12 @@
     "scroll": 1.671497584541063,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 7,
+        "ch": 1
       },
       "to": {
-        "line": 4,
-        "ch": 0
+        "line": 7,
+        "ch": 1
       }
     },
     "expandedKeys": [
@@ -1797,7 +1791,7 @@
     "expandedKeys": []
   },
   "编程.md": {
-    "scroll": 0.4564256168877478,
+    "scroll": 0.4571210894719299,
     "cursor": {
       "from": {
         "line": 5,
@@ -1887,21 +1881,21 @@
     ]
   },
   "40 - 资源/专业英语.md": {
-    "scroll": 0.6639004149377593,
+    "scroll": 0.8262676641729011,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 6
+        "line": 13,
+        "ch": 0
       },
       "to": {
-        "line": 2,
-        "ch": 7
+        "line": 13,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "C 语言字符串切割方法全攻略.md": {
-    "scroll": 5.401741702267499,
+    "scroll": 2.1760248688556443,
     "cursor": {
       "from": {
         "line": 9,
@@ -1915,7 +1909,7 @@
     "expandedKeys": []
   },
   "草稿纸.md": {
-    "scroll": 73.00099206349206,
+    "scroll": 94.47705055647323,
     "cursor": {
       "from": {
         "line": 99,
@@ -1932,7 +1926,7 @@
     ]
   },
   "Excalidraw/Drawing 2025-12-30 21.54.21.excalidraw.md": {
-    "scroll": 1.669481302774427,
+    "scroll": 1.671497584541063,
     "cursor": {
       "from": {
         "line": 4,
@@ -1943,10 +1937,12 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0"
+    ]
   },
   "Excalidraw/Drawing 2026-01-04 10.53.47.excalidraw.md": {
-    "scroll": 1.671497584541063,
+    "scroll": 4.114285714285714,
     "cursor": {
       "from": {
         "line": 4,
@@ -2004,15 +2000,15 @@
     ]
   },
   "Excalidraw/作业12-26电路图.md": {
-    "scroll": 1.5575221238938053,
+    "scroll": 2.8354430379746836,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 7,
+        "ch": 1
       },
       "to": {
-        "line": 4,
-        "ch": 0
+        "line": 7,
+        "ch": 1
       }
     },
     "expandedKeys": []
@@ -2194,7 +2190,7 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/freeRTOS/001_1 freeRTOS简介.md": {
-    "scroll": 174.98759920634922,
+    "scroll": 3.2846153846153845,
     "cursor": {
       "from": {
         "line": 7,
@@ -2208,18 +2204,23 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/freeRTOS/000_1 移植FreeRTOS.md": {
-    "scroll": 138.05260732222575,
+    "scroll": 0.23854660347551343,
     "cursor": {
       "from": {
-        "line": 179,
-        "ch": 1
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 117,
+        "line": 1,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-4",
+      "item-2-8",
+      "item-2-13"
+    ]
   },
   "40 - 资源/42 - 编程语言/QT编程/Qt-CMake 图片资源嵌入问题.md": {
     "scroll": 0.18215022650190926,
@@ -2292,15 +2293,15 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/freeRTOS/任务管理.md": {
-    "scroll": 22.87307938540333,
+    "scroll": 169.40203373015873,
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 119
+        "line": 175,
+        "ch": 1
       },
       "to": {
-        "line": 7,
-        "ch": 0
+        "line": 175,
+        "ch": 1
       }
     },
     "expandedKeys": []
@@ -2404,7 +2405,7 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/freeRTOS/未命名.md": {
-    "scroll": 304.99417162698415,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 346,
@@ -2442,7 +2443,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/freeRTOS/信号量.md": {
-    "scroll": 23.59973831775701,
+    "scroll": 0.12079615648592999,
     "cursor": {
       "from": {
         "line": 1,
@@ -2456,7 +2457,7 @@
     "expandedKeys": []
   },
   "互斥量.md": {
-    "scroll": 0.5303408146300914,
+    "scroll": 0.19783873649210307,
     "cursor": {
       "from": {
         "line": 1,
@@ -2470,7 +2471,7 @@
     "expandedKeys": []
   },
   "互斥量2.md": {
-    "scroll": 45.58384643245201,
+    "scroll": 16.929811507936506,
     "cursor": {
       "from": {
         "line": 23,
@@ -2481,7 +2482,13 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-10",
+      "item-2-17"
+    ]
   },
   "互斥量3.md": {
     "scroll": 0.14630091438071488,
@@ -2498,6 +2505,564 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/freeRTOS/FreeRTOS 互斥量.md": {
+    "scroll": 188.9555765595463,
+    "cursor": {
+      "from": {
+        "line": 197,
+        "ch": 0
+      },
+      "to": {
+        "line": 197,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "事件标准组2.md": {
+    "scroll": 118.74954873646209,
+    "cursor": {
+      "from": {
+        "line": 170,
+        "ch": 35
+      },
+      "to": {
+        "line": 128,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "事件标准组.md": {
+    "scroll": 0.9842061512884456,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 103
+      },
+      "to": {
+        "line": 6,
+        "ch": 103
+      }
+    },
+    "expandedKeys": []
+  },
+  "FreeRTOS 事件标志组.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 170,
+        "ch": 0
+      },
+      "to": {
+        "line": 170,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/freeRTOS/FreeRTOS 事件标志组.md": {
+    "scroll": 0.11578947368421053,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/freeRTOS/任务管理和时间管理.md": {
+    "scroll": 0.1490840176879343,
+    "cursor": {
+      "from": {
+        "line": 174,
+        "ch": 4
+      },
+      "to": {
+        "line": 174,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/freeRTOS/005_1 FreeRTOS 互斥量.md": {
+    "scroll": 3.2846153846153845,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/freeRTOS/002_1 任务管理和时间管理.md": {
+    "scroll": 3.2846153846153845,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/freeRTOS/006_1 FreeRTOS 事件标志组.md": {
+    "scroll": 3.2846153846153845,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/freeRTOS/004_1 信号量.md": {
+    "scroll": 3.2846153846153845,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/freeRTOS/003_1 资源保护.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-7",
+      "item-2-18"
+    ]
+  },
+  "10 - 每日记录/2026-01-19.md": {
+    "scroll": 11.388571428571428,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-3-2"
+    ]
+  },
+  "消息队列.md": {
+    "scroll": 52.30853174603175,
+    "cursor": {
+      "from": {
+        "line": 63,
+        "ch": 5
+      },
+      "to": {
+        "line": 63,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "消息队列2.md": {
+    "scroll": 0.3047473929812866,
+    "cursor": {
+      "from": {
+        "line": 46,
+        "ch": 0
+      },
+      "to": {
+        "line": 46,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-9",
+      "item-2-21"
+    ]
+  },
+  "消息队列3.md": {
+    "scroll": 218.5505415162455,
+    "cursor": {
+      "from": {
+        "line": 221,
+        "ch": 1
+      },
+      "to": {
+        "line": 234,
+        "ch": 7
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-3-8"
+    ]
+  },
+  "消息队列2 1.md": {
+    "scroll": 0.18284843578877197,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/freeRTOS/消息队列2 1.md": {
+    "scroll": 0.18284843578877197,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 16
+      },
+      "to": {
+        "line": 0,
+        "ch": 16
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-9",
+      "item-2-21"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/freeRTOS/006_1 消息队列.md": {
+    "scroll": 0.18284843578877197,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 16
+      },
+      "to": {
+        "line": 0,
+        "ch": 16
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-9",
+      "item-2-21"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/freeRTOS/006_1 FreeRTOS 消息队列.md": {
+    "scroll": 0.19783873649210307,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-8",
+      "item-2-20"
+    ]
+  },
+  "30 - 领域/FreeRTOSD.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "30 - 领域/FreeRTOS.md": {
+    "scroll": 0.428927680798005,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/FreeRTOS/000_1 移植FreeRTOS.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-4",
+      "item-2-8",
+      "item-2-13"
+    ]
+  },
+  "00 - 收件箱/01 - 学习笔记/死锁.md": {
+    "scroll": 155.81168509655058,
+    "cursor": {
+      "from": {
+        "line": 69,
+        "ch": 10
+      },
+      "to": {
+        "line": 69,
+        "ch": 16
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-3",
+      "item-1-7",
+      "item-2-8",
+      "item-2-12"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/并发编程/线程池.md": {
+    "scroll": 5.896551724137931,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/FreeRTOS/007_1 FreeRTOS 消息队列.md": {
+    "scroll": 133.1851851851852,
+    "cursor": {
+      "from": {
+        "line": 60,
+        "ch": 6
+      },
+      "to": {
+        "line": 60,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-8",
+      "item-2-20"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/FreeRTOS/001_1 FreeRTOS 简介.md": {
+    "scroll": 3.2846153846153845,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-8",
+      "item-2-15",
+      "item-3-18"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/FreeRTOS/002_1 FreeRTOS 任务管理和时间管理.md": {
+    "scroll": 155.00895450145208,
+    "cursor": {
+      "from": {
+        "line": 137,
+        "ch": 4
+      },
+      "to": {
+        "line": 137,
+        "ch": 4
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-9"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/FreeRTOS/006_1 FreeRTOS 事件标志组.md": {
+    "scroll": 3.769230769230769,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-7",
+      "item-2-15"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/FreeRTOS/003_1 FreeRTOS 资源保护.md": {
+    "scroll": 339.0094517958412,
+    "cursor": {
+      "from": {
+        "line": 354,
+        "ch": 14
+      },
+      "to": {
+        "line": 354,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-7",
+      "item-2-18"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/FreeRTOS/004_1 FreeRTOS 信号量.md": {
+    "scroll": 50.48127400768246,
+    "cursor": {
+      "from": {
+        "line": 57,
+        "ch": 11
+      },
+      "to": {
+        "line": 57,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-6",
+      "item-2-12",
+      "item-2-15"
+    ]
+  },
+  "独立看门狗.md": {
+    "scroll": 165.7893104271057,
+    "cursor": {
+      "from": {
+        "line": 161,
+        "ch": 0
+      },
+      "to": {
+        "line": 161,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-5",
+      "item-2-10"
+    ]
+  },
+  "独立看门狗2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 33
+      },
+      "to": {
+        "line": 12,
+        "ch": 33
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-6",
+      "item-2-11"
+    ]
+  },
+  "独立看门狗m.md": {
+    "scroll": 4.253968253968254,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 33
+      },
+      "to": {
+        "line": 12,
+        "ch": 33
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-6",
+      "item-2-11"
+    ]
+  },
+  "Excalidraw/时钟树.md": {
+    "scroll": 1.559493670886076,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "Excalidraw/未命名.md": {
     "scroll": 0.14630091438071488,
     "cursor": {
       "from": {
@@ -2510,5 +3075,77 @@
       }
     },
     "expandedKeys": []
+  },
+  "Excalidraw/电路图.excalidraw.md": {
+    "scroll": 13.689980158730158,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 9
+      },
+      "to": {
+        "line": 29,
+        "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "Excalidraw/Drawing 2026-01-23 20.33.42.excalidraw.md": {
+    "scroll": 1.671497584541063,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Excalidraw/Drawing 2026-01-24 09.30.03.excalidraw.md": {
+    "scroll": 2.63768115942029,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Excalidraw/Drawing 2026-01-24 09.31.54.excalidraw.md": {
+    "scroll": 2.5042219541616406,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "1.24_试卷.md": {
+    "scroll": 0.6375257927566824,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }

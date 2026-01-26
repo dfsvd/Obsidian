@@ -39,7 +39,7 @@ LIB\FreeRTOS
 - **路径**：`FreeRTOSV9.0.0/FreeRTOS/Demo/CORTEX_M4F_STM32F407ZG-SK`
 - **操作**：拷贝 `FreeRTOSConfig.h` 到的 `LIB/FreeRTOS/inc` 目录下
 
-![提取源码后内容|707](images/000_1%20移植FreeRTOS/file-20260119150647961.jpg)
+![提取源码后内容|707](images/000_1%20移植FreeRTOS/file-20260122172718913.jpg)
 ## 配置文件修正
 ### 修正编译报错与声明
 原始 Demo 中只判断了 IAR 编译器 (`__ICCARM__`)使用 Keil 时需要增加对 `__CC_ARM` 的支持，否则会报错找不到 `SystemCoreClock`

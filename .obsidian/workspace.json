@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3b8f1cc838f3c980",
+        "id": "5213fb75e175e1ec",
         "type": "tabs",
         "children": [
           {
-            "id": "46aee128a73d222a",
+            "id": "900a59672a11f64e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - 资源/42 - 编程语言/freeRTOS/FreeRTOS 互斥量.md",
+                "file": "1.24_试卷.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,89 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FreeRTOS 互斥量"
+              "title": "1.24_试卷"
             }
           }
         ]
-      },
-      {
-        "id": "e54ffe3f25a9ff3c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "49b8d8e0babc3a17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "互斥量.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "互斥量"
-            }
-          },
-          {
-            "id": "213c6a48e5daa190",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
-          },
-          {
-            "id": "7cab66f0b7b3d176",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "互斥量2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "互斥量2"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 308.5
   },
   "right": {
     "id": "34967fd00587cf4a",
@@ -336,58 +257,57 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "copilot:Open Copilot Chat": false,
-      "pkmer:Open Pkmer Market": false
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "213c6a48e5daa190",
+  "active": "3dca10f8e73152aa",
   "lastOpenFiles": [
-    "互斥量.md",
+    "编程.md",
+    "1.24_试卷.md",
+    "Excalidraw/Drawing 2026-01-24 09.31.59.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-24 09.32.03.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-24 09.31.54.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-24 09.30.03.excalidraw.md",
+    "Excalidraw",
+    "Excalidraw/Drawing 2026-01-23 20.33.42.excalidraw.md",
+    "images/草稿纸/file-20260114104949764.jpg",
+    "images/草稿纸/file-20260114104610699.jpg",
+    "独立看门狗m.md",
+    "Excalidraw/电路图.excalidraw.md",
+    "Excalidraw/时钟树.md",
+    "Excalidraw/作业12-26电路图.md",
+    "Excalidraw/Drawing 2025-12-30 21.54.21.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-04 10.53.47.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-04 10.53.48.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-05 09.13.59.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-09 10.06.05.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-10 20.08.59.excalidraw.md",
+    "Excalidraw/未命名.md",
+    "独立看门狗.md",
+    "images/新建 Markdown File/image-20260123144042615.png",
+    "images/新建 Markdown File/image-20260123144019610.png",
+    "images/新建 Markdown File/image-20260123143954749.png",
+    "images/新建 Markdown File/image-20260123143832271.png",
+    "images/新建 Markdown File/image-20260123143931928.png",
+    "images/新建 Markdown File/image-20260123143922992.png",
+    "images/新建 Markdown File/image-20260123143818597.png",
+    "images/新建 Markdown File/image-20260123143752877.png",
+    "images/新建 Markdown File",
     "未命名.md",
-    "40 - 资源/42 - 编程语言/freeRTOS/FreeRTOS 互斥量.md",
-    "互斥量2.md",
-    "images/互斥量2/file-20260122112115790.jpg",
-    "images/互斥量2",
-    "images/互斥量/file-20260122105713386.jpg",
-    "images/互斥量/file-20260122105231684.jpg",
-    "images/互斥量/file-20260122105217116.jpg",
-    "images/互斥量/file-20260122105049103.jpg",
-    "images/互斥量",
-    "40 - 资源/42 - 编程语言/freeRTOS/信号量.md",
-    "40 - 资源/42 - 编程语言/freeRTOS/images/信号量",
-    "C 语言字符串切割方法全攻略.md",
-    "40 - 资源/44 - 提示词/技术博客.md",
-    "40 - 资源/42 - 编程语言/freeRTOS/未命名.md",
-    "images/信号量",
-    "40 - 资源/42 - 编程语言/freeRTOS/images/信号量/file-20260122101116942.jpg",
-    "40 - 资源/42 - 编程语言/freeRTOS/images/信号量/file-20260122101116927.jpg",
-    "40 - 资源/42 - 编程语言/freeRTOS/images/信号量/file-20260122101116924.jpg",
+    "总结.txt",
+    "C_Pointer_Memory_Analysis copy.md",
+    "C_Pointer_Memory_Analysis.md",
     "images/未命名",
-    "40 - 资源/42 - 编程语言/freeRTOS/任务管理.md",
-    "40 - 资源/42 - 编程语言/freeRTOS/001_1 freeRTOS简介.md",
-    "40 - 资源/43 - 工具配置/VSCode插件配置.md",
     "40 - 资源/专业英语.md",
-    "40 - 资源/42 - 编程语言/网络通信/1. 基础概念.md",
-    "40 - 资源/42 - 编程语言/网络通信/2. UDP通信协议.md",
-    "40 - 资源/42 - 编程语言/网络通信/3. TCP 通信协议.md",
-    "40 - 资源/42 - 编程语言/网络通信/9. cJSON.md",
-    "40 - 资源/42 - 编程语言/网络通信/4. 服务器io模型.md",
-    "20 - 项目/qt项目.md",
-    "20 - 项目/stm32.md",
-    "20 - 项目/QT.md",
-    "40 - 资源/42 - 编程语言/STM32/图片取模.md",
-    "40 - 资源/42 - 编程语言/STM32/无线通信.md",
-    "40 - 资源/42 - 编程语言/STM32/移植 u8g2.md",
-    "40 - 资源/42 - 编程语言/STM32/CubeMx创建项目.md",
-    "40 - 资源/42 - 编程语言/STM32/Linux STM32 串口通讯与调试.md",
-    "40 - 资源/42 - 编程语言/STM32/Linux下的STM32 现代化开发环境配置.md",
-    "未命名.canvas",
-    "50 - 图书/野火 FreeRTOS 内核实现与应用开发实战.pdf",
-    "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts",
-    "copilot",
-    "50 - 图书",
-    "40 - 资源/42 - 编程语言/STM32/images/Linux STM32 串口通讯与调试/file-20260119150242472.jpg",
-    "40 - 资源/42 - 编程语言/freeRTOS/images/001_1 freeRTOS简介/file-20260119150636196.jpg"
+    "40 - 资源/42 - 编程语言/FreeRTOS/003_1 FreeRTOS 资源保护.md",
+    "40 - 资源/42 - 编程语言/FreeRTOS/002_1 FreeRTOS 任务管理和时间管理.md",
+    "40 - 资源/42 - 编程语言/FreeRTOS/006_1 FreeRTOS 事件标志组.md",
+    "40 - 资源/42 - 编程语言/FreeRTOS/images/001_1 FreeRTOS 简介",
+    "40 - 资源/42 - 编程语言/FreeRTOS/images/004_1 FreeRTOS 信号量",
+    "40 - 资源/42 - 编程语言/FreeRTOS/images/000_1 移植FreeRTOS",
+    "40 - 资源/42 - 编程语言/FreeRTOS/images/__temp__001_1 FreeRTOS 简介",
+    "40 - 资源/42 - 编程语言/FreeRTOS/images/__temp__004_1 FreeRTOS 信号量",
+    "40 - 资源/42 - 编程语言/FreeRTOS/images/__temp__000_1 移植FreeRTOS",
+    "未命名.canvas"
   ]
 }
