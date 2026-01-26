@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 - 资源/42 - 编程语言/STM32/ADC 模数转换器.md",
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ADC 模数转换器"
+              "title": "未命名"
             }
           }
         ]
@@ -260,13 +260,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3dca10f8e73152aa",
+  "active": "52dbb5dade0c183b",
   "lastOpenFiles": [
-    "40 - 资源/42 - 编程语言/STM32/移植 u8g2.md",
-    "40 - 资源/42 - 编程语言/STM32/ADC 模数转换器.md",
+    "互斥量.md",
     "ADC2.md",
     "ADC.md",
-    "互斥量.md",
+    "40 - 资源/42 - 编程语言/STM32/ADC 模数转换器.md",
+    "40 - 资源/42 - 编程语言/STM32/移植 u8g2.md",
     "互斥量2.md",
     "ADC1.md",
     "images/ADC/file-20260126094537129.jpg",
