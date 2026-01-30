@@ -70,21 +70,21 @@
     "expandedKeys": []
   },
   "未命名.md": {
-    "scroll": 37.1005291005291,
+    "scroll": 0.47880299251870323,
     "cursor": {
       "from": {
-        "line": 41,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 41,
+        "line": 1,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/CubeMx创建项目.md": {
-    "scroll": 14.973271446862997,
+    "scroll": 13.482514177693762,
     "cursor": {
       "from": {
         "line": 22,
@@ -141,7 +141,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/VSCode开发STM32.md": {
-    "scroll": 0.1975103734439834,
+    "scroll": 0.19783873649210307,
     "cursor": {
       "from": {
         "line": 1,
@@ -311,15 +311,15 @@
     ]
   },
   "40 - 资源/41 - 系统配置/双系统蓝牙共用指南.md": {
-    "scroll": 0.19505789865839077,
+    "scroll": 0.15678268857813615,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 32
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 32
       }
     },
     "expandedKeys": [
@@ -328,7 +328,7 @@
     ]
   },
   "40 - 资源/41 - 系统配置/配置zsh.md": {
-    "scroll": 0.15185504745470232,
+    "scroll": 0.14605809128630706,
     "cursor": {
       "from": {
         "line": 0,
@@ -412,15 +412,15 @@
     ]
   },
   "40 - 资源/41 - 系统配置/windows下rime配置.md": {
-    "scroll": 0.29375428963623884,
+    "scroll": 15.90288279773157,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 93
+        "line": 319,
+        "ch": 49
       },
       "to": {
-        "line": 0,
-        "ch": 93
+        "line": 319,
+        "ch": 49
       }
     },
     "expandedKeys": [
@@ -814,7 +814,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/008_ 外设定时器.md": {
-    "scroll": 218.2233560090703,
+    "scroll": 218.22732426303855,
     "cursor": {
       "from": {
         "line": 231,
@@ -834,7 +834,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/007_ 系统定时器（精准延时）.md": {
-    "scroll": 13.867399532898446,
+    "scroll": 13.87079360075656,
     "cursor": {
       "from": {
         "line": 19,
@@ -846,8 +846,7 @@
       }
     },
     "expandedKeys": [
-      "item-2-0",
-      "item-3-1"
+      "item-2-0"
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/006_ 异常与中断.md": {
@@ -894,7 +893,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/004_ 时钟体系.md": {
-    "scroll": 36.2272283669486,
+    "scroll": 35.25406636304489,
     "cursor": {
       "from": {
         "line": 42,
@@ -997,7 +996,7 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/ST-Like.md": {
-    "scroll": 23.842155009451798,
+    "scroll": 25.04745717523162,
     "cursor": {
       "from": {
         "line": 27,
@@ -1013,7 +1012,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/005_ 寄存器与位带操作.md": {
-    "scroll": 1.7566660451239977,
+    "scroll": 0.18284843578877197,
     "cursor": {
       "from": {
         "line": 0,
@@ -1024,7 +1023,12 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-7",
+      "item-2-10"
+    ]
   },
   "时序图编程.md": {
     "scroll": 203.0441121495327,
@@ -1061,7 +1065,7 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/010_ 时序图编程.md": {
-    "scroll": 149.39115646258503,
+    "scroll": 150.89909297052154,
     "cursor": {
       "from": {
         "line": 130,
@@ -1072,7 +1076,10 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-3-11"
+    ]
   },
   "ESP基础.md": {
     "scroll": 15.078592423701343,
@@ -1485,28 +1492,28 @@
     ]
   },
   "40 - 资源/44 - 提示词/未命名.md": {
-    "scroll": 0.23854660347551343,
+    "scroll": 17.13681043798029,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 49
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 3,
-        "ch": 49
+        "line": 29,
+        "ch": 27
       }
     },
     "expandedKeys": []
   },
   "40 - 资源/44 - 提示词/技术博客.md": {
-    "scroll": 2.8901734104046244,
+    "scroll": 1.8050541516245486,
     "cursor": {
       "from": {
-        "line": 14,
+        "line": 34,
         "ch": 72
       },
       "to": {
-        "line": 5,
+        "line": 25,
         "ch": 0
       }
     },
@@ -1611,7 +1618,7 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/图片取模.md": {
-    "scroll": 3.5666666666666664,
+    "scroll": 3.8816588703483905,
     "cursor": {
       "from": {
         "line": 6,
@@ -1695,7 +1702,7 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/009_1 串口通信.md": {
-    "scroll": 190.52777777777777,
+    "scroll": 193.41540642722117,
     "cursor": {
       "from": {
         "line": 200,
@@ -1729,7 +1736,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/011_ IIC协议.md": {
-    "scroll": 0.08695652173913043,
+    "scroll": 22.25,
     "cursor": {
       "from": {
         "line": 0,
@@ -1746,7 +1753,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/012_ SPI 协议.md": {
-    "scroll": 206.0491493383743,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 206,
@@ -1858,7 +1865,12 @@
         "ch": 41
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-4",
+      "item-2-7",
+      "item-2-11"
+    ]
   },
   "无线通信.md": {
     "scroll": 39.25135820354944,
@@ -1909,19 +1921,20 @@
     "expandedKeys": []
   },
   "草稿纸.md": {
-    "scroll": 0,
+    "scroll": 72.01843100189036,
     "cursor": {
       "from": {
-        "line": 99,
-        "ch": 18
+        "line": 83,
+        "ch": 0
       },
       "to": {
-        "line": 99,
-        "ch": 26
+        "line": 83,
+        "ch": 0
       }
     },
     "expandedKeys": [
-      "item-2-0"
+      "item-2-0",
+      "item-3-12"
     ]
   },
   "Excalidraw/Drawing 2025-12-30 21.54.21.excalidraw.md": {
@@ -2045,11 +2058,11 @@
     ]
   },
   "未命名 1.md": {
-    "scroll": 16.756001959823617,
+    "scroll": 0.14630091438071488,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 119
+        "line": 0,
+        "ch": 0
       },
       "to": {
         "line": 0,
@@ -2161,7 +2174,7 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/无线通信.md": {
-    "scroll": 0.8460526315789474,
+    "scroll": 0.8412371134020619,
     "cursor": {
       "from": {
         "line": 6,
@@ -2172,7 +2185,13 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-5",
+      "item-2-8",
+      "item-2-11",
+      "item-2-14"
+    ]
   },
   "40 - 资源/42 - 编程语言/freeRTOS/移植FreeRTOS.md": {
     "scroll": 0.138801261829653,
@@ -2250,21 +2269,25 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/Linux下的STM32 现代化开发环境配置.md": {
-    "scroll": 0.17006802721088435,
+    "scroll": 52.71800595238095,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 61,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 61,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-2-7",
+      "item-2-12"
+    ]
   },
   "40 - 资源/42 - 编程语言/STM32/Linux STM32 串口通讯与调试.md": {
-    "scroll": 0.1322314049586777,
+    "scroll": 0.13902053712480253,
     "cursor": {
       "from": {
         "line": 0,
@@ -2275,7 +2298,10 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-2-4"
+    ]
   },
   "40 - 资源/42 - 编程语言/STM32/任务管理.md": {
     "scroll": 0.7428932406822489,
@@ -2470,7 +2496,7 @@
     "expandedKeys": []
   },
   "互斥量2.md": {
-    "scroll": 16.929811507936506,
+    "scroll": 22.998925264550266,
     "cursor": {
       "from": {
         "line": 23,
@@ -2518,7 +2544,7 @@
     "expandedKeys": []
   },
   "事件标准组2.md": {
-    "scroll": 115.6317494600432,
+    "scroll": 213.81802721088437,
     "cursor": {
       "from": {
         "line": 126,
@@ -2531,12 +2557,11 @@
     },
     "expandedKeys": [
       "item-2-0",
-      "item-4-13",
-      "item-3-8"
+      "item-3-16"
     ]
   },
   "事件标准组.md": {
-    "scroll": 0.9842061512884456,
+    "scroll": 191.4717261904762,
     "cursor": {
       "from": {
         "line": 6,
@@ -2685,7 +2710,7 @@
     ]
   },
   "消息队列.md": {
-    "scroll": 52.30853174603175,
+    "scroll": 51.849716446124766,
     "cursor": {
       "from": {
         "line": 63,
@@ -2699,7 +2724,7 @@
     "expandedKeys": []
   },
   "消息队列2.md": {
-    "scroll": 0.3047473929812866,
+    "scroll": 270.2171201814059,
     "cursor": {
       "from": {
         "line": 46,
@@ -2717,7 +2742,7 @@
     ]
   },
   "消息队列3.md": {
-    "scroll": 218.5505415162455,
+    "scroll": 221.59343770819453,
     "cursor": {
       "from": {
         "line": 221,
@@ -2816,21 +2841,21 @@
     "expandedKeys": []
   },
   "30 - 领域/FreeRTOS.md": {
-    "scroll": 0.428927680798005,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 0
+        "line": 7,
+        "ch": 87
       },
       "to": {
-        "line": 8,
-        "ch": 0
+        "line": 7,
+        "ch": 87
       }
     },
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/FreeRTOS/000_1 移植FreeRTOS.md": {
-    "scroll": 0,
+    "scroll": 0.23854660347551343,
     "cursor": {
       "from": {
         "line": 1,
@@ -2883,7 +2908,7 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/FreeRTOS/007_1 FreeRTOS 消息队列.md": {
-    "scroll": 133.1851851851852,
+    "scroll": 52.034971644612476,
     "cursor": {
       "from": {
         "line": 60,
@@ -2920,7 +2945,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/FreeRTOS/002_1 FreeRTOS 任务管理和时间管理.md": {
-    "scroll": 155.00895450145208,
+    "scroll": 126.57986767485822,
     "cursor": {
       "from": {
         "line": 137,
@@ -2937,7 +2962,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/FreeRTOS/006_1 FreeRTOS 事件标志组.md": {
-    "scroll": 3.769230769230769,
+    "scroll": 3.2846153846153845,
     "cursor": {
       "from": {
         "line": 7,
@@ -2948,23 +2973,18 @@
         "ch": 0
       }
     },
-    "expandedKeys": [
-      "item-2-0",
-      "item-2-3",
-      "item-2-7",
-      "item-2-15"
-    ]
+    "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/FreeRTOS/003_1 FreeRTOS 资源保护.md": {
-    "scroll": 339.0094517958412,
+    "scroll": 327.5599352051836,
     "cursor": {
       "from": {
-        "line": 354,
-        "ch": 14
+        "line": 312,
+        "ch": 0
       },
       "to": {
-        "line": 354,
-        "ch": 14
+        "line": 342,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -3136,7 +3156,7 @@
     "expandedKeys": []
   },
   "1.24_试卷.md": {
-    "scroll": 12.938657407407408,
+    "scroll": 2.4856390617520345,
     "cursor": {
       "from": {
         "line": 14,
@@ -3152,7 +3172,7 @@
     ]
   },
   "C_Pointer_Memory_Analysis.md": {
-    "scroll": 147.8235133784582,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 157,
@@ -3277,7 +3297,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/ADC 模数转换器.md": {
-    "scroll": 4.4551091269841265,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 8,
@@ -3296,5 +3316,864 @@
       "item-2-20",
       "item-2-23"
     ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/015_3 ADC 模数转换器.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-7",
+      "item-2-11",
+      "item-2-20",
+      "item-2-23"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/015_2 ADC 模数转换器.md": {
+    "scroll": 2.996215752560674,
+    "cursor": {
+      "from": {
+        "line": 202,
+        "ch": 58
+      },
+      "to": {
+        "line": 202,
+        "ch": 58
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-7",
+      "item-2-11",
+      "item-2-20",
+      "item-2-23"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/基于cmaek的stm32开发环境.md": {
+    "scroll": 0.12643678160919541,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-16",
+      "item-2-18",
+      "item-2-25"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/独立看门狗m.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 33
+      },
+      "to": {
+        "line": 12,
+        "ch": 33
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-6",
+      "item-2-11"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/015_3 独立看门狗.md": {
+    "scroll": 0.39567747298420614,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 33
+      },
+      "to": {
+        "line": 12,
+        "ch": 33
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-6",
+      "item-2-11"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/FreeRTOS/005_1 FreeRTOS 互斥量.md": {
+    "scroll": 5.25,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-10",
+      "item-2-17"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/012_ SPI 协议 1.md": {
+    "scroll": 0.31255195344970904,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/013_ FreeRTOS.md": {
+    "scroll": 0.14630091438071488,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 48
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/STM32/015_6 启动文件.md": {
+    "scroll": 0.18284843578877197,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-3-6"
+    ]
+  },
+  "40 - 资源/45 - 面试/1.24_试卷.md": {
+    "scroll": 0.03031235939091103,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "40 - 资源/45 - 面试/C_Pointer_Memory_Analysis.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/015_4 独立看门狗.md": {
+    "scroll": 27.52434135166094,
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 0
+      },
+      "to": {
+        "line": 33,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-6",
+      "item-2-11"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/FSMC.md": {
+    "scroll": 42.93888888888889,
+    "cursor": {
+      "from": {
+        "line": 46,
+        "ch": 162
+      },
+      "to": {
+        "line": 46,
+        "ch": 162
+      }
+    },
+    "expandedKeys": []
+  },
+  "FSMC2.md": {
+    "scroll": 36.411307803468205,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 0
+      },
+      "to": {
+        "line": 40,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4",
+      "item-2-7",
+      "item-2-10"
+    ]
+  },
+  "STM32 FSMC 总线.md": {
+    "scroll": 0.43004972449939527,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 75
+      },
+      "to": {
+        "line": 4,
+        "ch": 75
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4",
+      "item-2-7",
+      "item-2-10"
+    ]
+  },
+  "TFT.md": {
+    "scroll": 93.37859578884935,
+    "cursor": {
+      "from": {
+        "line": 97,
+        "ch": 14
+      },
+      "to": {
+        "line": 97,
+        "ch": 14
+      }
+    },
+    "expandedKeys": []
+  },
+  "TFT2.md": {
+    "scroll": 108.92311507936508,
+    "cursor": {
+      "from": {
+        "line": 115,
+        "ch": 16
+      },
+      "to": {
+        "line": 115,
+        "ch": 19
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4",
+      "item-2-12",
+      "item-2-16"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/STM32/006_1 异常与中断.md": {
+    "scroll": 0.18284843578877197,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/STM32/007_ RTC时钟.md": {
+    "scroll": 0.12096219931271478,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "LVGL开源GUI零基础入门课程1.md": {
+    "scroll": 0.14285980021949812,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "LVGL开源GUI零基础入门课程1_2.md": {
+    "scroll": 63.573743386243386,
+    "cursor": {
+      "from": {
+        "line": 73,
+        "ch": 0
+      },
+      "to": {
+        "line": 73,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "LVGL开源GUI零基础入门课程2.md": {
+    "scroll": 16.18941798941799,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "LVGL开源GUI零基础入门课程4.md": {
+    "scroll": 8.791269841269841,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "LVGL核心编程指南.md": {
+    "scroll": 278.4574829931973,
+    "cursor": {
+      "from": {
+        "line": 294,
+        "ch": 46
+      },
+      "to": {
+        "line": 294,
+        "ch": 4
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4",
+      "item-2-21",
+      "item-2-25",
+      "item-2-36"
+    ]
+  },
+  "LVGL开源GUI零基础入门课程3.md": {
+    "scroll": 14.164835164835164,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "未命名 2.md": {
+    "scroll": 0.14605809128630706,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "RS485.md": {
+    "scroll": 252.7660450997398,
+    "cursor": {
+      "from": {
+        "line": 262,
+        "ch": 4
+      },
+      "to": {
+        "line": 262,
+        "ch": 21
+      }
+    },
+    "expandedKeys": []
+  },
+  "RS485_2.md": {
+    "scroll": 26.93765364452211,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 0
+      },
+      "to": {
+        "line": 37,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "RS485_2 1.md": {
+    "scroll": 0.18215022650190926,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/STM32/020_RS485.md": {
+    "scroll": 240.72382671480145,
+    "cursor": {
+      "from": {
+        "line": 245,
+        "ch": 39
+      },
+      "to": {
+        "line": 245,
+        "ch": 39
+      }
+    },
+    "expandedKeys": []
+  },
+  "LVGL核心编程指南 - 副本.md": {
+    "scroll": 566.3934240362812,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "电路发展历史.md": {
+    "scroll": 66.18270571827057,
+    "cursor": {
+      "from": {
+        "line": 70,
+        "ch": 110
+      },
+      "to": {
+        "line": 70,
+        "ch": 110
+      }
+    },
+    "expandedKeys": []
+  },
+  "PCB制作工艺.md": {
+    "scroll": 0.5253532834580216,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 12
+      },
+      "to": {
+        "line": 6,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "电路发展历史_2.md": {
+    "scroll": 189.00843253968253,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 187,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "PCB制作工艺_2.md": {
+    "scroll": 58.39157258064516,
+    "cursor": {
+      "from": {
+        "line": 66,
+        "ch": 3
+      },
+      "to": {
+        "line": 66,
+        "ch": 73
+      }
+    },
+    "expandedKeys": []
+  },
+  "电子元器件的封装.md": {
+    "scroll": 92.27142891051277,
+    "cursor": {
+      "from": {
+        "line": 95,
+        "ch": 0
+      },
+      "to": {
+        "line": 95,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "电子产品开发流程.md": {
+    "scroll": 116.67262764932562,
+    "cursor": {
+      "from": {
+        "line": 120,
+        "ch": 0
+      },
+      "to": {
+        "line": 120,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "电子元器件的封装_2.md": {
+    "scroll": 227.63273465653154,
+    "cursor": {
+      "from": {
+        "line": 189,
+        "ch": 54
+      },
+      "to": {
+        "line": 189,
+        "ch": 54
+      }
+    },
+    "expandedKeys": []
+  },
+  "电子产品开发流程_2.md": {
+    "scroll": 133.48093198573636,
+    "cursor": {
+      "from": {
+        "line": 63,
+        "ch": 40
+      },
+      "to": {
+        "line": 63,
+        "ch": 40
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/未命名.md": {
+    "scroll": 0.14630091438071488,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/001_1 电路发展历史.md": {
+    "scroll": 0.7228945571898467,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/PCB制作工艺_2.md": {
+    "scroll": 0.15698779665174464,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 2
+      },
+      "to": {
+        "line": 0,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/001_2 PCB制作工艺.md": {
+    "scroll": 0.24463931644896875,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 2
+      },
+      "to": {
+        "line": 0,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/电子产品开发流程_2.md": {
+    "scroll": 0.11594202898550725,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/001_3 电子产品开发流程.md": {
+    "scroll": 0.4057971014492754,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/电子元器件的封装_2.md": {
+    "scroll": 0.15698779665174464,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 2
+      },
+      "to": {
+        "line": 0,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/001_4 电子元器件的封装.md": {
+    "scroll": 25.824537750385208,
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 0
+      },
+      "to": {
+        "line": 35,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "嘉立创EDA环境搭建.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 97,
+        "ch": 49
+      },
+      "to": {
+        "line": 97,
+        "ch": 49
+      }
+    },
+    "expandedKeys": []
+  },
+  "嘉立创软件介绍.md": {
+    "scroll": 100.59427828348504,
+    "cursor": {
+      "from": {
+        "line": 104,
+        "ch": 0
+      },
+      "to": {
+        "line": 104,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "嘉立创EDA环境搭建_2.md": {
+    "scroll": 137.46718950064022,
+    "cursor": {
+      "from": {
+        "line": 139,
+        "ch": 0
+      },
+      "to": {
+        "line": 139,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "PCB入门：滑动开关点灯案例.md": {
+    "scroll": 387.47718253968253,
+    "cursor": {
+      "from": {
+        "line": 336,
+        "ch": 0
+      },
+      "to": {
+        "line": 336,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "嘉立创软件介绍_2.md": {
+    "scroll": 119.2168601511879,
+    "cursor": {
+      "from": {
+        "line": 120,
+        "ch": 0
+      },
+      "to": {
+        "line": 120,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/嘉立创软件介绍_2.md": {
+    "scroll": 0.11132194813409235,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/嘉立创EDA环境搭建_2.md": {
+    "scroll": 0.11594202898550725,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/002_2 嘉立创软件介绍.md": {
+    "scroll": 0.38962681846932323,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/002_1 嘉立创EDA环境搭建.md": {
+    "scroll": 0.11594202898550725,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

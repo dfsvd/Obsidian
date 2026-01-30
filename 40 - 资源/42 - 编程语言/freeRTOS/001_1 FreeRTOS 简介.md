@@ -1,6 +1,6 @@
 ---
-author: 刘鑫
 created: 2026-01-19
+author: 刘鑫
 up: "[[../../../30 - 领域/FreeRTOS]]"
 prev: "[[000_1 移植FreeRTOS]]"
 next: "[[002_1 FreeRTOS 任务管理和时间管理]]"
