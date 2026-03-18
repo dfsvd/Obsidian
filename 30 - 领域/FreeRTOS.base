@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "40 - 资源/42 - 编程语言/FreeRTOS"
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: 视图
+    filters:
+      and:
+        - file.folder == "40 - 资源/42 - 编程语言/FreeRTOS"

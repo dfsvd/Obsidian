@@ -70,21 +70,28 @@
     "expandedKeys": []
   },
   "未命名.md": {
-    "scroll": 0.47880299251870323,
+    "scroll": 8.376713848390258,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 21,
+        "ch": 138
       },
       "to": {
-        "line": 1,
+        "line": 16,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4",
+      "item-1-7",
+      "item-2-9",
+      "item-2-12",
+      "item-2-15"
+    ]
   },
   "40 - 资源/42 - 编程语言/STM32/CubeMx创建项目.md": {
-    "scroll": 13.482514177693762,
+    "scroll": 24.454532891100055,
     "cursor": {
       "from": {
         "line": 22,
@@ -141,7 +148,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/VSCode开发STM32.md": {
-    "scroll": 0.19783873649210307,
+    "scroll": 0.20163934426229507,
     "cursor": {
       "from": {
         "line": 1,
@@ -230,7 +237,7 @@
     ]
   },
   "90 - 系统文件/Markdown 语法速查手册.md": {
-    "scroll": 51.883556682361466,
+    "scroll": 52.917705792003886,
     "cursor": {
       "from": {
         "line": 64,
@@ -412,23 +419,23 @@
     ]
   },
   "40 - 资源/41 - 系统配置/windows下rime配置.md": {
-    "scroll": 15.90288279773157,
+    "scroll": 252.96531196063665,
     "cursor": {
       "from": {
-        "line": 319,
-        "ch": 49
+        "line": 261,
+        "ch": 12
       },
       "to": {
-        "line": 319,
-        "ch": 49
+        "line": 261,
+        "ch": 12
       }
     },
     "expandedKeys": [
-      "item-1-0",
-      "item-1-4",
-      "item-1-7",
-      "item-1-13",
-      "item-1-16"
+      "item-2-0",
+      "item-2-4",
+      "item-2-7",
+      "item-2-13",
+      "item-2-16"
     ]
   },
   "异常与中断.md": {
@@ -496,7 +503,7 @@
     "expandedKeys": []
   },
   "30 - 领域/STM32.md": {
-    "scroll": 0.2890995260663507,
+    "scroll": 0.3,
     "cursor": {
       "from": {
         "line": 5,
@@ -510,7 +517,7 @@
     "expandedKeys": []
   },
   "30 - 领域/并发编程.md": {
-    "scroll": 0.4831804281345566,
+    "scroll": 0.31834072405621644,
     "cursor": {
       "from": {
         "line": 2,
@@ -814,15 +821,15 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/008_ 外设定时器.md": {
-    "scroll": 218.22732426303855,
+    "scroll": 0.15181518151815182,
     "cursor": {
       "from": {
-        "line": 231,
-        "ch": 13
+        "line": 0,
+        "ch": 6
       },
       "to": {
-        "line": 231,
-        "ch": 13
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -834,15 +841,15 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/007_ 系统定时器（精准延时）.md": {
-    "scroll": 13.87079360075656,
+    "scroll": 0.15181518151815182,
     "cursor": {
       "from": {
-        "line": 19,
-        "ch": 110
+        "line": 0,
+        "ch": 6
       },
       "to": {
-        "line": 19,
-        "ch": 110
+        "line": 0,
+        "ch": 6
       }
     },
     "expandedKeys": [
@@ -893,15 +900,15 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/004_ 时钟体系.md": {
-    "scroll": 35.25406636304489,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 52
+        "line": 0,
+        "ch": 6
       },
       "to": {
-        "line": 42,
-        "ch": 2
+        "line": 0,
+        "ch": 6
       }
     },
     "expandedKeys": [
@@ -996,7 +1003,7 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/ST-Like.md": {
-    "scroll": 25.04745717523162,
+    "scroll": 25.03469470007389,
     "cursor": {
       "from": {
         "line": 27,
@@ -1012,15 +1019,15 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/005_ 寄存器与位带操作.md": {
-    "scroll": 0.18284843578877197,
+    "scroll": 0.15181518151815182,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 6
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 6
       }
     },
     "expandedKeys": [
@@ -1520,7 +1527,7 @@
     "expandedKeys": []
   },
   "20 - 项目/qt项目.md": {
-    "scroll": 0.14695562435500517,
+    "scroll": 0.1620656256571753,
     "cursor": {
       "from": {
         "line": 0,
@@ -1534,7 +1541,7 @@
     "expandedKeys": []
   },
   "20 - 项目/QT.md": {
-    "scroll": 0.14695562435500517,
+    "scroll": 0.1620656256571753,
     "cursor": {
       "from": {
         "line": 0,
@@ -1548,32 +1555,37 @@
     "expandedKeys": []
   },
   "90 - 系统文件/91 - 模板文件/每日笔记 - {{title}}.md": {
-    "scroll": 0.14962593516209477,
+    "scroll": 16.009134024240296,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 21,
+        "ch": 2
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 21,
+        "ch": 2
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "90 - 系统文件/91 - 模板文件/每日笔记 - {{title}}1.md": {
-    "scroll": 5.377215189873418,
+    "scroll": 22.62014421958595,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 0
+        "line": 33,
+        "ch": 12
       },
       "to": {
-        "line": 6,
-        "ch": 0
+        "line": 33,
+        "ch": 12
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-4"
+    ]
   },
   "40 - 资源/44 - 提示词/History/提示词.md": {
     "scroll": 0.47800829875518674,
@@ -1702,15 +1714,15 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/009_1 串口通信.md": {
-    "scroll": 193.41540642722117,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 200,
-        "ch": 18
+        "line": 1,
+        "ch": 3
       },
       "to": {
-        "line": 200,
-        "ch": 18
+        "line": 1,
+        "ch": 3
       }
     },
     "expandedKeys": [
@@ -1736,15 +1748,15 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/011_ IIC协议.md": {
-    "scroll": 22.25,
+    "scroll": 2.2301587301587302,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 5,
+        "ch": 88
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 5,
+        "ch": 88
       }
     },
     "expandedKeys": [
@@ -1753,15 +1765,15 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/012_ SPI 协议.md": {
-    "scroll": 0,
+    "scroll": 115.34323858742464,
     "cursor": {
       "from": {
-        "line": 206,
-        "ch": 8
+        "line": 73,
+        "ch": 44
       },
       "to": {
-        "line": 206,
-        "ch": 8
+        "line": 73,
+        "ch": 44
       }
     },
     "expandedKeys": [
@@ -1770,7 +1782,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/ESP32/ESP基础.md": {
-    "scroll": 15.078592423701343,
+    "scroll": 0.9234884212008165,
     "cursor": {
       "from": {
         "line": 19,
@@ -1784,21 +1796,21 @@
     "expandedKeys": []
   },
   "40 - 资源/43 - 工具配置/小鹤双拼.md": {
-    "scroll": 0.5972811813481773,
+    "scroll": 0.10075150483874963,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 10
+        "line": 0,
+        "ch": 43
       },
       "to": {
-        "line": 16,
-        "ch": 10
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "编程.md": {
-    "scroll": 0.4571210894719299,
+    "scroll": 0.4174467985265479,
     "cursor": {
       "from": {
         "line": 5,
@@ -1812,15 +1824,15 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/006_2 STM32F407 标准库模板.md": {
-    "scroll": 14.472021660649819,
+    "scroll": 0.15181518151815182,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 104
+        "ch": 6
       },
       "to": {
         "line": 0,
-        "ch": 104
+        "ch": 6
       }
     },
     "expandedKeys": []
@@ -1893,21 +1905,21 @@
     ]
   },
   "40 - 资源/专业英语.md": {
-    "scroll": 0.8262676641729011,
+    "scroll": 0.8656942445127134,
     "cursor": {
       "from": {
-        "line": 13,
+        "line": 12,
         "ch": 0
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 12,
+        "ch": 8
       }
     },
     "expandedKeys": []
   },
   "C 语言字符串切割方法全攻略.md": {
-    "scroll": 2.1760248688556443,
+    "scroll": 2.257034961627482,
     "cursor": {
       "from": {
         "line": 9,
@@ -2026,7 +2038,7 @@
     "expandedKeys": []
   },
   "40 - 资源/49 - 代码片段/zshrc.md": {
-    "scroll": 0.14559146532789458,
+    "scroll": 0.13741750725616814,
     "cursor": {
       "from": {
         "line": 0,
@@ -2058,18 +2070,24 @@
     ]
   },
   "未命名 1.md": {
-    "scroll": 0.14630091438071488,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 13
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 13
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-4",
+      "item-1-7",
+      "item-2-9",
+      "item-2-12",
+      "item-2-15"
+    ]
   },
   "任务管理.md": {
     "scroll": 0.35601374570446737,
@@ -2241,7 +2259,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/QT编程/Qt-CMake 图片资源嵌入问题.md": {
-    "scroll": 0.18215022650190926,
+    "scroll": 0.17309148568155977,
     "cursor": {
       "from": {
         "line": 0,
@@ -2255,7 +2273,7 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/QT编程/添加QtNetware模块.md": {
-    "scroll": 0.138801261829653,
+    "scroll": 0.13014924917648088,
     "cursor": {
       "from": {
         "line": 0,
@@ -2269,15 +2287,15 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/Linux下的STM32 现代化开发环境配置.md": {
-    "scroll": 52.71800595238095,
+    "scroll": 0.492603550295858,
     "cursor": {
       "from": {
-        "line": 61,
-        "ch": 0
+        "line": 5,
+        "ch": 14
       },
       "to": {
-        "line": 61,
-        "ch": 0
+        "line": 5,
+        "ch": 27
       }
     },
     "expandedKeys": [
@@ -2287,7 +2305,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/Linux STM32 串口通讯与调试.md": {
-    "scroll": 0.13902053712480253,
+    "scroll": 32.74126119796241,
     "cursor": {
       "from": {
         "line": 0,
@@ -2332,7 +2350,7 @@
     "expandedKeys": []
   },
   "20 - 项目/stm32.md": {
-    "scroll": 5.446124763705104,
+    "scroll": 36.291320996405354,
     "cursor": {
       "from": {
         "line": 0,
@@ -2402,7 +2420,7 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/网络通信/1. 基础概念.md": {
-    "scroll": 0.18187415634546616,
+    "scroll": 0.1846976842401633,
     "cursor": {
       "from": {
         "line": 0,
@@ -2413,10 +2431,13 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-7"
+    ]
   },
   "40 - 资源/43 - 工具配置/VSCode插件配置.md": {
-    "scroll": 0.14695562435500517,
+    "scroll": 0.13839320944531525,
     "cursor": {
       "from": {
         "line": 0,
@@ -2693,7 +2714,7 @@
     ]
   },
   "10 - 每日记录/2026-01-19.md": {
-    "scroll": 11.388571428571428,
+    "scroll": 0.16464521622980666,
     "cursor": {
       "from": {
         "line": 0,
@@ -2841,29 +2862,29 @@
     "expandedKeys": []
   },
   "30 - 领域/FreeRTOS.md": {
-    "scroll": 0,
+    "scroll": 0.1485148514851485,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 87
+        "line": 3,
+        "ch": 9
       },
       "to": {
-        "line": 7,
-        "ch": 87
+        "line": 3,
+        "ch": 9
       }
     },
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/FreeRTOS/000_1 移植FreeRTOS.md": {
-    "scroll": 0.23854660347551343,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 37
       },
       "to": {
-        "line": 1,
-        "ch": 0
+        "line": 0,
+        "ch": 37
       }
     },
     "expandedKeys": [
@@ -2926,14 +2947,14 @@
     ]
   },
   "40 - 资源/42 - 编程语言/FreeRTOS/001_1 FreeRTOS 简介.md": {
-    "scroll": 3.2846153846153845,
+    "scroll": 167.71852048491283,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 0
+        "line": 34,
+        "ch": 36
       },
       "to": {
-        "line": 7,
+        "line": 30,
         "ch": 0
       }
     },
@@ -2976,15 +2997,15 @@
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/FreeRTOS/003_1 FreeRTOS 资源保护.md": {
-    "scroll": 327.5599352051836,
+    "scroll": 40.5784632034632,
     "cursor": {
       "from": {
-        "line": 312,
-        "ch": 0
+        "line": 49,
+        "ch": 138
       },
       "to": {
-        "line": 342,
-        "ch": 0
+        "line": 49,
+        "ch": 138
       }
     },
     "expandedKeys": [
@@ -3360,15 +3381,15 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/基于cmaek的stm32开发环境.md": {
-    "scroll": 0.12643678160919541,
+    "scroll": 211.47361634269592,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 95,
+        "ch": 2
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 95,
+        "ch": 2
       }
     },
     "expandedKeys": [
@@ -3453,15 +3474,15 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/013_ FreeRTOS.md": {
-    "scroll": 0.14630091438071488,
+    "scroll": 0.49875311720698257,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 48
+        "ch": 9
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 9
       }
     },
     "expandedKeys": []
@@ -3485,14 +3506,14 @@
     ]
   },
   "40 - 资源/45 - 面试/1.24_试卷.md": {
-    "scroll": 0.03031235939091103,
+    "scroll": 0.5106166301394828,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 16,
+        "ch": 13
       },
       "to": {
-        "line": 0,
+        "line": 4,
         "ch": 0
       }
     },
@@ -3501,7 +3522,7 @@
     ]
   },
   "40 - 资源/45 - 面试/C_Pointer_Memory_Analysis.md": {
-    "scroll": 0,
+    "scroll": 19.192137887644215,
     "cursor": {
       "from": {
         "line": 0,
@@ -3536,7 +3557,7 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/FSMC.md": {
-    "scroll": 42.93888888888889,
+    "scroll": 42.701270064096605,
     "cursor": {
       "from": {
         "line": 46,
@@ -3550,7 +3571,7 @@
     "expandedKeys": []
   },
   "FSMC2.md": {
-    "scroll": 36.411307803468205,
+    "scroll": 36.408541666666665,
     "cursor": {
       "from": {
         "line": 40,
@@ -3590,29 +3611,29 @@
     ]
   },
   "TFT.md": {
-    "scroll": 93.37859578884935,
+    "scroll": 142.37421085858585,
     "cursor": {
       "from": {
-        "line": 97,
-        "ch": 14
+        "line": 151,
+        "ch": 0
       },
       "to": {
-        "line": 97,
-        "ch": 14
+        "line": 151,
+        "ch": 0
       }
     },
     "expandedKeys": []
   },
   "TFT2.md": {
-    "scroll": 108.92311507936508,
+    "scroll": 164.15746753246754,
     "cursor": {
       "from": {
         "line": 115,
-        "ch": 16
+        "ch": 17
       },
       "to": {
         "line": 115,
-        "ch": 19
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -3624,29 +3645,29 @@
     ]
   },
   "40 - 资源/42 - 编程语言/STM32/006_1 异常与中断.md": {
-    "scroll": 0.18284843578877197,
+    "scroll": 0.15181518151815182,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 6
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 6
       }
     },
     "expandedKeys": []
   },
   "40 - 资源/42 - 编程语言/STM32/007_ RTC时钟.md": {
-    "scroll": 0.12096219931271478,
+    "scroll": 0.15181518151815182,
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 6
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 6
       }
     },
     "expandedKeys": []
@@ -3708,15 +3729,15 @@
     "expandedKeys": []
   },
   "LVGL核心编程指南.md": {
-    "scroll": 278.4574829931973,
+    "scroll": 419.5527597402597,
     "cursor": {
       "from": {
-        "line": 294,
-        "ch": 46
+        "line": 434,
+        "ch": 4
       },
       "to": {
-        "line": 294,
-        "ch": 4
+        "line": 434,
+        "ch": 20
       }
     },
     "expandedKeys": [
@@ -3725,7 +3746,8 @@
       "item-2-4",
       "item-2-21",
       "item-2-25",
-      "item-2-36"
+      "item-2-36",
+      "item-3-32"
     ]
   },
   "LVGL开源GUI零基础入门课程3.md": {
@@ -3757,7 +3779,7 @@
     "expandedKeys": []
   },
   "RS485.md": {
-    "scroll": 252.7660450997398,
+    "scroll": 252.78562828371278,
     "cursor": {
       "from": {
         "line": 262,
@@ -3771,7 +3793,7 @@
     "expandedKeys": []
   },
   "RS485_2.md": {
-    "scroll": 26.93765364452211,
+    "scroll": 27.82627186647408,
     "cursor": {
       "from": {
         "line": 37,
@@ -3782,7 +3804,16 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-5",
+      "item-2-8",
+      "item-2-12",
+      "item-2-15",
+      "item-2-22",
+      "item-2-25"
+    ]
   },
   "RS485_2 1.md": {
     "scroll": 0.18215022650190926,
@@ -3953,15 +3984,15 @@
     "expandedKeys": []
   },
   "40 - 资源/44 - 硬件/电路设计/001_1 电路发展历史.md": {
-    "scroll": 0.7228945571898467,
+    "scroll": 71.00799665178572,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 0
+        "line": 16,
+        "ch": 147
       },
       "to": {
-        "line": 2,
-        "ch": 0
+        "line": 16,
+        "ch": 147
       }
     },
     "expandedKeys": []
@@ -4093,14 +4124,14 @@
     "expandedKeys": []
   },
   "PCB入门：滑动开关点灯案例.md": {
-    "scroll": 387.47718253968253,
+    "scroll": 478.99757459307983,
     "cursor": {
       "from": {
-        "line": 336,
+        "line": 487,
         "ch": 0
       },
       "to": {
-        "line": 336,
+        "line": 487,
         "ch": 0
       }
     },
@@ -4149,7 +4180,169 @@
     "expandedKeys": []
   },
   "40 - 资源/44 - 硬件/电路设计/002_2 嘉立创软件介绍.md": {
-    "scroll": 0.38962681846932323,
+    "scroll": 0.16238073411354387,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 38
+      },
+      "to": {
+        "line": 0,
+        "ch": 38
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/44 - 硬件/电路设计/002_1 嘉立创EDA环境搭建.md": {
+    "scroll": 66.2830401443392,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/46 - 提示词/技术博客.md": {
+    "scroll": 14.665146499475924,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 0
+      },
+      "to": {
+        "line": 19,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/46 - 提示词/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 7
+      },
+      "to": {
+        "line": 0,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/C/C语言易忘关键词.md": {
+    "scroll": 0.17131359072353347,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/C++/类与对象.md": {
+    "scroll": 1.8599033816425121,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "C 语言核心技术点.md": {
+    "scroll": 235.49909788001804,
+    "cursor": {
+      "from": {
+        "line": 230,
+        "ch": 4
+      },
+      "to": {
+        "line": 230,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "串口通信.md": {
+    "scroll": 42.667250744699494,
+    "cursor": {
+      "from": {
+        "line": 53,
+        "ch": 10
+      },
+      "to": {
+        "line": 53,
+        "ch": 10
+      }
+    },
+    "expandedKeys": []
+  },
+  "串口通信基础.md": {
+    "scroll": 276.12088407758233,
+    "cursor": {
+      "from": {
+        "line": 285,
+        "ch": 5
+      },
+      "to": {
+        "line": 285,
+        "ch": 5
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-8",
+      "item-2-13",
+      "item-2-17",
+      "item-2-23",
+      "item-2-28"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/FreeRTOS/未命名.md": {
+    "scroll": 0.1485148514851485,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "70 - Excalidraw/Drawing 2026-01-31 18.39.46.excalidraw.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "模电数电.md": {
+    "scroll": 0.2699149447494286,
     "cursor": {
       "from": {
         "line": 1,
@@ -4162,8 +4355,94 @@
     },
     "expandedKeys": []
   },
-  "40 - 资源/44 - 硬件/电路设计/002_1 嘉立创EDA环境搭建.md": {
-    "scroll": 0.11594202898550725,
+  "40 - 资源/45 - 面试/模电数电.md": {
+    "scroll": 20.634799984968403,
+    "cursor": {
+      "from": {
+        "line": 74,
+        "ch": 111
+      },
+      "to": {
+        "line": 74,
+        "ch": 111
+      }
+    },
+    "expandedKeys": []
+  },
+  "STM32.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 541,
+        "ch": 22
+      },
+      "to": {
+        "line": 541,
+        "ch": 22
+      }
+    },
+    "expandedKeys": []
+  },
+  "C语言6.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 245,
+        "ch": 62
+      },
+      "to": {
+        "line": 245,
+        "ch": 62
+      }
+    },
+    "expandedKeys": []
+  },
+  "C语言试卷6.md": {
+    "scroll": 239.63338907258745,
+    "cursor": {
+      "from": {
+        "line": 245,
+        "ch": 62
+      },
+      "to": {
+        "line": 245,
+        "ch": 62
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/3.7_试卷.md": {
+    "scroll": 13.803122243573588,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 13
+      },
+      "to": {
+        "line": 4,
+        "ch": 2
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "10 - 每日记录/2026-03-09.md": {
+    "scroll": 6.879726895419034,
+    "cursor": {
+      "from": {
+        "line": 29,
+        "ch": 2
+      },
+      "to": {
+        "line": 29,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "20 - 任务/未命名.md": {
+    "scroll": 0.1597547701978449,
     "cursor": {
       "from": {
         "line": 0,
@@ -4172,6 +4451,1287 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "20 - 任务/51单片机.md": {
+    "scroll": 0.15882432154178927,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 22
+      },
+      "to": {
+        "line": 6,
+        "ch": 22
+      }
+    },
+    "expandedKeys": []
+  },
+  "90 - 系统文件/91 - 模板文件/通用学习笔记模板.md": {
+    "scroll": 2.324439760238405,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/未命名.md": {
+    "scroll": 0.15187102179603687,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/1.13_试卷.md": {
+    "scroll": 279.9146860242886,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 9
+      },
+      "to": {
+        "line": 2,
+        "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/51单片机/001__51单片机的概述.md": {
+    "scroll": 193.63388663969934,
+    "cursor": {
+      "from": {
+        "line": 201,
+        "ch": 25
+      },
+      "to": {
+        "line": 201,
+        "ch": 25
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-3",
+      "item-2-10",
+      "item-2-16",
+      "item-2-20"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/001__51单片机的概述_2.md": {
+    "scroll": 140.53124990883612,
+    "cursor": {
+      "from": {
+        "line": 201,
+        "ch": 25
+      },
+      "to": {
+        "line": 201,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/51单片机/002__STC89C52RC芯片概述.md": {
+    "scroll": 171.94040619139574,
+    "cursor": {
+      "from": {
+        "line": 177,
+        "ch": 23
+      },
+      "to": {
+        "line": 177,
+        "ch": 26
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-3",
+      "item-2-6",
+      "item-2-11"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/002__STC89C52RC芯片概述_2.md": {
+    "scroll": 171.93045022519874,
+    "cursor": {
+      "from": {
+        "line": 177,
+        "ch": 23
+      },
+      "to": {
+        "line": 177,
+        "ch": 26
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/51单片机/003__开发环境.md": {
+    "scroll": 137.24894245927615,
+    "cursor": {
+      "from": {
+        "line": 141,
+        "ch": 0
+      },
+      "to": {
+        "line": 141,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-3",
+      "item-2-16",
+      "item-2-20",
+      "item-3-8"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/003__开发环境_2.md": {
+    "scroll": 331.96792960187815,
+    "cursor": {
+      "from": {
+        "line": 299,
+        "ch": 13
+      },
+      "to": {
+        "line": 299,
+        "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/51单片机/004__工程搭建和程序烧录.md": {
+    "scroll": 167.6719327648788,
+    "cursor": {
+      "from": {
+        "line": 174,
+        "ch": 0
+      },
+      "to": {
+        "line": 174,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-10",
+      "item-2-14",
+      "item-2-18",
+      "item-2-28",
+      "item-2-33",
+      "item-2-38"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/004__工程搭建和程序烧录_2.md": {
+    "scroll": 423.69667635149017,
+    "cursor": {
+      "from": {
+        "line": 418,
+        "ch": 22
+      },
+      "to": {
+        "line": 418,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/51单片机/005__GPIO(LED、蜂鸣器、按键).md": {
+    "scroll": 534.6274198906341,
+    "cursor": {
+      "from": {
+        "line": 545,
+        "ch": 14
+      },
+      "to": {
+        "line": 545,
+        "ch": 22
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-3",
+      "item-2-12",
+      "item-2-18",
+      "item-2-23",
+      "item-2-26",
+      "item-2-30",
+      "item-2-32"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/005__GPIO(LED、蜂鸣器、按键)_2.md": {
+    "scroll": 733.2206108313685,
+    "cursor": {
+      "from": {
+        "line": 741,
+        "ch": 0
+      },
+      "to": {
+        "line": 741,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/51单片机/001__中断.md": {
+    "scroll": 138.23972538729336,
+    "cursor": {
+      "from": {
+        "line": 147,
+        "ch": 0
+      },
+      "to": {
+        "line": 147,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-7",
+      "item-2-13"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/001__中断_2.md": {
+    "scroll": 138.23892498485418,
+    "cursor": {
+      "from": {
+        "line": 147,
+        "ch": 0
+      },
+      "to": {
+        "line": 147,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-7",
+      "item-2-13"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/002__外部中断_2.md": {
+    "scroll": 259.84705788786664,
+    "cursor": {
+      "from": {
+        "line": 269,
+        "ch": 0
+      },
+      "to": {
+        "line": 269,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-10",
+      "item-2-15"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/003__定时器中断.md": {
+    "scroll": 132.64888296918633,
+    "cursor": {
+      "from": {
+        "line": 139,
+        "ch": 0
+      },
+      "to": {
+        "line": 139,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-2-16"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/003__定时器中断_2.md": {
+    "scroll": 412.79841160106804,
+    "cursor": {
+      "from": {
+        "line": 424,
+        "ch": 24
+      },
+      "to": {
+        "line": 424,
+        "ch": 24
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-17",
+      "item-2-25"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/002__外部中断.md": {
+    "scroll": 259.85109203635216,
+    "cursor": {
+      "from": {
+        "line": 269,
+        "ch": 0
+      },
+      "to": {
+        "line": 269,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-10",
+      "item-2-15"
+    ]
+  },
+  "10 - 每日记录/2026-03-10.md": {
+    "scroll": 8.957091530048727,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 12
+      },
+      "to": {
+        "line": 18,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "10 - 每日记录/2026-03-11.md": {
+    "scroll": 17.586916973933015,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 2
+      },
+      "to": {
+        "line": 27,
+        "ch": 2
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/006__中断.md": {
+    "scroll": 138.23972538729336,
+    "cursor": {
+      "from": {
+        "line": 147,
+        "ch": 0
+      },
+      "to": {
+        "line": 147,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-7",
+      "item-2-13"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/007__外部中断.md": {
+    "scroll": 259.85109203635216,
+    "cursor": {
+      "from": {
+        "line": 269,
+        "ch": 0
+      },
+      "to": {
+        "line": 269,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-10",
+      "item-2-15"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/001_1 51单片机的概述.md": {
+    "scroll": 188.23561487015527,
+    "cursor": {
+      "from": {
+        "line": 157,
+        "ch": 11
+      },
+      "to": {
+        "line": 157,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-3",
+      "item-2-10",
+      "item-2-16",
+      "item-2-20"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/001_2 STC89C52RC芯片概述.md": {
+    "scroll": 1.2298407682168617,
+    "cursor": {
+      "from": {
+        "line": 177,
+        "ch": 23
+      },
+      "to": {
+        "line": 177,
+        "ch": 26
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-3",
+      "item-2-6",
+      "item-2-11"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/001_3 开发环境.md": {
+    "scroll": 139.31704222529865,
+    "cursor": {
+      "from": {
+        "line": 141,
+        "ch": 0
+      },
+      "to": {
+        "line": 141,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-3",
+      "item-2-16",
+      "item-2-20",
+      "item-3-8"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/001_5 GPIO(LED、蜂鸣器、按键).md": {
+    "scroll": 534.6113995784049,
+    "cursor": {
+      "from": {
+        "line": 545,
+        "ch": 14
+      },
+      "to": {
+        "line": 545,
+        "ch": 22
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-3",
+      "item-2-12",
+      "item-2-18",
+      "item-2-23",
+      "item-2-26",
+      "item-2-30",
+      "item-2-32"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/002_1 中断.md": {
+    "scroll": 138.23844166245107,
+    "cursor": {
+      "from": {
+        "line": 147,
+        "ch": 0
+      },
+      "to": {
+        "line": 147,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-7",
+      "item-2-13"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/002_2 外部中断.md": {
+    "scroll": 260.54980723431805,
+    "cursor": {
+      "from": {
+        "line": 269,
+        "ch": 0
+      },
+      "to": {
+        "line": 269,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-5",
+      "item-2-10",
+      "item-2-15"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/004__串口中断.md": {
+    "scroll": 394.8470148743683,
+    "cursor": {
+      "from": {
+        "line": 410,
+        "ch": 5
+      },
+      "to": {
+        "line": 410,
+        "ch": 18
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-4",
+      "item-2-12",
+      "item-2-22",
+      "item-1-32"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/004__串口中断_2.md": {
+    "scroll": 699.8907837850431,
+    "cursor": {
+      "from": {
+        "line": 709,
+        "ch": 27
+      },
+      "to": {
+        "line": 709,
+        "ch": 27
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-5",
+      "item-2-17",
+      "item-2-32",
+      "item-2-42",
+      "item-2-46",
+      "item-2-52"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/002_3 定时器中断.md": {
+    "scroll": 370.2229414558773,
+    "cursor": {
+      "from": {
+        "line": 381,
+        "ch": 17
+      },
+      "to": {
+        "line": 381,
+        "ch": 17
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2",
+      "item-2-17",
+      "item-2-25"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/00_24 串口中断.md": {
+    "scroll": 699.9033402928549,
+    "cursor": {
+      "from": {
+        "line": 709,
+        "ch": 27
+      },
+      "to": {
+        "line": 709,
+        "ch": 27
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-5",
+      "item-2-17",
+      "item-2-32",
+      "item-2-42",
+      "item-2-46",
+      "item-2-52"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/002_4 串口中断.md": {
+    "scroll": 698.9378968207856,
+    "cursor": {
+      "from": {
+        "line": 709,
+        "ch": 27
+      },
+      "to": {
+        "line": 709,
+        "ch": 27
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-5",
+      "item-2-17",
+      "item-2-32",
+      "item-2-42",
+      "item-2-46",
+      "item-2-52"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/003_1__数码管.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 7
+      },
+      "to": {
+        "line": 0,
+        "ch": 7
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4",
+      "item-2-15",
+      "item-2-28"
+    ]
+  },
+  "40 - 资源/46 - 提示词/技术笔记重构.md": {
+    "scroll": 20.34622850934078,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 30,
+        "ch": 27
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/42 - 编程语言/51单片机/003_1__数码管_2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 472,
+        "ch": 0
+      },
+      "to": {
+        "line": 472,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4",
+      "item-2-15",
+      "item-2-28"
+    ]
+  },
+  "40 - 资源/45 - 面试/LVGL核心编程指南.md": {
+    "scroll": 594.0981398353587,
+    "cursor": {
+      "from": {
+        "line": 499,
+        "ch": 1
+      },
+      "to": {
+        "line": 499,
+        "ch": 1
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4",
+      "item-2-21",
+      "item-2-25",
+      "item-2-36"
+    ]
+  },
+  "copilot/copilot-conversations/你好@20260119_163551.md": {
+    "scroll": 5.667060212514758,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Clip YouTube Transcript.md": {
+    "scroll": 3.3344086021505377,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Clip Web Page.md": {
+    "scroll": 3.3344086021505377,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Explain like I am 5.md": {
+    "scroll": 3.3344086021505377,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Fix grammar and spelling.md": {
+    "scroll": 3.3344086021505377,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Translate to Chinese.md": {
+    "scroll": 3.3344086021505377,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "10 - 每日记录/2026-03-13.md": {
+    "scroll": 7.113978494623656,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 2
+      },
+      "to": {
+        "line": 18,
+        "ch": 2
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/51单片机/003_1 数码管.md": {
+    "scroll": 0.18247254031315727,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 7
+      },
+      "to": {
+        "line": 0,
+        "ch": 7
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-4",
+      "item-2-15",
+      "item-2-28"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/Linux/未命名.md": {
+    "scroll": 0.14754098360655737,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 15
+      },
+      "to": {
+        "line": 0,
+        "ch": 15
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/Linux/tio 核心手册.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 10
+      },
+      "to": {
+        "line": 2,
+        "ch": 10
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "40 - 资源/42 - 编程语言/Linux/tio.md": {
+    "scroll": 0.1977532587456182,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "10 - 每日记录/2026-03-16.md": {
+    "scroll": 7.195082231001421,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 6
+      },
+      "to": {
+        "line": 15,
+        "ch": 6
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "20 - 任务/stm32.md": {
+    "scroll": 0.1620656256571753,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "20 - 任务/qt项目.md": {
+    "scroll": 0.1620656256571753,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "20 - 任务/QT.md": {
+    "scroll": 0.1620656256571753,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/STM32.md": {
+    "scroll": 0.6449214974026144,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/面试题_STM32.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1986,
+        "ch": 0
+      },
+      "to": {
+        "line": 1986,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-64"
+    ]
+  },
+  "40 - 资源/45 - 面试/C 语言核心技术点.md": {
+    "scroll": 0.4934680030432068,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/面试题_C 语言.md": {
+    "scroll": 0.19257287187611197,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/C 语言字符串切割方法全攻略.md": {
+    "scroll": 0.48202538881203816,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/面试题_模电数电.md": {
+    "scroll": 66.96520913005722,
+    "cursor": {
+      "from": {
+        "line": 74,
+        "ch": 111
+      },
+      "to": {
+        "line": 74,
+        "ch": 111
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/面试题_1_C 语言.md": {
+    "scroll": 0.19257287187611197,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/面试题10_STM32.md": {
+    "scroll": 171.0334312938084,
+    "cursor": {
+      "from": {
+        "line": 1986,
+        "ch": 0
+      },
+      "to": {
+        "line": 1986,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-64"
+    ]
+  },
+  "40 - 资源/45 - 面试/面试题1_C 语言.md": {
+    "scroll": 152.29386393229166,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/串口通信基础.md": {
+    "scroll": 0.14978773958233937,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0",
+      "item-2-3",
+      "item-2-8",
+      "item-2-13",
+      "item-2-17",
+      "item-2-23",
+      "item-2-28"
+    ]
+  },
+  "40 - 资源/46 - 提示词/ocr识别.md": {
+    "scroll": 11.906425085430914,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/面试题2_Linux.md": {
+    "scroll": 340.49571974734044,
+    "cursor": {
+      "from": {
+        "line": 344,
+        "ch": 17
+      },
+      "to": {
+        "line": 344,
+        "ch": 17
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/面试题2_Linux 1.md": {
+    "scroll": 0.19257287187611197,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/面试题3_数据结构.md": {
+    "scroll": 13.949446131819386,
+    "cursor": {
+      "from": {
+        "line": 282,
+        "ch": 6
+      },
+      "to": {
+        "line": 282,
+        "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/面试题3_数据结构 1.md": {
+    "scroll": 0.18831831122645495,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "40 - 资源/45 - 面试/面试题4_文件IO.md": {
+    "scroll": 159.67018821022728,
+    "cursor": {
+      "from": {
+        "line": 176,
+        "ch": 3
+      },
+      "to": {
+        "line": 176,
+        "ch": 3
+      }
+    },
+    "expandedKeys": [
+      "item-3-26"
+    ]
+  },
+  "40 - 资源/45 - 面试/面试题14_模电数电.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 75,
+        "ch": 8
+      },
+      "to": {
+        "line": 75,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "绪论.md": {
+    "scroll": 57.755664031070076,
+    "cursor": {
+      "from": {
+        "line": 68,
+        "ch": 15
+      },
+      "to": {
+        "line": 68,
+        "ch": 15
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-4",
+      "item-1-7",
+      "item-2-9",
+      "item-2-12",
+      "item-2-15"
+    ]
+  },
+  "Steam Deck 密码重置.md": {
+    "scroll": 29.028319140221342,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 15
+      },
+      "to": {
+        "line": 2,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "SteamOS 掌机插件.md": {
+    "scroll": 0.1861546745144585,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "SteamOS 掌机插件安装.md": {
+    "scroll": 106.58099830083997,
+    "cursor": {
+      "from": {
+        "line": 115,
+        "ch": 43
+      },
+      "to": {
+        "line": 115,
+        "ch": 43
+      }
+    },
+    "expandedKeys": []
+  },
+  "60 - 游戏/SteamOS 掌机插件安装.md": {
+    "scroll": 106.57578973701216,
+    "cursor": {
+      "from": {
+        "line": 115,
+        "ch": 43
+      },
+      "to": {
+        "line": 115,
+        "ch": 43
       }
     },
     "expandedKeys": []

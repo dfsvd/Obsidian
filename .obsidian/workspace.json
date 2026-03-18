@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a160f0cf9768ae1f",
+        "id": "6f942096205981ef",
         "type": "tabs",
         "children": [
           {
-            "id": "c62736d4fb1e99ec",
+            "id": "6892e9588629961e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TFT.md",
+                "file": "60 - 游戏/steam deck/Steam Deck 密码重置.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TFT"
+              "title": "Steam Deck 密码重置"
+            }
+          },
+          {
+            "id": "9f0529923528402d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 248.51103591918945
   },
   "right": {
     "id": "34967fd00587cf4a",
@@ -97,83 +122,7 @@
       {
         "id": "2b69a50ff19d1be4",
         "type": "tabs",
-        "dimension": 30.438931297709924,
-        "children": [
-          {
-            "id": "0c16fa3d5e5c6903",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "50 - 图书/野火 FreeRTOS 内核实现与应用开发实战.pdf",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "野火 FreeRTOS 内核实现与应用开发实战 的反向链接列表"
-            }
-          },
-          {
-            "id": "cea9fe607c18410a",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "50 - 图书/野火 FreeRTOS 内核实现与应用开发实战.pdf",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "野火 FreeRTOS 内核实现与应用开发实战 的出链列表"
-            }
-          },
-          {
-            "id": "393878f89bdcb540",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "50 - 图书/野火 FreeRTOS 内核实现与应用开发实战.pdf",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "野火 FreeRTOS 内核实现与应用开发实战 的大纲"
-            }
-          },
-          {
-            "id": "0a854518ff5a84e1",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "e74bcae4db01ddf9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "caff4757aaa5083e",
-        "type": "tabs",
-        "dimension": 69.56106870229007,
+        "dimension": 63.53187042842215,
         "children": [
           {
             "id": "69d449d780081768",
@@ -183,6 +132,30 @@
               "state": {},
               "icon": "lines-of-text",
               "title": "Quiet Outline"
+            }
+          },
+          {
+            "id": "393878f89bdcb540",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "3dca10f8e73152aa",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -215,16 +188,6 @@
             }
           },
           {
-            "id": "3dca10f8e73152aa",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "a3da8f0522588649",
             "type": "leaf",
             "state": {
@@ -234,12 +197,70 @@
               "title": "Copilot"
             }
           }
-        ],
-        "currentTab": 3
+        ]
+      },
+      {
+        "id": "caff4757aaa5083e",
+        "type": "tabs",
+        "dimension": 36.46812957157785,
+        "children": [
+          {
+            "id": "e74bcae4db01ddf9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "0c16fa3d5e5c6903",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "cea9fe607c18410a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "0a854518ff5a84e1",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,56 +277,57 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "3dca10f8e73152aa",
+  "active": "2a1b2c374cff7d8d",
   "lastOpenFiles": [
-    "TFT2.md",
-    "40 - 资源/44 - 硬件/电路设计/001_1 电路发展历史.md",
-    "40 - 资源/44 - 硬件/电路设计/001_2 PCB制作工艺.md",
-    "40 - 资源/44 - 硬件/电路设计/001_4 电子元器件的封装.md",
-    "40 - 资源/44 - 硬件/电路设计/002_1 嘉立创EDA环境搭建.md",
-    "40 - 资源/44 - 硬件/电路设计/002_2 嘉立创软件介绍.md",
-    "嘉立创软件介绍.md",
-    "PCB入门：滑动开关点灯案例.md",
-    "images/PCB入门：滑动开关点灯案例/file-20260130235248572.jpg",
-    "images/PCB入门：滑动开关点灯案例/file-20260130235242412.jpg",
-    "images/PCB入门：滑动开关点灯案例/file-20260130235237835.jpg",
-    "images/PCB入门：滑动开关点灯案例/file-20260130235229393.jpg",
-    "images/PCB入门：滑动开关点灯案例/file-20260130235224251.jpg",
-    "images/PCB入门：滑动开关点灯案例/file-20260130235215965.jpg",
-    "images/PCB入门：滑动开关点灯案例/file-20260130235211606.jpg",
-    "images/PCB入门：滑动开关点灯案例/file-20260130235205153.jpg",
-    "images/PCB入门：滑动开关点灯案例/file-20260130235200327.jpg",
-    "images/PCB入门：滑动开关点灯案例/file-20260130235154185.jpg",
-    "images/PCB入门：滑动开关点灯案例",
-    "嘉立创EDA环境搭建.md",
-    "40 - 资源/44 - 硬件/电路设计/images/嘉立创软件介绍",
-    "images/未命名",
-    "40 - 资源/44 - 硬件/电路设计/images/嘉立创EDA环境搭建",
-    "images",
-    "LVGL核心编程指南 - 副本.md",
-    "RS485.md",
-    "RS485_2.md",
-    "TFT.md",
-    "LVGL核心编程指南.md",
-    "PCB制作工艺.md",
-    "电子产品开发流程.md",
-    "电路发展历史_2.md",
-    "电路发展历史.md",
-    "Excalidraw/Drawing 2026-01-28 22.33.42.excalidraw.md",
-    "Excalidraw/Drawing 2026-01-24 09.32.03.excalidraw.md",
-    "Excalidraw/Drawing 2026-01-24 09.31.59.excalidraw.md",
-    "40 - 资源/44 - 硬件/电路设计/001_3 电子产品开发流程.md",
-    "编程.md",
-    "40 - 资源/44 - 硬件/电路设计/未命名",
-    "40 - 资源/42 - 编程语言/FreeRTOS/000_1 移植FreeRTOS.md",
-    "40 - 资源/44 - 硬件/电路设计",
-    "40 - 资源/44 - 硬件",
-    "电子元器件的封装.md",
-    "40 - 资源/44 - 硬件/电路设计/images/电子产品开发流程",
-    "40 - 资源/44 - 硬件/电路设计/images/电子元器件的封装",
+    "绪论.md",
+    "未命名.md",
+    "60 - 游戏/steam deck/SteamOS 掌机插件安装.md",
+    "60 - 游戏/steam deck/images/SteamOS 掌机插件安装",
+    "60 - 游戏/steam deck/images/Steam Deck 密码重置",
+    "60 - 游戏/steam deck/images",
+    "60 - 游戏/steam deck",
+    "60 - 游戏/images/SteamOS 掌机插件安装",
+    "60 - 游戏/images/Steam Deck 密码重置",
+    "60 - 游戏/images",
+    "60 - 游戏",
+    "60 - 游戏/steam deck/images/SteamOS 掌机插件安装/file-20260318194049107.jpg",
+    "40 - 资源/46 - 提示词/技术博客.md",
+    "60 - 游戏/steam deck/Steam Deck 密码重置.md",
+    "40 - 资源/46 - 提示词/ocr识别.md",
+    "images/SteamOS 掌机插件安装",
+    "images/SteamOS 掌机插件",
+    "60 - 游戏/steam deck/images/SteamOS 掌机插件安装/file-20260318194049104.jpg",
+    "60 - 游戏/steam deck/images/Steam Deck 密码重置/file-20260318194048027.jpg",
+    "60 - 游戏/steam deck/images/Steam Deck 密码重置/file-20260318194048025.jpg",
+    "60 - 游戏/steam deck/images/Steam Deck 密码重置/file-20260318194048023.jpg",
+    "60 - 游戏/steam deck/images/Steam Deck 密码重置/file-20260318194048022.jpg",
+    "60 - 游戏/steam deck/images/Steam Deck 密码重置/file-20260318194048018.jpg",
+    "40 - 资源/46 - 提示词/技术笔记重构.md",
+    "40 - 资源/45 - 面试/面试题10_STM32.md",
+    "40 - 资源/45 - 面试/面试题4_文件IO.md",
+    "40 - 资源/45 - 面试/3.7_试卷.md",
+    "40 - 资源/45 - 面试/1.24_试卷.md",
+    "40 - 资源/45 - 面试/面试题3_数据结构.md",
+    "40 - 资源/45 - 面试/面试题2_Linux.md",
+    "40 - 资源/45 - 面试/面试题1_C 语言.md",
+    "40 - 资源/45 - 面试/LVGL核心编程指南.md",
+    "40 - 资源/45 - 面试/面试题14_模电数电.md",
+    "40 - 资源/45 - 面试/串口通信基础.md",
+    "40 - 资源/45 - 面试/C 语言字符串切割方法全攻略.md",
+    "40 - 资源/45 - 面试/C_Pointer_Memory_Analysis.md",
+    "40 - 资源/45 - 面试/未命名.md",
+    "40 - 资源/45 - 面试/images/面试题10_STM32/file-20260317154910233.jpg",
+    "40 - 资源/专业英语.md",
+    "20 - 任务/QT.md",
+    "20 - 任务/qt项目.md",
+    "20 - 任务/stm32.md",
+    "40 - 资源/41 - 系统配置/windows下rime配置.md",
+    "40 - 资源/42 - 编程语言/51单片机/images/303FC4D493F540EAA52A619EB725B682image.png",
+    "40 - 资源/42 - 编程语言/51单片机/images/1EAA418D2CB1426C8A4EF12C59CCB4CFimage.png",
     "未命名.canvas"
   ]
 }

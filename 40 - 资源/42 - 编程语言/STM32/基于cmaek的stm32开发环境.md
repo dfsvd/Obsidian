@@ -16,7 +16,9 @@
 |**构建工具**|`cmake` `make`|管理编译流程与多文件依赖|
 |**烧录工具**|`openocd`|连接 DAPLink 进行程序下载与调试|
 |**调试器**|`arm-none-eabi-gdb`|用于在线断点调试|
-## 安装编译器和调试器 sudo pacman -S arm-none-eabi-gcc arm-none-eabi-newlib arm-none-eabi-gdb arm-none-eabi-binutils # 安装烧录工具 (DAPLink 核心) sudo pacman -S openocd # 安装用于生成 Clangd 索引的工具 sudo pacman -S bear
+## 安装编译器和调试器 
+sudo pacman -S arm-none-eabi-gcc arm-none-eabi-newlib arm-none-eabi-gdb arm-none-eabi-binutils # 安装烧录工具 (DAPLink 核心) sudo pacman -S openocd # 安装用于生成 Clangd 索引的工具 sudo pacman -S bear
+
 ---
 
 ### 二、 工程目录结构
